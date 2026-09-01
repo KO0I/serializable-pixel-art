@@ -1,0 +1,642 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A command library and terminal for serialized pixel art."
+    />
+    <title>Serialized Art Commands</title>
+    <link rel="stylesheet" href="styles.css?v=7" />
+    <!-- Privacy-friendly analytics by Plausible -->
+    <script async src="https://analytics.reggi.com/js/pa-KNGwkE6cM4daEMYC-tw5M.js"></script>
+    <script>
+      window.plausible =
+        window.plausible ||
+        function () {
+          (plausible.q = plausible.q || []).push(arguments);
+        };
+      plausible.init =
+        plausible.init ||
+        function (options) {
+          plausible.o = options || {};
+        };
+      plausible.init();
+    </script>
+  </head>
+  <body class="commands-page">
+    <header class="site-header">
+      <a class="site-brand" href="index.html">Serialized Art</a>
+      <nav aria-label="Tools">
+        <a href="index.html">XPM editor</a>
+        <a href="viewer.html" aria-current="page">Command editor</a>
+        <a href="perspective.html">2.5D scene</a>
+        <button id="open-command-intro" class="site-intro-button" type="button">
+          Intro
+        </button>
+        <a href="https://reggi.com/" target="_blank" rel="noreferrer">
+          reggi.com
+        </a>
+      </nav>
+    </header>
+    <main class="command-workspace">
+      <aside class="command-library">
+        <header class="command-panel-header">
+          <div>
+            <p class="eyebrow">Reference</p>
+            <h1>Command library</h1>
+          </div>
+        </header>
+
+        <article class="command-card">
+          <div class="command-card-title">
+            <code>sq</code>
+            <strong>square</strong>
+          </div>
+          <p>Make a square.</p>
+          <dl>
+            <div>
+              <dt>sideLength</dt>
+              <dd>number</dd>
+            </div>
+            <div>
+              <dt>color</dt>
+              <dd>color · global default</dd>
+            </div>
+            <div>
+              <dt>x y</dt>
+              <dd>optional signed integers</dd>
+            </div>
+            <div>
+              <dt>radius number</dt>
+              <dd>optional pixel radius</dd>
+            </div>
+            <div>
+              <dt>as name</dt>
+              <dd>optional entity ID</dd>
+            </div>
+          </dl>
+          <code class="command-example">sq 64</code>
+          <code class="command-example">sq 64 hotpink 20 30</code>
+          <code class="command-example">sq 64 hotpink radius 8 as button</code>
+          <code class="command-example">sq 64 hotpink -$sideLength -$sideLength</code>
+        </article>
+
+        <article class="command-card">
+          <div class="command-card-title">
+            <code>circle</code>
+            <strong>circle</strong>
+          </div>
+          <p class="command-alias">alias <code>cir</code></p>
+          <p>Make a pixel circle.</p>
+          <dl>
+            <div>
+              <dt>diameter</dt>
+              <dd>number</dd>
+            </div>
+            <div>
+              <dt>color</dt>
+              <dd>color · global default</dd>
+            </div>
+            <div>
+              <dt>x y</dt>
+              <dd>optional signed integers</dd>
+            </div>
+            <div>
+              <dt>as name</dt>
+              <dd>optional entity ID</dd>
+            </div>
+          </dl>
+          <code class="command-example">cir 64</code>
+          <code class="command-example">cir 64 hotpink 20 30</code>
+          <code class="command-example">cir 64 hotpink -$diameter -$diameter</code>
+        </article>
+
+        <article class="command-card">
+          <div class="command-card-title">
+            <code>rect</code>
+            <strong>rectangle</strong>
+          </div>
+          <p>Make a rectangle.</p>
+          <dl>
+            <div>
+              <dt>width</dt>
+              <dd>number</dd>
+            </div>
+            <div>
+              <dt>height</dt>
+              <dd>number</dd>
+            </div>
+            <div>
+              <dt>color</dt>
+              <dd>color · global default</dd>
+            </div>
+            <div>
+              <dt>x y</dt>
+              <dd>optional signed integers</dd>
+            </div>
+            <div>
+              <dt>radius number</dt>
+              <dd>optional pixel radius</dd>
+            </div>
+            <div>
+              <dt>as name</dt>
+              <dd>optional entity ID</dd>
+            </div>
+          </dl>
+          <code class="command-example">rect 80 40</code>
+          <code class="command-example">rect 80 40 hotpink 20 30</code>
+          <code class="command-example">rect 80 40 hotpink radius 6 as panel</code>
+          <code class="command-example">rect 80 40 hotpink -$width -$height</code>
+        </article>
+
+        <article class="command-card">
+          <div class="command-card-title">
+            <code>cirstroke</code>
+            <strong>inset circle stroke</strong>
+          </div>
+          <p>Create a concentric stroke inside a referenced circle.</p>
+          <dl>
+            <div>
+              <dt>circle-reference</dt>
+              <dd>autocomplete</dd>
+            </div>
+            <div>
+              <dt>inset width</dt>
+              <dd>pixel integers</dd>
+            </div>
+            <div>
+              <dt>color</dt>
+              <dd>CSS or named color</dd>
+            </div>
+            <div>
+              <dt>as name</dt>
+              <dd>optional entity ID</dd>
+            </div>
+          </dl>
+          <code class="command-example">cirstroke face 2 1 black as face-lines</code>
+        </article>
+
+        <article class="command-card">
+          <div class="command-card-title">
+            <code>pixels</code>
+            <strong>sparse pixels</strong>
+          </div>
+          <p>Create one layer from a list of pixel coordinates.</p>
+          <dl>
+            <div>
+              <dt>color</dt>
+              <dd>CSS or named color</dd>
+            </div>
+            <div>
+              <dt>x,y or x,y..x,y</dt>
+              <dd>points, segments, or anchors</dd>
+            </div>
+            <div>
+              <dt>as name</dt>
+              <dd>optional entity ID</dd>
+            </div>
+          </dl>
+          <code class="command-example">pixels black $face.left+4,$face.top+4 $face.left+7,$face.top+4 as eyes</code>
+          <code class="command-example">pixels black 3,2..8,2 as brow</code>
+        </article>
+
+        <article class="command-card">
+          <div class="command-card-title">
+            <code>outline</code>
+            <strong>outline layer</strong>
+          </div>
+          <p>Create a separate inner or outer outline from a layer.</p>
+          <dl>
+            <div>
+              <dt>reference</dt>
+              <dd>autocomplete</dd>
+            </div>
+            <div>
+              <dt>width color mode</dt>
+              <dd>optional</dd>
+            </div>
+          </dl>
+          <code class="command-example">outline face 1 black inner as face-outline</code>
+        </article>
+
+        <article class="command-card">
+          <div class="command-card-title">
+            <code>group</code>
+            <strong>group layers</strong>
+          </div>
+          <p>Create one movable reference from multiple layer entities.</p>
+          <dl>
+            <div>
+              <dt>references</dt>
+              <dd>one or more layers</dd>
+            </div>
+            <div>
+              <dt>as name</dt>
+              <dd>optional entity ID</dd>
+            </div>
+          </dl>
+          <code class="command-example">group face face-outline eyes mouth as smiley</code>
+        </article>
+
+        <article class="command-card">
+          <div class="command-card-title">
+            <code>$layer.anchor</code>
+            <strong>coordinate anchors</strong>
+          </div>
+          <p>Reference named entity geometry inside coordinate arguments.</p>
+          <code class="command-example">$face.x · $face.y</code>
+          <code class="command-example">$face.left · $face.top</code>
+          <code class="command-example">$face.centerX · $face.centerY</code>
+          <code class="command-example">$face.right · $face.bottom</code>
+          <code class="command-example">$face.width · $face.height</code>
+          <code class="command-example">$face.rotation · $face.zIndex</code>
+          <code class="command-example">$face.left+4 · $face.top-2</code>
+          <code class="command-example">$last.width · $last.height</code>
+          <p>Type <code>$</code> for variables or <code>$last.</code> for known properties.</p>
+          <p>If no previous entity exists, every <code>$last</code> anchor is 0.</p>
+          <code class="command-example">sq 100 x-$last.width</code>
+          <code class="command-example">sq 50 x:$last.x+$last.width</code>
+        </article>
+
+        <article class="command-card">
+          <div class="command-card-title">
+            <code>math</code>
+            <strong>integer expressions</strong>
+          </div>
+          <p>Use arithmetic on numbers, local variables, or layer anchors. Expressions cannot contain spaces.</p>
+          <code class="command-example">+ &nbsp; - &nbsp; * &nbsp; / &nbsp; % &nbsp; ( )</code>
+          <code class="command-example">sq 10+2</code>
+          <code class="command-example">rect 20 $width/2</code>
+          <code class="command-example">sq 64 x:$last.width-10</code>
+          <code class="command-example">chradius button $radius+2</code>
+          <code class="command-example">$smiley.rotation=0</code>
+          <code class="command-example">$panel.x=$last.right+4</code>
+          <p>Writable properties: x, y, edges, centers, rotation, radius, and zIndex.</p>
+        </article>
+
+        <article class="command-card">
+          <div class="command-card-title">
+            <code>key:value</code>
+            <strong>named arguments</strong>
+          </div>
+          <p>Use named arguments in any order, or place them after required positional arguments.</p>
+          <code class="command-example">sq size:64 color:hotpink radius:8 id:button</code>
+          <code class="command-example">sq 64 x:-100</code>
+          <code class="command-example">sq size:100 x:-$last.width</code>
+          <code class="command-example">rect height:40 width:80 x:20 y:30 id:panel</code>
+          <code class="command-example">move layer:panel x:10 y:-4</code>
+          <code class="command-example">pixels color:black points:4,4;7,4 id:eyes</code>
+        </article>
+
+        <article class="command-card">
+          <div class="command-card-title">
+            <code>chradius</code>
+            <strong>change corner radius</strong>
+          </div>
+          <p class="command-alias">alias <code>chradious</code></p>
+          <p>Set the pixel corner radius of a square or rectangle.</p>
+          <dl>
+            <div>
+              <dt>reference</dt>
+              <dd>square or rectangle</dd>
+            </div>
+            <div>
+              <dt>number</dt>
+              <dd>absolute or signed delta</dd>
+            </div>
+          </dl>
+          <code class="command-example">chradius button 4</code>
+          <code class="command-example">chradius button +10</code>
+          <code class="command-example">chradius button -2</code>
+          <code class="command-example">chradius panel 0</code>
+        </article>
+
+        <article class="command-card">
+          <div class="command-card-title">
+            <code>rotate</code>
+            <strong>rotate layer</strong>
+          </div>
+          <p>Rotate a layer or group by any integer degree using nearest-neighbor pixels.</p>
+          <dl>
+            <div>
+              <dt>reference</dt>
+              <dd>layer or group</dd>
+            </div>
+            <div>
+              <dt>degrees</dt>
+              <dd>absolute or signed delta</dd>
+            </div>
+          </dl>
+          <code class="command-example">rotate panel 90</code>
+          <code class="command-example">rotate panel +90</code>
+          <code class="command-example">rotate layer:panel degrees:-90</code>
+        </article>
+
+        <article class="command-card">
+          <div class="command-card-title">
+            <code>chzindex</code>
+            <strong>change z-index</strong>
+          </div>
+          <p class="command-alias">alias <code>chz</code></p>
+          <p>Increase or decrease a layer's z-index by a number.</p>
+          <dl>
+            <div>
+              <dt>reference</dt>
+              <dd>autocomplete</dd>
+            </div>
+            <div>
+              <dt>number</dt>
+              <dd>signed integer</dd>
+            </div>
+          </dl>
+          <code class="command-example">chz sq-1 -2</code>
+        </article>
+
+        <article class="command-card">
+          <div class="command-card-title">
+            <code>move</code>
+            <strong>move layer</strong>
+          </div>
+          <p class="command-alias">alias <code>mv</code></p>
+          <p>Set a layer's absolute world coordinates.</p>
+          <dl>
+            <div>
+              <dt>reference</dt>
+              <dd>autocomplete</dd>
+            </div>
+            <div>
+              <dt>x</dt>
+              <dd>integer</dd>
+            </div>
+            <div>
+              <dt>y</dt>
+              <dd>integer</dd>
+            </div>
+          </dl>
+          <code class="command-example">mv sq-1 -20 40</code>
+        </article>
+
+        <article class="command-card">
+          <div class="command-card-title">
+            <code>delete</code>
+            <strong>delete layer</strong>
+          </div>
+          <p class="command-alias">alias <code>del</code></p>
+          <p>Remove a layer entity from the pixel space.</p>
+          <dl>
+            <div>
+              <dt>reference</dt>
+              <dd>autocomplete</dd>
+            </div>
+          </dl>
+          <code class="command-example">del sq-1</code>
+        </article>
+
+        <article class="command-card">
+          <div class="command-card-title">
+            <code>scale</code>
+            <strong>display scale</strong>
+          </div>
+          <p>Set the Viewer pixel scale without changing the pixel space.</p>
+          <dl>
+            <div>
+              <dt>number</dt>
+              <dd>2–32 or signed delta</dd>
+            </div>
+          </dl>
+          <code class="command-example">scale 8 · scale +2 · scale -2</code>
+        </article>
+
+        <article class="command-card">
+          <div class="command-card-title">
+            <code>resetlayers</code>
+            <strong>reset layers</strong>
+          </div>
+          <p class="command-alias">alias <code>rl</code></p>
+          <p>Clear only the saved layer scene. Command recall is preserved.</p>
+          <code class="command-example">resetlayers</code>
+        </article>
+
+        <article class="command-card">
+          <div class="command-card-title">
+            <code>addcolor</code>
+            <strong>add color</strong>
+          </div>
+          <p>Create a reusable named color.</p>
+          <dl>
+            <div>
+              <dt>name</dt>
+              <dd>reference name</dd>
+            </div>
+            <div>
+              <dt>color</dt>
+              <dd>CSS color</dd>
+            </div>
+          </dl>
+          <code class="command-example">addcolor teamaroon #663333</code>
+          <code class="command-example">sq 64 teamaroon</code>
+          <code class="command-example">sq 64 $teamaroon</code>
+        </article>
+
+        <article class="command-card">
+          <div class="command-card-title">
+            <code>selectcolor</code>
+            <strong>select default color</strong>
+          </div>
+          <p>Set the global color used when a shape omits its color argument.</p>
+          <dl>
+            <div>
+              <dt>color</dt>
+              <dd>CSS or named color</dd>
+            </div>
+          </dl>
+          <code class="command-example">selectcolor teamaroon</code>
+          <code class="command-example">sq 64</code>
+        </article>
+
+        <article class="command-card">
+          <div class="command-card-title">
+            <code>setbg</code>
+            <strong>set background color</strong>
+          </div>
+          <p>Set the Viewer canvas background without creating a layer.</p>
+          <dl>
+            <div>
+              <dt>color</dt>
+              <dd>CSS, named color, none</dd>
+            </div>
+          </dl>
+          <code class="command-example">setbg teamaroon</code>
+          <code class="command-example">setbg color:#663333</code>
+          <code class="command-example">setbg none</code>
+        </article>
+
+        <article class="command-card">
+          <div class="command-card-title">
+            <code>editpalette</code>
+            <strong>edit palette color</strong>
+          </div>
+          <p class="command-alias">alias <code>ep</code></p>
+          <p>Update a named color and every layer that references it.</p>
+          <dl>
+            <div>
+              <dt>name</dt>
+              <dd>custom color</dd>
+            </div>
+            <div>
+              <dt>color</dt>
+              <dd>CSS color</dd>
+            </div>
+          </dl>
+          <code class="command-example">editpalette teamaroon #773f3f</code>
+        </article>
+
+        <article class="command-card">
+          <div class="command-card-title">
+            <code>chcolor</code>
+            <strong>change color</strong>
+          </div>
+          <p>Change an existing layer's color.</p>
+          <dl>
+            <div>
+              <dt>reference</dt>
+              <dd>autocomplete</dd>
+            </div>
+            <div>
+              <dt>color</dt>
+              <dd>CSS or named color</dd>
+            </div>
+          </dl>
+          <code class="command-example">chcolor sq-1 teamaroon</code>
+        </article>
+
+      </aside>
+
+      <section class="command-terminal">
+        <div id="viewer-panel" class="terminal-viewer">
+          <div class="viewer-canvas-wrap">
+            <label class="viewer-scale-control">
+              <span>Scale</span>
+              <input id="display-scale" type="range" min="2" max="32" value="2" />
+              <output id="display-scale-value">2×</output>
+            </label>
+            <div class="viewer-canvas-scroll">
+              <canvas
+                id="command-canvas"
+                width="256"
+                height="256"
+                aria-label="Command output"
+              ></canvas>
+            </div>
+          </div>
+          <aside class="viewer-layers">
+            <div class="viewer-layers-list">
+              <p class="eyebrow">Front to back</p>
+              <div class="viewer-layers-title">
+                <h3>Layers</h3>
+                <button id="reset-layers" type="button">Reset</button>
+              </div>
+              <div id="layer-list" class="layer-list">
+                <p class="empty-layers">No layers yet.</p>
+              </div>
+            </div>
+            <section class="color-reference">
+              <p class="eyebrow">Reusable values</p>
+              <h2>Colors</h2>
+              <p id="default-color" class="default-color">Default: black</p>
+              <p id="background-color" class="default-color">Background: none</p>
+              <div id="color-list" class="color-list">
+                <p class="empty-colors">No custom colors yet.</p>
+              </div>
+            </section>
+            <div class="viewer-history">
+              <p class="eyebrow">History</p>
+              <div id="terminal-history" class="terminal-history" aria-live="polite">
+                <p class="terminal-message">Enter a command to begin.</p>
+              </div>
+            </div>
+          </aside>
+        </div>
+
+        <div class="terminal-input-area">
+          <div class="terminal-popovers">
+            <div
+              id="expression-preview"
+              class="expression-preview"
+              aria-live="polite"
+              hidden
+            ></div>
+            <div
+              id="command-autocomplete"
+              class="command-autocomplete"
+              aria-label="Layer reference suggestions"
+              hidden
+            ></div>
+          </div>
+          <form id="command-form" class="terminal-form">
+            <label for="command-input" aria-label="Command">&gt;</label>
+            <textarea
+              id="command-input"
+              placeholder="sq 64"
+              autocomplete="off"
+              spellcheck="false"
+              rows="1"
+              autofocus
+            ></textarea>
+            <button type="submit">Run</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <dialog id="command-intro-dialog" class="tutorial command-intro-dialog">
+      <div class="tutorial-header">
+        <div>
+          <p class="eyebrow">Proof of concept</p>
+          <h2>Interfaces as executable functions</h2>
+        </div>
+        <button id="close-command-intro" type="button" aria-label="Close introduction">
+          Close
+        </button>
+      </div>
+      <div class="intro-content">
+        <p>
+          I made this as a proof of concept for another IDE and live-code style
+          utility for generating XPM—or really anything that can be expressed
+          through functions.
+        </p>
+        <p>
+          The idea is simple: interfaces should manipulate functions, and
+          those functions should also be executable. Moving a layer, setting a
+          color, or changing a property should have an equivalent command. A
+          small set of commands becomes art.
+        </p>
+        <div class="command-intro-example">
+          <pre><code><span class="syntax-command">addcolor</span> <span class="syntax-color">smileyellow</span> <span class="syntax-hex">#ffd84d</span>
+<span class="syntax-command">addcolor</span> <span class="syntax-color">smileorange</span> <span class="syntax-hex">#f28c28</span>
+<span class="syntax-command">cir</span> <span class="syntax-number">12</span> <span class="syntax-color">smileyellow</span> <span class="syntax-keyword">as</span> <span class="syntax-entity">face</span>
+<span class="syntax-command">cirstroke</span> <span class="syntax-entity">face</span> <span class="syntax-number">1</span> <span class="syntax-number">1</span> <span class="syntax-color">black</span> <span class="syntax-keyword">as</span> <span class="syntax-entity">face-lines</span>
+<span class="syntax-command">pixels</span> <span class="syntax-color">black</span> <span class="syntax-number">4,4 7,4</span> <span class="syntax-keyword">as</span> <span class="syntax-entity">eyes</span>
+<span class="syntax-command">pixels</span> <span class="syntax-color">smileorange</span> <span class="syntax-number">4,6 7,6 5,7..6,7</span> <span class="syntax-keyword">as</span> <span class="syntax-entity">mouth</span>
+<span class="syntax-command">group</span> <span class="syntax-entity">face face-lines eyes mouth</span> <span class="syntax-keyword">as</span> <span class="syntax-entity">smiley</span></code></pre>
+          <div class="command-intro-render">
+            <canvas
+              id="command-intro-preview"
+              width="12"
+              height="12"
+              aria-label="Smiley rendered by the example commands"
+            ></canvas>
+            <span>becomes art</span>
+          </div>
+        </div>
+        <button id="start-command-exploring" type="button">
+          Start exploring
+        </button>
+      </div>
+    </dialog>
+
+    <script src="commands.js?v=13"></script>
+  </body>
+</html>

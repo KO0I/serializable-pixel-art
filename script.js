@@ -32,147 +32,11 @@ x x x x x x x x x x x x x x x x x x x x x x
           x             x   x   Y   x   x   
           x           x   x   x Y x   x   x `;
 
-function xpm3ToXpm2(input) {
-  const strings = [];
-  const quotedString = /"((?:\\.|[^"\\])*)"/g;
-  let match;
-
-  while ((match = quotedString.exec(input)) !== null) {
-    strings.push(JSON.parse(`"${match[1]}"`));
-  }
-
-  const [width, height, colorCount, cpp] = strings[0]
-    .trim()
-    .split(/\s+/)
-    .slice(0, 4)
-    .map(Number);
-  const rows = strings.slice(colorCount + 1, colorCount + 1 + height);
-  const backgroundSymbol = rows[0].slice(0, cpp);
-  let minX = width;
-  let minY = height;
-  let maxX = -1;
-  let maxY = -1;
-
-  rows.forEach((row, y) => {
-    for (let x = 0; x < width; x += 1) {
-      if (row.slice(x * cpp, (x + 1) * cpp) !== backgroundSymbol) {
-        minX = Math.min(minX, x);
-        minY = Math.min(minY, y);
-        maxX = Math.max(maxX, x);
-        maxY = Math.max(maxY, y);
-      }
-    }
-  });
-
-  const margin = 2;
-  minX = Math.max(0, minX - margin);
-  minY = Math.max(0, minY - margin);
-  maxX = Math.min(width - 1, maxX + margin);
-  maxY = Math.min(height - 1, maxY + margin);
-  const croppedRows = rows
-    .slice(minY, maxY + 1)
-    .map((row) => row.slice(minX * cpp, (maxX + 1) * cpp));
-  const croppedHeader = `${maxX - minX + 1} ${maxY - minY + 1} ${colorCount} ${cpp}`;
-
-  return [
-    "! XPM2",
-    "! Converted from the user-provided PNG with ImageMagick 7",
-    "! 96px resize, trimmed background, 63-color palette, no dithering",
-    croppedHeader,
-    "! colors",
-    ...strings.slice(1, colorCount + 1),
-    "! pixels",
-    ...croppedRows,
-  ].join("\n");
-}
-
 const demos = [
   {
     name: "Manual plaid",
     feature: "2-character keys",
     source: manualExample,
-  },
-  {
-    name: "Happy computer",
-    feature: "ImageMagick conversion",
-    source: `    ! XPM2
-    ! Converted from the user-provided PNG with ImageMagick 7
-    ! 48px resize, flattened background, 24-color palette, no dithering
-    48 48 24 1
-    ! colors
-      c #040A0B
-    . c #1F1E24
-    X c #3E4339
-    o c #66304A
-    O c #574D50
-    + c #6F5B61
-    @ c #D83870
-    # c #8B6572
-    $ c #A99A58
-    % c #A57A89
-    & c #E17396
-    * c #2FC4BD
-    = c #18E3D4
-    - c #2EE7D9
-    ; c #2FF8E7
-    : c #949292
-    > c #B28B97
-    , c #AAA4A6
-    < c #D8A1AC
-    1 c #F6E5A6
-    2 c #F2B5C9
-    3 c #E0B3DE
-    4 c #E5C6CE
-    5 c #FFFEF5
-    ! pixels
-    555555555555555555555555555555555555555555555555
-    555555555555555555555555555555555555555555555555
-    555555555555555555555555555555555555555555555555
-    555555555555555555555555555555555555555555555555
-    555555555555555555555555555555555555555555555555
-    555555555555555555555555555555555555555555555555
-    555555555555555555555555555555555555555555555555
-    555555553555555555555555555533555555555555555555
-    555555333355555555555555555555555555555555555555
-    555555553555555555555555555555555555555555555555
-    555555555555555555555555555555555555555555555555
-    555555555555555535555555555555555555555555555555
-    555555555555555555555555555555555555555555555555
-    555555555554,,,::,,,:,,,,,,,,,,:,555555555555555
-    55535555554+O++O+++O++++++++++++++55555555555555
-    555355555:#55445555555555552<<<<5:+5555555555555
-    555555555O25>+<542224242222>....#5O,555335555555
-    55555555:+2%O5555555555555555555#>+:555555555555
-    55555555:o2o%525>>>>>>>>>>%>>455<O+,555555555555
-    55555555:o2o:55+ ............ <5>oXO:55555555555
-    55555555:o2o:5+.;;;;;;;;;;;;;* X. X#O+5555555555
-    55555555:o2o:5.*;=-----------; $1$51$O5555555555
-    55555555:o2o%5.*;------------= $<<&@$X5555555555
-    55555555:o2o%5.*;------------; +<@@@1X5555555555
-    55555555:o2#>5.*;-= ----;.X;-; X5&@11X5555555555
-    55555555:o2#%5.*;--:--;;-**;-;  11111O:555555555
-    55555535:o3o#5.*;---;X*X*;---=.X$+OXXO5555555555
-    55555535:o3o:5.*;----*X*-----; >O .:555555555555
-    55555555:o3o:5.*;-----;;-----; <2O#,555555555555
-    55555555:o2o%5.*;------------; <4O+,555555555555
-    555555554O2o#5+ =============X 54+#,555555555555
-    555555555+&+%55#              22<O#,555555555555
-    5555555554+o:52<2555242222224422>+#,555535555555
-    55555555554 .<4+2244222442244+%2o>+5555555555555
-    5553555555,.>. .   ...........  O+45555555555555
-    555555555,o.###5#<<45555552+o2<+5455555555555555
-    55555555,o2<o .#+oo######O+OX+o 4555555555555555
-    55555555+#22###%#+##::::#+####::O:55555555555555
-    55555555+o2#>5254525555525+4O,#>5O,5535555555555
-    55555555Oo&X222>4,455425#>#+OO# 45O5555555555555
-    555555554+.4555<5,5555554,544>2%55,+555555555555
-    5555555555 >>>%%%<>>>%%%>>%>><>>%>++555555555555
-    5555555555,XOOOOOOOOOOOOOOOOOO+OOO+5555555555555
-    555555555555555555555555555555555555555555555555
-    555555555555555555555555555555555555555555555555
-    555555555555555555555555555555555555555555555555
-    555555555555555555555555555555555555555555555555
-    555555555555555555555555555555555555555555555555`.replace(/^ {4}/gm, ""),
   },
   {
     name: "Checker",
@@ -287,13 +151,33 @@ oo..x..oo
    ooo   
     o    `,
   },
+  {
+    id: "extruded-box",
+    name: "Extruded box",
+    feature: "2.5D starter",
+    depth: 3,
+    scale: 8,
+    source: `! XPM2
+! Filled plane for demonstrating 2.5D extrusion
+12 12 2 1
+! colors
+  c None
+X c #55ddd5
+! pixels
+\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20
+\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20
+\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20
+\x20\x20\x20XXXXXX\x20\x20\x20
+\x20\x20\x20XXXXXX\x20\x20\x20
+\x20\x20\x20XXXXXX\x20\x20\x20
+\x20\x20\x20XXXXXX\x20\x20\x20
+\x20\x20\x20XXXXXX\x20\x20\x20
+\x20\x20\x20XXXXXX\x20\x20\x20
+\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20
+\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20
+\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20`,
+  },
 ];
-
-if (window.HAPPY_COMPUTER_XPM) {
-  demos[1].source = xpm3ToXpm2(window.HAPPY_COMPUTER_XPM);
-  demos[1].feature = "high-fidelity conversion";
-  demos[1].scale = 4;
-}
 
 const source = document.querySelector("#xpm-source");
 const highlight = document.querySelector("#xpm-highlight code");
@@ -307,10 +191,33 @@ const demoList = document.querySelector("#demo-list");
 const scaleSlider = document.querySelector("#scale-slider");
 const scaleValue = document.querySelector("#scale-value");
 const exportSvgButton = document.querySelector("#export-svg");
+const exportXpmButton = document.querySelector("#export-xpm");
+const mode2dButton = document.querySelector("#mode-2d");
+const mode25dButton = document.querySelector("#mode-25d");
+const viewerModeGuide = document.querySelector("#viewer-mode-guide");
+const viewerDepthControl = document.querySelector("#viewer-depth-control");
+const viewerDepth = document.querySelector("#viewer-depth");
+const viewerDepthValue = document.querySelector("#viewer-depth-value");
+const viewerStage = document.querySelector("#viewer-stage");
+const orbitHint = document.querySelector("#orbit-hint");
+const introDialog = document.querySelector("#intro-dialog");
+const openIntroButton = document.querySelector("#open-intro");
+const closeIntroButton = document.querySelector("#close-intro");
+const startExploringButton = document.querySelector("#start-exploring");
+const tutorialDialog = document.querySelector("#tutorial-dialog");
+const openTutorialButton = document.querySelector("#open-tutorial");
+const closeTutorialButton = document.querySelector("#close-tutorial");
 const context = canvas.getContext("2d");
 const colorProbe = document.createElement("canvas").getContext("2d");
 let activeDemo = 0;
 let selectedDemo = 0;
+let viewerMode = "2d";
+let viewerYaw = 28;
+let viewerPitch = -18;
+const viewerModeUsedStorageKey = "xpm-editor-25d-mode-used-v1";
+const introClosedStorageKey = "xpm-editor-intro-closed-v1";
+let hasUsed25dMode =
+  localStorage.getItem(viewerModeUsedStorageKey) === "true";
 
 function updateCanvasScale() {
   const scale = Number(scaleSlider.value);
@@ -374,6 +281,7 @@ function getPixelColors(color) {
   return {
     fill: fromBlack,
     ink: luminance > 150 ? "#171714" : "#ffffff",
+    rgb: [red, green, blue],
   };
 }
 
@@ -679,6 +587,113 @@ function parseXpm(input) {
   return { width, height, colorCount, cpp, colors, pixels };
 }
 
+function shadeViewerColor(color, amount) {
+  const parsed = getPixelColors(color);
+  if (!parsed) {
+    return color;
+  }
+  return `rgb(${parsed.rgb.map((channel) => Math.round(channel * amount)).join(" ")})`;
+}
+
+function rotateViewerPoint([x, y, z]) {
+  const yaw = (viewerYaw * Math.PI) / 180;
+  const pitch = (viewerPitch * Math.PI) / 180;
+  const rotatedX = x * Math.cos(yaw) + z * Math.sin(yaw);
+  const rotatedZ = -x * Math.sin(yaw) + z * Math.cos(yaw);
+  return [
+    rotatedX,
+    y * Math.cos(pitch) - rotatedZ * Math.sin(pitch),
+    y * Math.sin(pitch) + rotatedZ * Math.cos(pitch),
+  ];
+}
+
+function renderExtrudedXpm(image) {
+  const depth = Number(viewerDepth.value);
+  const front = depth / 2;
+  const back = -depth / 2;
+  const grid = image.pixels.map((row) =>
+    Array.from({ length: image.width }, (_, x) => {
+      const symbol = row.slice(x * image.cpp, (x + 1) * image.cpp);
+      return image.colors.get(symbol) ?? null;
+    }),
+  );
+  const faces = [];
+  const addFace = (points, color) => {
+    const rotated = points.map(rotateViewerPoint);
+    faces.push({
+      points: rotated,
+      color,
+      depth: rotated.reduce((sum, point) => sum + point[2], 0) / rotated.length,
+    });
+  };
+
+  grid.forEach((row, y) => {
+    row.forEach((color, x) => {
+      if (color === null) return;
+      const left = x - image.width / 2;
+      const right = left + 1;
+      const top = y - image.height / 2;
+      const bottom = top + 1;
+      addFace(
+        [[left, top, front], [right, top, front], [right, bottom, front], [left, bottom, front]],
+        color,
+      );
+      if (!depth) return;
+      if (grid[y]?.[x - 1] == null) addFace([[left, top, back], [left, top, front], [left, bottom, front], [left, bottom, back]], shadeViewerColor(color, 0.58));
+      if (grid[y]?.[x + 1] == null) addFace([[right, top, front], [right, top, back], [right, bottom, back], [right, bottom, front]], shadeViewerColor(color, 0.72));
+      if (grid[y - 1]?.[x] == null) addFace([[left, top, back], [right, top, back], [right, top, front], [left, top, front]], shadeViewerColor(color, 0.84));
+      if (grid[y + 1]?.[x] == null) addFace([[left, bottom, front], [right, bottom, front], [right, bottom, back], [left, bottom, back]], shadeViewerColor(color, 0.48));
+    });
+  });
+
+  if (faces.length === 0) {
+    canvas.width = image.width;
+    canvas.height = image.height;
+    context.clearRect(0, 0, canvas.width, canvas.height);
+    return;
+  }
+
+  const points = faces.flatMap((face) => face.points);
+  const minX = Math.min(...points.map((point) => point[0]));
+  const maxX = Math.max(...points.map((point) => point[0]));
+  const minY = Math.min(...points.map((point) => point[1]));
+  const maxY = Math.max(...points.map((point) => point[1]));
+  const cameraSize = 72;
+  const cameraPadding = 6;
+  const cameraScale = Math.max(
+    1,
+    Math.floor(
+      Math.min(
+        (cameraSize - cameraPadding * 2) / (maxX - minX || 1),
+        (cameraSize - cameraPadding * 2) / (maxY - minY || 1),
+      ),
+    ),
+  );
+  const offsetX =
+    (cameraSize - (maxX - minX) * cameraScale) / 2 - minX * cameraScale;
+  const offsetY =
+    (cameraSize - (maxY - minY) * cameraScale) / 2 - minY * cameraScale;
+  canvas.width = cameraSize;
+  canvas.height = cameraSize;
+  context.clearRect(0, 0, canvas.width, canvas.height);
+  context.imageSmoothingEnabled = false;
+
+  faces
+    .sort((first, second) => first.depth - second.depth)
+    .forEach((face) => {
+      context.beginPath();
+      face.points.forEach((point, index) => {
+        const x = point[0] * cameraScale + offsetX;
+        const y = point[1] * cameraScale + offsetY;
+        if (index === 0) context.moveTo(x, y);
+        else context.lineTo(x, y);
+      });
+      context.closePath();
+      context.fillStyle = face.color;
+      context.fill();
+    });
+}
+
 function createSvg(image, scale) {
   const rectangles = [];
   const displayWidth = image.width * scale;
@@ -724,10 +739,123 @@ function createSvg(image, scale) {
   ].join("\n");
 }
 
+function createCameraSvg(scale) {
+  const image = context.getImageData(0, 0, canvas.width, canvas.height);
+  const rectangles = [];
+
+  for (let y = 0; y < canvas.height; y += 1) {
+    let x = 0;
+    while (x < canvas.width) {
+      const offset = (y * canvas.width + x) * 4;
+      const alpha = image.data[offset + 3];
+      if (alpha === 0) {
+        x += 1;
+        continue;
+      }
+      const color = `rgb(${image.data[offset]} ${image.data[offset + 1]} ${image.data[offset + 2]} / ${alpha / 255})`;
+      let width = 1;
+      while (x + width < canvas.width) {
+        const next = (y * canvas.width + x + width) * 4;
+        if (
+          image.data[next] !== image.data[offset] ||
+          image.data[next + 1] !== image.data[offset + 1] ||
+          image.data[next + 2] !== image.data[offset + 2] ||
+          image.data[next + 3] !== alpha
+        ) break;
+        width += 1;
+      }
+      rectangles.push(`<rect x="${x}" y="${y}" width="${width}" height="1" fill="${color}"/>`);
+      x += width;
+    }
+  }
+
+  return [
+    '<?xml version="1.0" encoding="UTF-8"?>',
+    `<svg xmlns="http://www.w3.org/2000/svg" width="${canvas.width * scale}" height="${canvas.height * scale}" viewBox="0 0 ${canvas.width} ${canvas.height}" shape-rendering="crispEdges">`,
+    ...rectangles.map((rectangle) => `  ${rectangle}`),
+    "</svg>",
+    "",
+  ].join("\n");
+}
+
+function cameraCanvasToXpm() {
+  const image = context.getImageData(0, 0, canvas.width, canvas.height);
+  const colorRows = [];
+  const colors = new Set();
+
+  for (let y = 0; y < canvas.height; y += 1) {
+    const row = [];
+    for (let x = 0; x < canvas.width; x += 1) {
+      const offset = (y * canvas.width + x) * 4;
+      if (image.data[offset + 3] < 128) {
+        row.push(null);
+        continue;
+      }
+
+      const color = `#${[
+        image.data[offset],
+        image.data[offset + 1],
+        image.data[offset + 2],
+      ]
+        .map((channel) => channel.toString(16).padStart(2, "0"))
+        .join("")
+        .toUpperCase()}`;
+      colors.add(color);
+      row.push(color);
+    }
+    colorRows.push(row);
+  }
+
+  const alphabet =
+    "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789#$%&()*+,-./:;<=>?@[]^_`{|}~";
+  const colorCount = colors.size + 1;
+  const cpp = colorCount <= alphabet.length ? 1 : 2;
+  const makeSymbol = (index) =>
+    cpp === 1
+      ? alphabet[index]
+      : `${alphabet[Math.floor(index / alphabet.length)]}${alphabet[index % alphabet.length]}`;
+  const symbols = new Map();
+  [...colors].forEach((color, index) => symbols.set(color, makeSymbol(index + 1)));
+  const transparentSymbol = makeSymbol(0);
+  if (
+    !transparentSymbol ||
+    [...symbols.values()].some((symbol) => !symbol || symbol.length !== cpp)
+  ) {
+    throw new Error("The camera view contains too many colors to encode as XPM.");
+  }
+
+  return [
+    "! XPM2",
+    "! Rasterized from the current 2.5D camera angle",
+    `${canvas.width} ${canvas.height} ${colorCount} ${cpp}`,
+    "! colors",
+    `${transparentSymbol.padEnd(cpp)} c None`,
+    ...[...colors].map((color) => `${symbols.get(color)} c ${color}`),
+    "! pixels",
+    ...colorRows.map((row) =>
+      row.map((color) => (color ? symbols.get(color) : transparentSymbol)).join(""),
+    ),
+  ].join("\n");
+}
+
+function downloadText(contents, filename, type) {
+  const blobUrl = URL.createObjectURL(new Blob([contents], { type }));
+  const link = document.createElement("a");
+  link.href = blobUrl;
+  link.download = filename;
+  document.body.append(link);
+  link.click();
+  link.remove();
+  window.setTimeout(() => URL.revokeObjectURL(blobUrl), 0);
+}
+
 function exportSvg() {
   try {
     const image = parseXpm(source.value);
-    const svg = createSvg(image, Number(scaleSlider.value));
+    const svg =
+      viewerMode === "2.5d"
+        ? createCameraSvg(Number(scaleSlider.value))
+        : createSvg(image, Number(scaleSlider.value));
     const blobUrl = URL.createObjectURL(
       new Blob([svg], { type: "image/svg+xml;charset=utf-8" }),
     );
@@ -746,30 +874,51 @@ function exportSvg() {
   }
 }
 
+function exportXpm() {
+  try {
+    parseXpm(source.value);
+    const xpm = viewerMode === "2.5d" ? cameraCanvasToXpm() : source.value;
+    const demoName = activeDemo >= 0 ? demos[activeDemo].name : "xpm-artwork";
+    const suffix = viewerMode === "2.5d" ? "-camera" : "";
+    const filename = `${demoName.toLowerCase().replace(/[^a-z0-9]+/g, "-")}${suffix}.xpm`;
+    downloadText(xpm, filename, "text/plain;charset=utf-8");
+  } catch (error) {
+    status.textContent = error instanceof Error ? error.message : "Unable to export XPM.";
+    status.classList.add("error");
+  }
+}
+
 function render() {
   try {
     const image = parseXpm(source.value);
-    canvas.width = image.width;
-    canvas.height = image.height;
+    if (viewerMode === "2.5d") {
+      renderExtrudedXpm(image);
+    } else {
+      canvas.width = image.width;
+      canvas.height = image.height;
+      context.clearRect(0, 0, image.width, image.height);
+
+      image.pixels.forEach((row, y) => {
+        for (let x = 0; x < image.width; x += 1) {
+          const symbol = row.slice(x * image.cpp, (x + 1) * image.cpp);
+          if (!image.colors.has(symbol)) {
+            throw new Error(`Unknown symbol "${symbol}" at row ${y + 1}, column ${x + 1}.`);
+          }
+
+          const color = image.colors.get(symbol);
+          if (color !== null) {
+            context.fillStyle = color;
+            context.fillRect(x, y, 1, 1);
+          }
+        }
+      });
+    }
+
     updateCanvasScale();
-    context.clearRect(0, 0, image.width, image.height);
-
-    image.pixels.forEach((row, y) => {
-      for (let x = 0; x < image.width; x += 1) {
-        const symbol = row.slice(x * image.cpp, (x + 1) * image.cpp);
-        if (!image.colors.has(symbol)) {
-          throw new Error(`Unknown symbol "${symbol}" at row ${y + 1}, column ${x + 1}.`);
-        }
-
-        const color = image.colors.get(symbol);
-        if (color !== null) {
-          context.fillStyle = color;
-          context.fillRect(x, y, 1, 1);
-        }
-      }
-    });
-
-    meta.textContent = `${image.width} × ${image.height} · ${image.colorCount} colors`;
+    meta.textContent =
+      viewerMode === "2.5d"
+        ? `${image.width} × ${image.height} source · ${viewerDepth.value}px depth`
+        : `${image.width} × ${image.height} · ${image.colorCount} colors`;
     status.textContent = "Valid XPM — preview updated";
     status.classList.remove("error");
   } catch (error) {
@@ -793,6 +942,80 @@ source.addEventListener("input", () => {
 source.addEventListener("scroll", syncHighlightScroll);
 scaleSlider.addEventListener("input", updateCanvasScale);
 exportSvgButton.addEventListener("click", exportSvg);
+exportXpmButton.addEventListener("click", exportXpm);
+viewerDepth.addEventListener("input", () => {
+  viewerDepthValue.textContent = `${viewerDepth.value} px`;
+  render();
+});
+
+function setViewerMode(mode) {
+  viewerMode = mode;
+  const is25d = mode === "2.5d";
+  mode2dButton.classList.toggle("active", !is25d);
+  mode25dButton.classList.toggle("active", is25d);
+  mode2dButton.setAttribute("aria-pressed", String(!is25d));
+  mode25dButton.setAttribute("aria-pressed", String(is25d));
+  viewerDepthControl.hidden = !is25d;
+  orbitHint.hidden = !is25d;
+  viewerStage.classList.toggle("orbit-enabled", is25d);
+  render();
+}
+
+mode2dButton.addEventListener("click", () => setViewerMode("2d"));
+mode25dButton.addEventListener("click", () => {
+  hasUsed25dMode = true;
+  localStorage.setItem(viewerModeUsedStorageKey, "true");
+  viewerModeGuide.hidden = true;
+  setViewerMode("2.5d");
+});
+
+let viewerOrbit = null;
+viewerStage.addEventListener("pointerdown", (event) => {
+  if (viewerMode !== "2.5d" || event.button !== 0) return;
+  viewerOrbit = {
+    pointerId: event.pointerId,
+    x: event.clientX,
+    y: event.clientY,
+    yaw: viewerYaw,
+    pitch: viewerPitch,
+  };
+  viewerStage.setPointerCapture(event.pointerId);
+  viewerStage.classList.add("orbiting");
+});
+viewerStage.addEventListener("pointermove", (event) => {
+  if (!viewerOrbit || viewerOrbit.pointerId !== event.pointerId) return;
+  viewerYaw = Math.max(-80, Math.min(80, viewerOrbit.yaw + (event.clientX - viewerOrbit.x) * 0.35));
+  viewerPitch = Math.max(-65, Math.min(65, viewerOrbit.pitch + (event.clientY - viewerOrbit.y) * 0.35));
+  render();
+});
+function endViewerOrbit(event) {
+  if (!viewerOrbit || viewerOrbit.pointerId !== event.pointerId) return;
+  viewerOrbit = null;
+  viewerStage.classList.remove("orbiting");
+}
+viewerStage.addEventListener("pointerup", endViewerOrbit);
+viewerStage.addEventListener("pointercancel", endViewerOrbit);
+viewerStage.addEventListener("dblclick", () => {
+  if (viewerMode !== "2.5d") return;
+  viewerYaw = 0;
+  viewerPitch = 0;
+  render();
+});
+openIntroButton.addEventListener("click", () => introDialog.showModal());
+closeIntroButton.addEventListener("click", () => introDialog.close());
+startExploringButton.addEventListener("click", () => introDialog.close());
+introDialog.addEventListener("click", (event) => {
+  if (event.target === introDialog) introDialog.close();
+});
+introDialog.addEventListener("close", () => {
+  localStorage.setItem(introClosedStorageKey, "true");
+});
+openTutorialButton.addEventListener("click", () => tutorialDialog.showModal());
+closeTutorialButton.addEventListener("click", () => tutorialDialog.close());
+tutorialDialog.addEventListener("click", (event) => {
+  if (event.target === tutorialDialog) tutorialDialog.close();
+});
+
 autoSync.addEventListener("change", () => {
   if (autoSync.checked) {
     synchronizeXpm2Editor();
@@ -818,12 +1041,18 @@ function loadDemo(index) {
   selectedDemo = index;
   source.value = demos[index].source;
   scaleSlider.value = String(demos[index].scale || 16);
+  if (demos[index].depth !== undefined) {
+    viewerDepth.value = String(demos[index].depth);
+    viewerDepthValue.textContent = `${demos[index].depth} px`;
+  }
   highlightXpm(source.value);
   source.scrollTop = 0;
   source.scrollLeft = 0;
   syncHighlightScroll();
   render();
   updateActiveDemo();
+  viewerModeGuide.hidden =
+    demos[index].id !== "extruded-box" || hasUsed25dMode;
 }
 
 demos.forEach((demo, index) => {
@@ -838,4 +1067,7 @@ demos.forEach((demo, index) => {
   demoList.append(button);
 });
 
-loadDemo(1);
+loadDemo(0);
+if (localStorage.getItem(introClosedStorageKey) !== "true") {
+  introDialog.showModal();
+}

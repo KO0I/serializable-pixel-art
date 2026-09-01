@@ -1,0 +1,8 @@
+resetlayers
+addcolor smileyellow #ffd84d
+addcolor smileorange #f28c28
+cir 12 smileyellow as face
+cirstroke face 2 1 black as face-lines
+pixels black 4,4 7,4 as eyes
+pixels smileorange 4,6 7,6 5,7..6,7 as mouth
+group face face-lines eyes mouth as smiley

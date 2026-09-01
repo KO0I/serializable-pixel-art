@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Compose reusable XPM documents as independently extruded 2.5D scene layers."
+    />
+    <title>2.5D XPM Scene Editor</title>
+    <link rel="stylesheet" href="styles.css?v=7" />
+    <!-- Privacy-friendly analytics by Plausible -->
+    <script async src="https://analytics.reggi.com/js/pa-KNGwkE6cM4daEMYC-tw5M.js"></script>
+    <script>
+      window.plausible =
+        window.plausible ||
+        function () {
+          (plausible.q = plausible.q || []).push(arguments);
+        };
+      plausible.init =
+        plausible.init ||
+        function (options) {
+          plausible.o = options || {};
+        };
+      plausible.init();
+    </script>
+  </head>
+  <body class="scene-page">
+    <header class="site-header">
+      <a class="site-brand" href="index.html">Serialized Art</a>
+      <nav aria-label="Tools">
+        <a href="index.html">XPM editor</a>
+        <a href="viewer.html">Command editor</a>
+        <a href="perspective.html" aria-current="page">2.5D scene</a>
+        <button
+          id="open-perspective-intro"
+          class="site-intro-button"
+          type="button"
+        >
+          Intro
+        </button>
+        <a href="https://reggi.com/" target="_blank" rel="noreferrer">
+          reggi.com
+        </a>
+      </nav>
+    </header>
+    <main class="scene-workspace">
+      <section class="scene-column scene-editor-column">
+        <header class="scene-header">
+          <div>
+            <p class="eyebrow">XPM source</p>
+            <h1 id="document-title">Editor</h1>
+          </div>
+        </header>
+        <label class="sr-only" for="asset-source">XPM source</label>
+        <div class="code-editor scene-code-editor">
+          <pre id="asset-highlight" aria-hidden="true"><code></code></pre>
+          <textarea
+            id="asset-source"
+            aria-describedby="asset-status"
+            spellcheck="false"
+          ></textarea>
+        </div>
+        <p id="asset-status" class="status" aria-live="polite"></p>
+      </section>
+
+      <aside class="scene-column files-column">
+        <header class="scene-header files-header">
+          <div>
+            <p class="eyebrow">Reusable XPM</p>
+            <h2>Files</h2>
+          </div>
+          <button id="add-document" class="add-document" type="button" aria-label="Add XPM file">
+            +
+          </button>
+        </header>
+        <div id="file-list" class="file-list"></div>
+        <p class="files-help">Drag a file into the scene. Click to edit it.</p>
+      </aside>
+
+      <section class="scene-column scene-view-column">
+        <header class="scene-header">
+          <div>
+            <p class="eyebrow">Shared camera</p>
+            <h2>Scene</h2>
+          </div>
+          <div class="scene-actions">
+            <button id="export-scene-xpm" type="button">Export XPM</button>
+            <button id="reset-scene" type="button">Reset scene</button>
+          </div>
+        </header>
+
+        <div id="instance-controls" class="instance-controls" hidden>
+          <strong id="instance-name">Instance</strong>
+          <label>
+            Extrude
+            <input id="instance-depth" type="range" min="0" max="200" value="4" />
+            <output id="instance-depth-value">4 px</output>
+          </label>
+          <label>
+            Z position
+            <input id="instance-z" type="range" min="-100" max="100" step="1" value="0" />
+            <output id="instance-z-value">0 px</output>
+          </label>
+          <button id="delete-instance" type="button">Remove</button>
+        </div>
+
+        <div id="scene-stage" class="canvas-stage scene-stage">
+          <canvas id="scene-canvas" aria-label="2.5D XPM scene"></canvas>
+          <p class="orbit-hint">
+            Drag empty space to orbit · Drag art to move · Shift-drag art for depth
+          </p>
+        </div>
+        <p id="scene-status" class="status" aria-live="polite"></p>
+      </section>
+    </main>
+
+    <dialog id="perspective-intro-dialog" class="tutorial intro-dialog">
+      <div class="tutorial-header">
+        <div>
+          <p class="eyebrow">Proof of concept</p>
+          <h2>2.5D pixel art</h2>
+        </div>
+        <button
+          id="close-perspective-intro"
+          type="button"
+          aria-label="Close introduction"
+        >
+          Close
+        </button>
+      </div>
+      <div class="intro-content">
+        <p>
+          I made this as a proof of concept for using XPM source files as
+          extruded layers to create what’s called 2.5D pixel art.
+        </p>
+        <p>
+          It allows different XPM layers to be composed and manipulated as 2D
+          pixel art in 3D space. You can move each layer across the scene,
+          change its extrusion depth and Z position, and orbit everything with
+          a shared camera.
+        </p>
+        <button id="start-perspective-exploring" type="button">
+          Start exploring
+        </button>
+      </div>
+    </dialog>
+
+    <script src="perspective.js"></script>
+  </body>
+</html>
