@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A small, browser-based XPM code editor and image viewer."
+    />
+    <title>XPM Editor</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="workspace">
+      <section class="panel editor-panel">
+        <header class="panel-header">
+          <div>
+            <p class="eyebrow">X PixMap</p>
+            <h1>Code editor</h1>
+          </div>
+          <div class="editor-actions">
+            <label class="auto-sync-control" for="auto-sync">
+              <input id="auto-sync" type="checkbox" checked />
+              <span>Auto sync</span>
+            </label>
+            <button id="reset-button" type="button">Reset example</button>
+          </div>
+        </header>
+
+        <div class="editor-layout">
+          <nav class="demo-sidebar" aria-label="XPM demos">
+            <p class="demo-heading">Demos</p>
+            <div id="demo-list" class="demo-list"></div>
+          </nav>
+
+          <div class="editor-main">
+            <label class="sr-only" for="xpm-source">XPM source</label>
+            <div class="code-editor">
+              <pre id="xpm-highlight" aria-hidden="true"><code></code></pre>
+              <textarea
+                id="xpm-source"
+                aria-describedby="editor-status"
+                spellcheck="false"
+              ></textarea>
+            </div>
+            <p id="editor-status" class="status" aria-live="polite"></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel viewer-panel">
+        <header class="panel-header">
+          <div>
+            <p class="eyebrow">Live output</p>
+            <h2>Viewer</h2>
+          </div>
+          <div class="viewer-controls">
+            <div class="viewer-summary">
+              <p id="image-meta" class="image-meta"></p>
+              <button id="export-svg" class="export-button" type="button">
+                Export SVG
+              </button>
+            </div>
+            <label class="scale-control" for="scale-slider">
+              <span>Scale</span>
+              <input
+                id="scale-slider"
+                type="range"
+                min="2"
+                max="32"
+                value="16"
+                step="1"
+              />
+              <output id="scale-value" for="scale-slider">16×</output>
+            </label>
+          </div>
+        </header>
+
+        <div class="canvas-stage">
+          <canvas id="xpm-canvas" aria-label="Rendered XPM image"></canvas>
+        </div>
+
+        <details class="tutorial" open>
+          <summary>Quick XPM tutorial</summary>
+          <div class="tutorial-content">
+            <div>
+              <span class="tutorial-step">1</span>
+              <p>
+                Start with <code>! XPM2</code>. Lines beginning with
+                <code>!</code> are comments.
+              </p>
+            </div>
+            <div>
+              <span class="tutorial-step">2</span>
+              <p>
+                Define the image with
+                <code>width height colors chars-per-pixel</code>. For example,
+                <code>10 10 3 1</code>.
+              </p>
+            </div>
+            <div>
+              <span class="tutorial-step">3</span>
+              <p>
+                Add exactly that many color lines, such as
+                <code>X c black</code> or <code>. c None</code>.
+              </p>
+            </div>
+            <div>
+              <span class="tutorial-step">4</span>
+              <p>
+                Write one pixel row per image row. Each row must contain
+                <code>width × chars-per-pixel</code> characters.
+              </p>
+            </div>
+          </div>
+          <p class="tutorial-note">
+            Adding a color? Add its definition, increase the header’s color
+            count, then use its symbol in the pixel rows. In this editor,
+            documents with <code>! colors</code> and <code>! pixels</code>
+            markers are kept in sync automatically.
+          </p>
+        </details>
+
+        <p class="caption">
+          The plaid demo is the example from the
+          <a
+            href="https://xorg.freedesktop.org/docs/XPM/xpm.pdf"
+            target="_blank"
+            rel="noreferrer"
+          >XPM manual</a>.
+        </p>
+      </section>
+    </main>
+
+    <script src="happy-computer-data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
