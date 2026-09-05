@@ -1157,6 +1157,122 @@ textarea:focus-visible,
   color: #aaa99f;
 }
 
+.atlas-layout {
+  grid-template-columns: 9.5rem minmax(0, 1fr);
+}
+
+.atlas-sidebar {
+  /* The library must not contribute its full list height to either panel. */
+  contain: size;
+  min-height: 0;
+  overflow: auto;
+}
+
+.atlas-sidebar .atlas-eyebrow {
+  margin-bottom: 0.15rem;
+  color: var(--theme-muted, #8d8d84);
+  font-size: 0.62rem;
+}
+
+.atlas-sidebar .demo-heading {
+  margin-bottom: 0.8rem;
+  color: var(--theme-text, #f6f4ec);
+  font-size: 0.82rem;
+  letter-spacing: 0.16em;
+}
+
+.atlas-sidebar .demo-list {
+  gap: 0.65rem;
+}
+
+.atlas-sidebar .demo-group-heading {
+  color: var(--theme-muted, #77776f);
+}
+
+.atlas-card.demo-button {
+  display: grid;
+  min-width: 0;
+  gap: 0.5rem;
+  border: 1px solid var(--theme-border, #42423c);
+  border-radius: 0.4rem;
+  padding: 0.55rem;
+  background: var(--theme-strong-surface, #22221e);
+  color: var(--theme-muted, #aaa99f);
+  cursor: grab;
+}
+
+.atlas-card.demo-button:active {
+  cursor: grabbing;
+}
+
+.atlas-card.demo-button:hover {
+  border-color: var(--theme-muted, #8d8d84);
+  background: var(--theme-surface, #2b2b26);
+}
+
+.atlas-card.demo-button.active {
+  border-color: var(--theme-accent, #e66034);
+  background: var(--theme-surface, #2b2b26);
+  color: var(--theme-text, #ffffff);
+  box-shadow: inset 0 0 0 1px var(--theme-accent, #e66034);
+}
+
+.atlas-thumbnail {
+  display: block;
+  width: 100%;
+  height: 3rem;
+  border: 1px solid var(--theme-border, #42423c);
+  border-radius: 0.25rem;
+  background-color: var(--theme-strong, #171714);
+  background-image:
+    linear-gradient(45deg, var(--theme-checker, #35352f) 25%, transparent 25%),
+    linear-gradient(-45deg, var(--theme-checker, #35352f) 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, var(--theme-checker, #35352f) 75%),
+    linear-gradient(-45deg, transparent 75%, var(--theme-checker, #35352f) 75%);
+  background-position: 0 0, 0 5px, 5px -5px, -5px 0;
+  background-size: 10px 10px;
+  image-rendering: pixelated;
+  object-fit: contain;
+}
+
+.atlas-card.loading .atlas-thumbnail {
+  opacity: 0.35;
+}
+
+.atlas-card.invalid .atlas-thumbnail {
+  border-color: #d96767;
+}
+
+.atlas-card-copy {
+  display: grid;
+  min-width: 0;
+  gap: 0.22rem;
+}
+
+.atlas-edited {
+  width: max-content;
+  border: 1px solid var(--theme-accent, #e66034);
+  border-radius: 999px;
+  padding: 0.08rem 0.35rem;
+  color: var(--theme-accent, #ffb08e);
+  font-size: 0.56rem;
+  font-weight: 750;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.atlas-help {
+  margin: 0.8rem 0 0;
+  color: var(--theme-muted, #77776f);
+  font-size: 0.64rem;
+  line-height: 1.45;
+}
+
+.canvas-stage.atlas-drop-target {
+  border-color: var(--theme-accent, #e66034);
+  box-shadow: inset 0 0 0 3px var(--theme-accent, #e66034);
+}
+
 .editor-main {
   display: flex;
   min-width: 0;
@@ -1184,14 +1300,23 @@ textarea,
   margin: 0;
   border: 0;
   padding: 1.25rem;
-  font-family: Monaco, "Courier New", Courier, monospace;
-  font-size: clamp(0.7rem, 1vw, 0.82rem);
-  font-weight: 600;
-  letter-spacing: 0.025em;
-  line-height: 1.4;
+  font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, "Liberation Mono", monospace;
+  font-size: 0.8rem;
+  font-variant-ligatures: none;
+  font-weight: 400;
+  font-synthesis: none;
+  letter-spacing: 0;
+  line-height: 1.5;
   tab-size: 2;
   white-space: pre;
   overflow: auto;
+}
+
+#xpm-highlight code,
+#asset-highlight code {
+  font: inherit;
+  font-variant-ligatures: inherit;
+  letter-spacing: inherit;
 }
 
 textarea {
@@ -1222,12 +1347,12 @@ textarea::selection {
 
 .syntax-directive {
   color: #ff9c7b;
-  font-weight: 700;
+  font-weight: inherit;
 }
 
 .syntax-comment {
   color: #727269;
-  font-style: italic;
+  font-style: normal;
 }
 
 .syntax-number {
@@ -1236,7 +1361,7 @@ textarea::selection {
 
 .syntax-symbol {
   color: #ffcc66;
-  font-weight: 700;
+  font-weight: inherit;
 }
 
 .syntax-key {
@@ -1381,6 +1506,81 @@ textarea::selection {
   justify-self: end;
 }
 
+#garden-layer-controls {
+  flex-wrap: wrap;
+  max-width: min(100%, 38rem);
+  border-radius: 0.45rem;
+}
+
+.water-controls {
+  display: grid;
+  justify-items: end;
+  gap: 0.55rem;
+  border: 1px solid #9ab8bd;
+  border-radius: 0.45rem;
+  padding: 0.65rem;
+  background: #eff7f6;
+}
+
+.water-controls .scale-control {
+  width: min(100%, 19rem);
+  grid-template-columns: auto minmax(5rem, 8rem) 3.4rem;
+}
+
+.water-controls .select-control {
+  width: min(100%, 19rem);
+}
+
+.water-controls p {
+  margin: 0;
+  color: #48656b;
+  font-size: 0.7rem;
+}
+
+.cube-face-controls {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(12rem, 1fr));
+  gap: 0.45rem 0.8rem;
+  width: min(34rem, 100%);
+  margin: 0;
+  border: 1px solid #cbc9c1;
+  border-radius: 0.45rem;
+  padding: 0.6rem 0.7rem 0.7rem;
+  background: #f8f7f2;
+}
+
+.cube-face-controls[hidden] {
+  display: none;
+}
+
+.cube-face-controls legend {
+  padding: 0 0.35rem;
+  color: #77766f;
+  font-size: 0.7rem;
+}
+
+.cube-face-controls .scale-control {
+  grid-template-columns: 3.2rem 3.2rem minmax(4.6rem, 1fr);
+}
+
+.cube-face-controls input[type="color"] {
+  min-height: 1.9rem;
+  border: 1px solid #aaa89f;
+  border-radius: 0.3rem;
+  padding: 0.12rem;
+  background: #ffffff;
+}
+
+.cube-face-controls output {
+  min-width: 4.6rem;
+}
+
+@media (max-width: 720px) {
+  .cube-face-controls {
+    grid-template-columns: 1fr;
+  }
+}
+
 .select-control {
   display: grid;
   grid-template-columns: auto minmax(7rem, 10.3rem);
@@ -1476,6 +1676,32 @@ textarea::selection {
   background-size: 16px 16px;
   overflow: auto;
   padding: 2rem;
+}
+
+.canvas-stage.garden-scene {
+  background-color: #07131f;
+  background-image:
+    radial-gradient(circle at 24% 19%, rgb(125 176 207 / 20%) 0 1px, transparent 1.5px),
+    radial-gradient(circle at 72% 28%, rgb(214 231 228 / 18%) 0 1px, transparent 1.5px),
+    linear-gradient(150deg, #102a36 0%, #07131f 62%, #040b13 100%);
+  background-size: 83px 71px, 119px 97px, 100% 100%;
+}
+
+.canvas-stage.water-scene #xpm-canvas {
+  cursor: crosshair;
+  touch-action: none;
+}
+
+.canvas-stage.water-scene.orbit-enabled #xpm-canvas {
+  cursor: grab;
+}
+
+.canvas-stage.water-scene.orbit-enabled.orbiting #xpm-canvas {
+  cursor: grabbing;
+}
+
+.canvas-stage.water-scene.orbit-enabled.auto-orbit #xpm-canvas {
+  cursor: crosshair;
 }
 
 #xpm-canvas {
@@ -1776,6 +2002,25 @@ a {
     min-width: 8.5rem;
   }
 
+  .atlas-card.demo-button {
+    min-width: 8.5rem;
+    width: 8.5rem;
+    flex: 0 0 8.5rem;
+  }
+
+  .atlas-sidebar {
+    height: 11rem;
+    max-height: 11rem;
+  }
+
+  .atlas-sidebar .demo-list {
+    align-items: flex-start;
+  }
+
+  .atlas-help {
+    display: none;
+  }
+
   .scene-editors {
     grid-template-columns: 1fr;
   }
@@ -1801,3 +2046,512 @@ a {
   }
 
 }
+
+/* Site-wide color themes */
+/* Apply the theme to interface surfaces only; rendered art keeps its palette. */
+:root[data-theme] :is(.stl-resolution-control select, .perspective-controls,
+  .command-card-title, .command-card-body, .expression-preview,
+  .terminal-history, .command-intro-example pre, .tutorial code,
+  .tutorial-note, .viewer-history, .demo-sidebar) {
+  background-color: var(--theme-strong-surface);
+  border-color: var(--theme-border);
+  color: var(--theme-on-strong);
+}
+
+:root[data-theme] :is(button, .tool-link, .file-card, .command-autocomplete button,
+  .site-brand, .scene-editor-label, .auto-sync-control, .stl-resolution-control,
+  .terminal-form label, .terminal-form textarea, .instance-controls output,
+  .tutorial-content p, .tutorial-note, .command-intro-render span,
+  #xpm-highlight, #asset-highlight) {
+  color: var(--theme-text);
+  border-color: var(--theme-border);
+}
+
+:root[data-theme] textarea {
+  caret-color: var(--theme-text);
+}
+
+:root[data-theme] :is(.scene-editor textarea, .terminal-form textarea) {
+  color: var(--theme-on-strong);
+  -webkit-text-fill-color: currentColor;
+}
+
+:root[data-theme="sun"] :is(.syntax-directive, .syntax-command, .command-card-title code) { color: #943600; }
+:root[data-theme="sun"] :is(.syntax-comment, .syntax-pixels) { color: #5c5c5c; }
+:root[data-theme="sun"] .syntax-number { color: #006099; }
+:root[data-theme="sun"] :is(.syntax-symbol, .syntax-keyword, .syntax-hex) { color: #785400; }
+:root[data-theme="sun"] :is(.syntax-key, .syntax-entity, .command-alias code) { color: #733493; }
+:root[data-theme="sun"] .syntax-value { color: #176c3b; }
+:root[data-theme="sun"] .syntax-color { color: #973663; }
+
+:root[data-theme="night"] .syntax-comment { color: #b5b5b5; }
+
+:root:is([data-theme="sun"], [data-theme="night"]) .canvas-stage.garden-scene {
+  background: var(--theme-bg);
+}
+
+:root[data-theme] .theme-mode-button[data-theme-mode="custom"] {
+  background: var(--theme-strong-surface);
+}
+
+:root[data-theme] .theme-mode-button[data-theme-mode="custom"].active {
+  box-shadow: inset 0 0 0 2px var(--theme-accent);
+}
+
+.theme-custom-glyph {
+  display: inline-block;
+  /* Compensate for the hieroglyph font's lower visual baseline. */
+  transform: translateY(calc(-0.4em + 3px)) scale(1.15);
+  font-family: "Noto Sans Egyptian Hieroglyphs", "Segoe UI Historic", sans-serif;
+  font-size: 1em;
+  line-height: 1;
+  color: #b04ce8;
+}
+
+@supports (background-clip: text) or (-webkit-background-clip: text) {
+  .theme-custom-glyph {
+    background: linear-gradient(135deg, var(--custom-bg), var(--custom-accent) 50%, var(--custom-text));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+@supports (background-clip: text) or (-webkit-background-clip: text) {
+  .theme-mode-button[data-theme-mode="custom"][aria-pressed="true"] .theme-custom-glyph {
+    background-image: linear-gradient(135deg, var(--custom-inverse-bg), var(--custom-inverse-accent) 50%, var(--custom-inverse-text));
+  }
+}
+
+@media (forced-colors: active) {
+  .theme-custom-glyph,
+  .theme-mode-button[data-theme-mode="custom"][aria-pressed="true"] .theme-custom-glyph {
+    background: none;
+    color: ButtonText;
+    -webkit-text-fill-color: ButtonText;
+  }
+}
+
+:root[data-theme="sun"] {
+  --theme-bg: #f5f5f5;
+  --theme-surface: #ffffff;
+  --theme-strong: #eeeeee;
+  --theme-strong-surface: #fafafa;
+  --theme-text: #202020;
+  --theme-on-strong: #202020;
+  --theme-muted: #555555;
+  --theme-border: #aaaaaa;
+  --theme-accent: #303030;
+  --theme-on-accent: #ffffff;
+  --theme-checker: #dddddd;
+  color-scheme: light;
+}
+
+:root[data-theme="night"] {
+  --theme-bg: #252525;
+  --theme-surface: #303030;
+  --theme-strong: #202020;
+  --theme-strong-surface: #292929;
+  --theme-text: #f2f2f2;
+  --theme-on-strong: #f2f2f2;
+  --theme-muted: #bdbdbd;
+  --theme-border: #666666;
+  --theme-accent: #dedede;
+  --theme-on-accent: #252525;
+  --theme-checker: #333333;
+  color-scheme: dark;
+}
+
+:root[data-theme="custom"] {
+  --theme-bg: var(--custom-bg, #24142c);
+  --theme-surface: var(--custom-surface, #35263c);
+  --theme-strong: var(--custom-strong, #18101c);
+  --theme-strong-surface: var(--custom-strong-surface, #29202d);
+  --theme-text: var(--custom-text, #fff8ff);
+  --theme-on-strong: var(--custom-on-strong, #fff8ff);
+  --theme-muted: var(--custom-muted, #c8b4cc);
+  --theme-border: var(--custom-border, #77667d);
+  --theme-accent: var(--custom-accent, #ff8fd8);
+  --theme-on-accent: var(--custom-on-accent, #1d151d);
+  --theme-checker: var(--custom-checker, #392b40);
+}
+
+.theme-switcher {
+  position: fixed;
+  left: max(0.75rem, env(safe-area-inset-left));
+  bottom: max(0.75rem, env(safe-area-inset-bottom));
+  z-index: 100;
+  display: flex;
+  flex: none;
+  align-items: center;
+  overflow: hidden;
+  border: 1px solid #66665d;
+  border-radius: 999px;
+  background: #22221e;
+  box-shadow: 0 0.2rem 0.8rem rgb(0 0 0 / 25%);
+}
+
+.theme-mode-button {
+  display: grid;
+  flex: none;
+  width: 2.75rem;
+  height: 2.75rem;
+  place-items: center;
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+  color: #c9c7be;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.theme-mode-button + .theme-mode-button {
+  border-left: 1px solid #4c4c46;
+}
+
+.theme-mode-button:hover {
+  background: #34342f;
+  color: #ffffff;
+}
+
+.theme-mode-button.active {
+  background: #f6f4ec;
+  color: #171714;
+}
+
+.theme-palette {
+  position: fixed;
+  bottom: calc(max(0.75rem, env(safe-area-inset-bottom)) + 3.4rem);
+  left: max(0.75rem, env(safe-area-inset-left));
+  z-index: 100;
+  display: grid;
+  width: min(19rem, calc(100vw - 2rem));
+  max-height: calc(100dvh - 5rem - env(safe-area-inset-bottom));
+  overflow-y: auto;
+  gap: 0.9rem;
+  border: 1px solid var(--theme-border, #705070);
+  border-radius: 0.7rem;
+  padding: 0.8rem;
+  background: var(--theme-surface, #2a172a);
+  box-shadow: 0 1.25rem 3rem rgb(0 0 0 / 38%);
+  color: var(--theme-text, #f8eff8);
+}
+
+.theme-palette[hidden] {
+  display: none;
+}
+
+.theme-palette-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.theme-palette-header strong {
+  font-size: 0.82rem;
+}
+
+.theme-palette-close {
+  display: grid;
+  width: 1.8rem;
+  height: 1.8rem;
+  place-items: center;
+  border-color: var(--theme-border, #705070);
+  padding: 0;
+  color: var(--theme-text, #f8eff8);
+  font-size: 1.1rem;
+}
+
+.theme-presets {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 0.45rem;
+}
+
+.theme-preset {
+  aspect-ratio: 1;
+  min-width: 0;
+  border: 2px solid color-mix(in srgb, var(--preset-accent) 55%, white);
+  border-radius: 50%;
+  padding: 0;
+  background: linear-gradient(
+    135deg,
+    var(--preset-background) 0 52%,
+    var(--preset-accent) 52% 100%
+  );
+}
+
+.theme-preset:hover,
+.theme-preset:focus-visible {
+  border-color: #ffffff;
+  transform: translateY(-1px);
+}
+
+.theme-color-fields {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.65rem;
+}
+
+.theme-color-fields label {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid var(--theme-border, #705070);
+  border-radius: 0.45rem;
+  padding: 0.45rem 0.55rem;
+  color: var(--theme-muted, #c9b4c9);
+  font-size: 0.7rem;
+}
+
+.theme-color-fields input[type="color"] {
+  width: 2rem;
+  height: 1.5rem;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) {
+  background: var(--theme-bg);
+  color: var(--theme-text);
+}
+
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) body,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .viewer-panel,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .scene-view-column {
+  background: var(--theme-bg);
+  color: var(--theme-text);
+}
+
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .site-header,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .editor-panel,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .scene-editor-column,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .commands-page,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .command-terminal {
+  background: var(--theme-strong);
+  color: var(--theme-on-strong);
+}
+
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .theme-switcher {
+  border-color: var(--theme-border);
+  background: var(--theme-strong-surface);
+}
+
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .theme-mode-button + .theme-mode-button {
+  border-color: var(--theme-border);
+}
+
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .theme-mode-button:hover {
+  background: var(--theme-surface);
+  color: var(--theme-text);
+}
+
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .command-library,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .viewer-layers,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .files-column,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .code-editor,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .scene-editor textarea,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .terminal-form,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .perspective-controls,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .command-card,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .command-autocomplete,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .expression-preview {
+  border-color: var(--theme-border);
+  background: var(--theme-strong-surface);
+  color: var(--theme-on-strong);
+}
+
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .viewer-panel,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .files-column,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .demo-sidebar,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .terminal-viewer,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .viewer-layers,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .viewer-history,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .viewer-layers .color-reference {
+  border-color: var(--theme-border);
+}
+
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .site-header nav a,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .site-header nav button,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .eyebrow,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .image-meta,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .select-control,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .scale-control,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .cube-face-controls legend,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .water-controls p,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .status,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .files-help,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .demo-heading,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .demo-group-heading,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .demo-feature,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .command-card p,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .command-card dd,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .command-card .command-alias {
+  color: var(--theme-muted);
+}
+
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .site-header nav a[aria-current="page"],
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .theme-mode-button.active,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .mode-controls button.active,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .demo-button.active {
+  border-color: var(--theme-accent);
+  background: var(--theme-accent);
+  color: var(--theme-on-accent);
+}
+
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .demo-button:hover,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .file-card:hover,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .file-card.active,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .command-autocomplete button:hover,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .command-autocomplete button.active {
+  background: var(--theme-surface);
+  color: var(--theme-text);
+}
+
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) button:focus-visible,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) a:focus-visible,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) textarea:focus-visible,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .select-control select:focus-visible {
+  outline-color: var(--theme-accent);
+}
+
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .export-button,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .scene-actions button,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .instance-controls button,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .tutorial-header button,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .mode-controls,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .mode-controls button,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .site-header nav .site-intro-button {
+  border-color: var(--theme-border);
+  color: var(--theme-text);
+}
+
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .select-control select,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .cube-face-controls,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .water-controls,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .instance-controls,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .viewer-scale-control,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .tutorial,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .mode-controls {
+  border-color: var(--theme-border);
+  background: var(--theme-surface);
+  color: var(--theme-text);
+}
+
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .scale-control input,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .instance-controls input {
+  accent-color: var(--theme-accent);
+}
+
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .scale-control output,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .viewer-scale-control output,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .intro-content a {
+  color: var(--theme-text);
+}
+
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .intro-content p {
+  color: var(--theme-muted);
+}
+
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .canvas-stage,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .terminal-viewer,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .scene-stage {
+  border-color: var(--theme-border);
+  background-color: var(--theme-bg);
+  background-image:
+    linear-gradient(45deg, var(--theme-checker) 25%, transparent 25%),
+    linear-gradient(-45deg, var(--theme-checker) 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, var(--theme-checker) 75%),
+    linear-gradient(-45deg, transparent 75%, var(--theme-checker) 75%);
+}
+
+:root[data-theme="custom"] .canvas-stage.garden-scene {
+  background-color: #07131f;
+  background-image:
+    radial-gradient(circle at 24% 19%, rgb(125 176 207 / 20%) 0 1px, transparent 1.5px),
+    radial-gradient(circle at 72% 28%, rgb(214 231 228 / 18%) 0 1px, transparent 1.5px),
+    linear-gradient(150deg, #102a36 0%, #07131f 62%, #040b13 100%);
+}
+
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .viewer-mode-guide,
+:root:is([data-theme="sun"], [data-theme="night"], [data-theme="custom"]) .viewer-mode-guide::after {
+  border-color: var(--theme-border);
+  background: var(--theme-accent);
+  color: var(--theme-on-accent);
+}
+
+/* Selected light-theme controls keep white labels on their dark-gray fill,
+   including nested scene subtitles and the hover state. */
+:root[data-theme="sun"] .site-header nav a[aria-current="page"],
+:root[data-theme="sun"] .mode-controls button.active,
+:root[data-theme="sun"] .theme-mode-button.active:not([data-theme-mode="custom"]),
+:root[data-theme="sun"] .demo-button.active,
+:root[data-theme="sun"] .demo-button.active:hover,
+:root[data-theme="sun"] .file-card.active,
+:root[data-theme="sun"] .command-autocomplete button.active {
+  background: #303030;
+  border-color: #303030;
+  color: #ffffff;
+}
+
+:root[data-theme="sun"] .demo-button.active :is(.demo-name, .demo-feature, .atlas-edited),
+:root[data-theme="sun"] .file-card.active span {
+  color: #ffffff;
+}
+
+:root[data-theme="sun"] .theme-mode-button[data-theme-mode="sun"][aria-pressed="true"] > span {
+  color: #ffffff;
+  -webkit-text-fill-color: #ffffff;
+  /* Also recolor platforms that render the sun with a color-glyph font. */
+  filter: brightness(0) invert(1);
+}
+
+:root[data-theme="night"] .theme-mode-button[data-theme-mode="night"][aria-pressed="true"] {
+  background: #303030;
+  color: #ffffff;
+  box-shadow: inset 0 0 0 1px #888888;
+}
+
+@media (max-width: 900px) {
+  .site-header {
+    justify-content: flex-start;
+  }
+
+  .site-header nav {
+    margin-left: auto;
+  }
+
+}
+
+/* Selected-scene assets sit beside the code without sizing the workspace. */
+.extra-page .atlas-layout {
+  grid-template-columns: 9.5rem minmax(0, 1fr) 8rem;
+}
+.extra-page .atlas-layout.scenes-hidden {
+  grid-template-columns: minmax(0, 1fr) 8rem;
+}
+.scene-asset-atlas {
+  contain: size;
+  min-width: 0;
+  min-height: 0;
+  overflow: auto;
+  padding-left: 0.6rem;
+  border-left: 1px solid var(--theme-border);
+  color: var(--theme-text);
+}
+.scene-asset-atlas h2 { margin: 0 0 0.75rem; font-size: 1rem; }
+.scene-asset-atlas figure { margin: 0 0 0.8rem; }
+.scene-asset-atlas .atlas-thumbnail { height: 4rem; }
+.scene-asset-atlas figcaption { margin-top: 0.3rem; font-size: 0.75rem; overflow-wrap: anywhere; }
+@media (max-width: 1100px) {
+  .extra-page .atlas-layout { grid-template-columns: minmax(0, 1fr) 8rem; }
+  .extra-page .atlas-sidebar { grid-column: 1 / -1; }
+}
+
+.scene-asset-atlas label { display: block; font-size: 0.875rem; }
+.scene-asset-atlas select { width: 100%; min-width: 0; margin: 0.35rem 0 1rem; padding: 0.35rem; background: var(--theme-surface); color: var(--theme-text); border: 1px solid var(--theme-border); }

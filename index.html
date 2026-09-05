@@ -31,15 +31,17 @@
       content="The XPM Workbench editor and live pixel art viewer."
     />
     <title>XPM Editor</title>
-    <link rel="stylesheet" href="styles.css?v=7" />
+    <script src="theme.js?v=5"></script>
+    <link rel="stylesheet" href="styles.css?v=33" />
   </head>
   <body>
     <header class="site-header">
       <a class="site-brand" href="index.html">XPM Workbench</a>
       <nav aria-label="Tools">
-        <a href="index.html" aria-current="page">XPM editor</a>
+        <a id="xpm-editor-tab" href="index.html" aria-current="page">XPM editor</a>
         <a href="viewer.html">Command editor</a>
         <a href="perspective.html">2.5D scene</a>
+        <a id="extra-tab" href="index.html?section=extra">Extra</a>
         <button id="open-intro" class="site-intro-button" type="button">
           Intro
         </button>
@@ -50,7 +52,7 @@
         <header class="panel-header">
           <div>
             <p class="eyebrow">X PixMap</p>
-            <h1>Code editor</h1>
+            <h1 id="workspace-title">Code editor</h1>
           </div>
           <div class="editor-actions">
             <label class="stl-resolution-control" for="stl-resolution">
@@ -73,14 +75,19 @@
               <input id="auto-sync" type="checkbox" checked />
               <span>Auto sync</span>
             </label>
+            <button id="toggle-scenes" type="button" aria-controls="demo-sidebar" aria-expanded="true" hidden>Hide Scenes</button>
             <button id="reset-button" type="button">Reset example</button>
           </div>
         </header>
 
         <div class="editor-layout">
-          <nav class="demo-sidebar" aria-label="XPM demos">
-            <p class="demo-heading">Demos</p>
+          <nav id="demo-sidebar" class="demo-sidebar" aria-label="XPM demos">
+            <p id="atlas-eyebrow" class="eyebrow atlas-eyebrow" hidden>Reusable XPM</p>
+            <p id="demo-heading" class="demo-heading">Demos</p>
             <div id="demo-list" class="demo-list"></div>
+            <p id="atlas-help" class="atlas-help" hidden>
+              Click a scene to edit it. Drag a scene into the Viewer to load it.
+            </p>
           </nav>
 
           <div class="editor-main">
@@ -95,6 +102,12 @@
             </div>
             <p id="editor-status" class="status" aria-live="polite"></p>
           </div>
+          <aside id="scene-asset-atlas" class="scene-asset-atlas" aria-label="Selected scene XPM assets" hidden>
+            <h2>Atlas</h2>
+            <label for="atlas-content">Contents</label>
+            <select id="atlas-content"><option value="full">Full scene</option></select>
+            <div id="scene-asset-list"></div>
+          </aside>
         </div>
       </section>
 
@@ -112,6 +125,9 @@
               </button>
               <button id="export-xpm" class="export-button" type="button">
                 Export XPM
+              </button>
+              <button id="export-rfl-impostor" class="export-button" type="button" disabled>
+                Export RFL sprites
               </button>
               <button id="open-tutorial" class="export-button" type="button">
                 Tutorial
@@ -136,7 +152,7 @@
             </div>
             <label id="viewer-depth-control" class="scale-control" for="viewer-depth" hidden>
               <span id="viewer-depth-label">Extrude</span>
-              <input id="viewer-depth" type="range" min="0" max="100" value="4" />
+              <input id="viewer-depth" type="range" min="0" max="128" value="4" />
               <output id="viewer-depth-value" for="viewer-depth">4 px</output>
             </label>
             <div id="glass-mode-controls" class="mode-controls material-mode-controls" aria-label="Glass rendering mode" hidden>
@@ -155,6 +171,173 @@
                 XPM 2 · −90° Y
               </button>
             </div>
+            <label id="plate-size-control" class="select-control" for="plate-size" hidden>
+              <span>Plate size · W × D × H</span>
+              <select id="plate-size">
+                <option value="32">32 × 32 × 32</option>
+                <option value="64">64 × 64 × 32</option>
+              </select>
+            </label>
+            <label id="plate-surface-control" class="select-control" for="plate-surface" hidden>
+              <span>Plate surface</span>
+              <select id="plate-surface">
+                <option value="garden" selected>Temperate garden</option>
+                <option value="ice">Icy surface</option>
+                <option value="desert">Desert · cacti</option>
+                <option value="alien-red-dwarf">Alien · red dwarf</option>
+                <option value="alien-k-star">Alien · K star</option>
+              </select>
+            </label>
+            <div id="garden-layer-controls" class="mode-controls material-mode-controls" aria-label="Smol plate XPM layers" hidden>
+              <button id="garden-grass-toggle" class="active" type="button" aria-pressed="true">
+                <span id="garden-grass-label">Grass strands</span>
+              </button>
+              <button id="garden-flowers-toggle" type="button" aria-pressed="false">
+                <span id="garden-flowers-label">Flowers</span>
+              </button>
+              <button id="garden-bush-toggle" class="active" type="button" aria-pressed="true">
+                <span id="garden-bush-label">Bush · 2 XPM</span>
+              </button>
+              <button id="garden-tree-toggle" class="active" type="button" aria-pressed="true">
+                <span id="garden-tree-label">Tree · 2 XPM</span>
+              </button>
+              <button id="overhead-light-toggle" class="active" type="button" aria-pressed="true">
+                Overhead light
+              </button>
+            </div>
+            <label id="light-intensity-control" class="scale-control" for="light-intensity" hidden>
+              <span>Light intensity</span>
+              <input id="light-intensity" type="range" min="0" max="1" value="0.82" step="0.01" />
+              <output id="light-intensity-value" for="light-intensity">0.82</output>
+            </label>
+            <label id="light-spread-control" class="scale-control" for="light-spread" hidden>
+              <span>Light spread</span>
+              <input id="light-spread" type="range" min="0.15" max="1" value="0.58" step="0.01" />
+              <output id="light-spread-value" for="light-spread">0.58</output>
+            </label>
+            <label id="light-hue-control" class="scale-control" for="light-hue" hidden>
+              <span>Light color</span>
+              <input id="light-hue" type="range" min="0" max="360" value="47" step="1" />
+              <output id="light-hue-value" for="light-hue">47°</output>
+            </label>
+            <div id="water-controls" class="water-controls" hidden>
+              <div class="mode-controls" aria-label="Water simulation controls">
+                <button id="water-rain-toggle" class="active" type="button" aria-pressed="true">
+                  Rain
+                </button>
+                <button id="water-reflective-toggle" type="button" aria-pressed="false">
+                  Liquid metal
+                </button>
+                <button id="water-reset" type="button">Reset water</button>
+                <button id="export-water-atlas" type="button">Export 4×4 atlas</button>
+              </div>
+              <label class="select-control" for="water-size">
+                <span>Water area</span>
+                <select id="water-size">
+                  <option value="64x64" selected>Small · 64 × 64</option>
+                  <option value="80x80">Medium · 80 × 80</option>
+                  <option value="96x96">Large · 96 × 96</option>
+                  <option value="128x128">Expansive · 128 × 128</option>
+                </select>
+              </label>
+              <label class="select-control water-bottom-control" for="water-bottom-surface">
+                <span>Bottom surface</span>
+                <select id="water-bottom-surface">
+                  <option value="checkerboard">Checkerboard</option>
+                  <option value="river-rocks" selected>River rocks</option>
+                  <option value="river-boulders">River boulders · lumpy</option>
+                  <option value="sand-ripples">Sand ripples</option>
+                  <option value="mossy-stones">Mossy stones</option>
+                </select>
+              </label>
+              <label class="select-control" for="water-vegetation">
+                <span>Bottom vegetation</span>
+                <select id="water-vegetation">
+                  <option value="clovers">Clovers</option>
+                  <option value="grass" selected>Grass strands</option>
+                  <option value="tall-grass">Tall grass</option>
+                  <option value="none">None</option>
+                </select>
+              </label>
+              <label class="scale-control" for="water-gravity">
+                <span>Gravity</span>
+                <input id="water-gravity" type="range" min="-1" max="1" value="0" step="0.01" />
+                <output id="water-gravity-value" for="water-gravity">1.00g</output>
+              </label>
+              <label class="scale-control" for="water-light-angle">
+                <span>Light angle</span>
+                <input id="water-light-angle" type="range" min="-180" max="180" value="-135" step="1" />
+                <output id="water-light-angle-value" for="water-light-angle">-135°</output>
+              </label>
+              <label class="select-control" for="water-light-source">
+                <span>Light source</span>
+                <select id="water-light-source">
+                  <option value="daylight" selected>Daylight</option>
+                  <option value="warm-lamp">Warm lamp</option>
+                  <option value="cool-led">Cool LED</option>
+                  <option value="green-glow">Green glow</option>
+                  <option value="magenta-glow">Magenta glow</option>
+                </select>
+              </label>
+              <label class="scale-control" for="water-light-intensity">
+                <span>Light intensity</span>
+                <input id="water-light-intensity" type="range" min="0" max="2" value="1" step="0.05" />
+                <output id="water-light-intensity-value" for="water-light-intensity">1.00×</output>
+              </label>
+              <label class="select-control" for="water-caustic-detail">
+                <span>Caustic detail</span>
+                <select id="water-caustic-detail">
+                  <option value="fast" selected>Fast approximation</option>
+                  <option value="balanced">Balanced</option>
+                  <option value="fine">Fine</option>
+                </select>
+              </label>
+              <label class="scale-control" for="water-liquid-refraction">
+                <span>Liquid refraction</span>
+                <input id="water-liquid-refraction" type="range" min="1" max="1.6" value="1.333" step="0.001" />
+                <output id="water-liquid-refraction-value" for="water-liquid-refraction">1.333</output>
+              </label>
+              <label class="scale-control" for="water-liquid-color">
+                <span>Liquid color</span>
+                <input id="water-liquid-color" type="range" min="0" max="360" value="190" step="1" />
+                <output id="water-liquid-color-value" for="water-liquid-color">190°</output>
+              </label>
+              <label class="scale-control" for="water-liquid-dispersion">
+                <span>Liquid dispersion</span>
+                <input id="water-liquid-dispersion" type="range" min="0" max="1" value="0.08" step="0.01" />
+                <output id="water-liquid-dispersion-value" for="water-liquid-dispersion">0.08</output>
+              </label>
+              <label class="scale-control" for="water-liquid-absorption">
+                <span>Liquid absorption</span>
+                <input id="water-liquid-absorption" type="range" min="0" max="1" value="0.30" step="0.01" />
+                <output id="water-liquid-absorption-value" for="water-liquid-absorption">0.30</output>
+              </label>
+              <label class="scale-control" for="water-surface-opacity">
+                <span>Surface opacity</span>
+                <input id="water-surface-opacity" type="range" min="0" max="1" value="0.55" step="0.01" />
+                <output id="water-surface-opacity-value" for="water-surface-opacity">55%</output>
+              </label>
+              <label class="scale-control" for="water-damping">
+                <span>Damping</span>
+                <input id="water-damping" type="range" min="10" max="50" value="10" step="1" />
+                <output id="water-damping-value" for="water-damping">10</output>
+              </label>
+              <label class="scale-control" for="water-rotation">
+                <span>Rotation</span>
+                <input id="water-rotation" type="range" min="-180" max="180" value="20" step="1" />
+                <output id="water-rotation-value" for="water-rotation">20°</output>
+              </label>
+              <p>2D: draw waves on the left; predicted bottom caustics are on the right. In 2.5D, auto-orbit keeps running while you draw on the water.</p>
+            </div>
+            <fieldset id="cube-face-controls" class="cube-face-controls" hidden>
+              <legend>Cube face colors · #RRGGBB</legend>
+              <label class="scale-control" for="cube-face-front"><span>Front</span><input id="cube-face-front" data-cube-face="front" type="color" value="#d63429" /><output for="cube-face-front">#d63429</output></label>
+              <label class="scale-control" for="cube-face-back"><span>Back</span><input id="cube-face-back" data-cube-face="back" type="color" value="#d6ab29" /><output for="cube-face-back">#d6ab29</output></label>
+              <label class="scale-control" for="cube-face-left"><span>Left</span><input id="cube-face-left" data-cube-face="left" type="color" value="#29d62f" /><output for="cube-face-left">#29d62f</output></label>
+              <label class="scale-control" for="cube-face-right"><span>Right</span><input id="cube-face-right" data-cube-face="right" type="color" value="#29b9d6" /><output for="cube-face-right">#29b9d6</output></label>
+              <label class="scale-control" for="cube-face-top"><span>Top</span><input id="cube-face-top" data-cube-face="top" type="color" value="#7a29d6" /><output for="cube-face-top">#7a29d6</output></label>
+              <label class="scale-control" for="cube-face-bottom"><span>Bottom</span><input id="cube-face-bottom" data-cube-face="bottom" type="color" value="#d6298b" /><output for="cube-face-bottom">#d6298b</output></label>
+            </fieldset>
             <label id="drone-mood-control" class="select-control" for="drone-mood" hidden>
               <span>Mood</span>
               <select id="drone-mood">
@@ -164,12 +347,21 @@
               </select>
             </label>
             <label id="drone-surface-control" class="select-control" for="drone-surface" hidden>
-              <span>Surface</span>
+              <span>Ground surface</span>
               <select id="drone-surface">
                 <option value="grass" selected>Grass</option>
                 <option value="checkerboard">Checkerboard</option>
                 <option value="sand">Sand</option>
                 <option value="mossy-rocks">Mossy rocks</option>
+              </select>
+            </label>
+            <label id="floor-size-control" class="select-control" for="floor-size" hidden>
+              <span>Floor size</span>
+              <select id="floor-size">
+                <option value="compact">32 × 32</option>
+                <option value="standard" selected>Standard · 35 × 25</option>
+                <option value="large">64 × 64</option>
+                <option value="extra-wide">128 × 128</option>
               </select>
             </label>
             <label id="refractive-index-control" class="scale-control" for="refractive-index" hidden>
@@ -232,6 +424,11 @@
               />
               <output id="absorption-value" for="absorption">0.08</output>
             </label>
+            <label id="emissive-control" class="scale-control" for="emissive" hidden>
+              <span>Emissive</span>
+              <input id="emissive" type="range" min="0" max="1" value="0" step="0.01" />
+              <output id="emissive-value" for="emissive">0.00</output>
+            </label>
             <label id="animation-amplitude-control" class="scale-control" for="animation-amplitude" hidden>
               <span>Amplitude (px)</span>
               <input
@@ -263,10 +460,10 @@
                 type="range"
                 min="2"
                 max="32"
-                value="16"
+                value="4"
                 step="1"
               />
-              <output id="scale-value" for="scale-slider">16×</output>
+              <output id="scale-value" for="scale-slider">4×</output>
             </label>
           </div>
         </header>
@@ -391,9 +588,52 @@
             <code>slice-size</code>, <code>slice-count</code>, and
             <code>slice-layout</code> comments reconstruct its 2.5D volume.
           </p>
+          <p class="tutorial-note">
+            <strong>smol plate class:</strong> switches one indexed micro-scene
+            among a temperate garden, ice, cactus desert, red-dwarf biome, and
+            K-star biome. Each surface carries its own terrain, vegetation, and
+            star-colored lighting; the red-dwarf grass sways in clustered waves.
+            In 2.5D mode, <strong>Export RFL sprites</strong> captures a 4×4
+            octahedral direction field, a half-resolution medium field, and one
+            tiny far silhouette. RFL treats every coarse heightmap texel as a
+            32×32 detail-voxel patch and uses two crossed XPM planes nearby.
+            <strong>Grass pond</strong> uses the same grass
+            layer around an irregular indexed-water boundary. <strong>Central
+            grass pool</strong> expands the meadow and keeps a smaller,
+            irregularly round water section in its center.
+          </p>
+          <p class="tutorial-note">
+            <strong>2.5D caustic water</strong> runs the Godot height-field
+            update in two floating-point buffers. The same field deforms the
+            translucent water mesh, refracts an indexed rocky bed, casts moving
+            caustics, and controls angle-dependent Fresnel reflection. The 2D
+            view places the clickable heightfield beside its selected-bottom
+            caustic prediction at the selected depth. During 2.5D auto-orbit,
+            draw directly on the projected water without stopping the camera.
+            Bottom materials remain indexed surfaces, and the logarithmic
+            gravity control runs from lunar ⅙g through centered 1g to 6g.
+            The bottom-vegetation XPM directive selects clover clusters, short
+            grass strands, tall grass, or a bare surface in both views.
+            Water area presets expand the simulation from the original 64 × 64
+            field up to 128 × 128. Light angle turns the fixed-height source
+            around the scene; source color and intensity control the surface
+            highlight, bottom shading, and caustic energy together. Caustics use
+            sparse image-space photon projection, neighboring path reuse, a small
+            gather blur, and temporal reuse between frames. The detail menu trades
+            photon spacing and mesh density for speed while keeping additive light
+            luminous across differently colored bottoms.
+            The water volume uses liquid refraction, color, dispersion, and
+            absorption controls, plus adjustable surface opacity and damping from
+            10 to 50. Liquid metal makes the surface opaque and reflective while
+            disabling the underwater caustic layer. Caustics soften beyond 20 px
+            and disappear at 25 px in ordinary liquid mode.
+            Export XPM saves the current water
+            frame, while Export 4×4 atlas saves sixteen frames in one genuine XPM.
+          </p>
     </dialog>
 
-    <script src="xpm-primitives.js?v=11"></script>
-    <script src="script.js?v=20"></script>
+    <script src="xpm-primitives.js?v=34"></script>
+    <script src="water-scene.js?v=12"></script>
+    <script src="script.js?v=58"></script>
   </body>
 </html>

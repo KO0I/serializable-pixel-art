@@ -28,6 +28,9 @@ const colorStorageKey = "serialized-art-colors-v1";
 const defaultColorStorageKey = "serialized-art-default-color-v1";
 const backgroundColorStorageKey = "serialized-art-background-color-v1";
 const commandIntroClosedStorageKey = "serialized-art-command-intro-closed-v1";
+const defaultDisplayScale = window.matchMedia("(max-width: 760px)").matches
+  ? 5
+  : 8;
 const layers = [];
 const customColors = new Map();
 let nextSquareId = 1;
@@ -37,7 +40,7 @@ let nextPixelsId = 1;
 let nextOutlineId = 1;
 let nextGroupId = 1;
 let nextCreationOrder = 1;
-let displayScale = 2;
+let displayScale = defaultDisplayScale;
 let defaultColor = {
   color: "#000000",
   reference: null,

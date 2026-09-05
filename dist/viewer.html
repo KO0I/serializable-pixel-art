@@ -46,7 +46,8 @@
       content="The XPM Workbench command editor rendering a hot pink square."
     />
     <title>XPM Workbench Commands</title>
-    <link rel="stylesheet" href="styles.css?v=7" />
+    <script src="theme.js?v=5"></script>
+    <link rel="stylesheet" href="styles.css?v=33" />
   </head>
   <body class="commands-page">
     <header class="site-header">
@@ -55,6 +56,7 @@
         <a href="index.html">XPM editor</a>
         <a href="viewer.html" aria-current="page">Command editor</a>
         <a href="perspective.html">2.5D scene</a>
+        <a href="index.html?section=extra">Extra</a>
         <button id="open-command-intro" class="site-intro-button" type="button">
           Intro
         </button>
@@ -539,8 +541,8 @@
           <div class="viewer-canvas-wrap">
             <label class="viewer-scale-control">
               <span>Scale</span>
-              <input id="display-scale" type="range" min="2" max="32" value="2" />
-              <output id="display-scale-value">2×</output>
+              <input id="display-scale" type="range" min="2" max="32" value="8" />
+              <output id="display-scale-value">8×</output>
             </label>
             <div class="viewer-canvas-scroll">
               <canvas
