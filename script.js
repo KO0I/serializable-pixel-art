@@ -323,6 +323,15 @@ X c #55ddd5
     stlResolution: 64,
     mode: "2.5d",
   },
+  {
+    category: "Human characters",
+    id: "regal-woman-character-sheet",
+    name: "Regal woman",
+    feature: "front · side · back T-pose turnaround",
+    scale: 4,
+    mode: "2d",
+    xpmUrl: "art/characters/regal-woman-character-sheet.xpm",
+  },
 ];
 
 const extraSection = new URLSearchParams(window.location.search).get("section") === "extra";

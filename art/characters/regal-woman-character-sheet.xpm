@@ -1,0 +1,124 @@
+! XPM2
+! xpm-workbench character-sheet
+! character Regal Woman
+! category Human characters
+! views front side back
+! source reference IMG_3684.jpeg
+160 99 16 1
+! colors
+  c None
+A c #cfb0a2
+B c #f1e9e4
+C c #854153
+D c #1d1820
+E c #3b2333
+F c #a25a63
+G c #8e5354
+H c #5e2446
+I c #b07a61
+J c #a8665d
+K c #461b39
+L c #792b52
+M c #883358
+N c #71254e
+O c #7e3154
+! pixels
+                                                                                                                                                                
+                                                                                                                                                                
+                                                                                                                                                                
+                                                                                                                                                                
+                                                                                                                                                                
+                                   AA                                            AA                                        AA                                   
+                                 BCDEF                                          GEHA                                      IHEFB                                 
+                                AEDIIDHB                                      AEDEEEA                                   BCEEEEHA                                
+                               ADEGAICDEA                                    IDDDDDGGGB                                AEDDDDEDEA                               
+                              IDHCDHEDGHDA                                  GDDEEDIJDDEB                              ADDDDDDDDDDI                              
+                              FEGDEGGEDCDA                                  CDDDDIIDEEC                               ADDDDDDDDDDI                              
+                              AEDHJIIJEDCB                                  IDEHGHDECJI                               BEDDDDDDDDDA                              
+                              ADEGGJJHCEH                                   IHHHEHDGIHJ                                GCCCEDECCHA                              
+                              GEHJJJGGGHDA                                 ADDEDEGEGIJI                               ADEEGAAJEEDC                              
+                             ADEHJIJGJGHDE                                BDDDDEDHHJIII                              BEDDDDGJDDDDDA                             
+                             HDDEGJJJJCEDDA                               EDDDDDDEGJIJI                              FDDDDDDDDDDDDH                             
+                            ADDEGKIJJJEGEDEB                             FDDDDDDDGIJIJA                             BDDDDDDEDDDDDDDA                            
+                            EDDHIDGJJCDJEDDF                            BDDDDDDDDJIHGIB                             GDDDDDDDDDDDDDDE                            
+                           IDEDEJDLCCHDJEDDDB                           FDDDDDDDEJJDA                              ADDDDDDDDDDDDDDDDA                           
+                          BDDDDDDDCCGCDDDDDDG                          BDDDDDDDDHGCE                               HDDDDDDDDDDDDDDDDE                           
+                          ADDDDDDEGGGGEDDDDDE                          ADDDDDDDEGGCI                               HDDDDDDDDDDDDDDDDG                           
+                         BICGJJGJGGGGCGGGJJGGAB                         EDDDDDHIIIJA                             BAGDDDDDDDDDDDDDDDDGAB                         
+              BBBBBBAAAAIJJIJIIIIIIGGJIIIIJJJJGFIAABBBBB                HDDDDHIIJIIIB                   BBBBBAAFFIJCDDDDDDDDDDDDDDDDHJJIAAAABBBBBB              
+     BBAAAAIIIJJJJIJJIIIIJJJJJIJIIIIIIIIIIJJJJGMMGJJJJJJIIIAAAABB       GDCGIIIIIJJII           BBAAAAIIIIIIIJGMMJIGEDDDDDDDDDDDDDDDGJJIIIIJJIIJJIIIIAAAABB     
+AAIJJJGJJIIGGJJJJJJJJIIIJJJJJJJIIIIIIIIJIJJJJGCMMFJJJJJJJGJIIIGJJJIIAAB ACJJJIJIIIJIIA    BAAIIJJGIIJIJJJJJJIJGMMJIJHDDDDDDDDDDDDDDEGJIIIIIIJJJJJJJJGJJIJJJJIIAA
+BBAAAAABBBAAAAIIIIIIIIJJIGJJJJJIIIIIIIIIIJIGCGCMGFGJIIIIIAAABBBBAAAABB  ADDDECGGGJIGIIB    BBAAAABBBBAAAIIJIIJFGMJIGCDDDDDDDDDDDDDDCJIJIIIIJIIIIIIIAAABBBAAAAABB
+                    AHHHKKHHLJGGAIIIIIIICGJHKKNMFGA                     GDDDDHCNOGIJFIA                       ICMLHHCEDDDDDDDDDDDDEGCHHHHHA                     
+                    AHHHKKKKHGMMIAIIIIAIOCCKKKNMFI                     BEDDDDKCLCCJGLIIB                      IGMNKKHHDDDDDDDDDDDDEGKKKHHHA                     
+                    ANHHKKKKKNMMFIIIIIIMMOHKKKLFFI                     ADDDDDKFLCCGOOMII                      IFMNKHHEDDDDDDDDDDDDEHKHHHHNA                     
+                    ILNHKKKKKHNOLGJIIIGLONKKKKLFFI                     HDDDDDHFLOCLNNLGI                      IFMLKHHEDDDDDDDDDDDDEHKKHHHLI                     
+                    ILNNKKKKKKHNLOIJIIOLNHKKKKOFFI                    ADDDDDDHFOONHHHLCI                      IFFLKHHEDDDDDDDDDDDDEKKHHNNLI                     
+                    ILNNHKKKKKHHLLGJIJLLHHKKKHMFFJ                    ADDDDDDHFONHHHHLCA                      JFFOKHHKDDDDDDDDDDDDEKKHHNNMF                     
+                    ILLNHKKKKKHHHOGIIGOHHKKKKHMFJJB                   BEDDDDDCFCLHHHHLCA                     BFFFMKKHHEDDDDDDDDDDDKKKHHNLMF                     
+                    ILOLHKKKKKKNHOMIJMNHNKKKHHCJJJB                    CDDDDDCJGNKHHHNGB                     BFFJCKKHHKDDDDDDDDDDKKKKHHLMMF                     
+                    FLMLHKKKKKKCOLMFGNHCOKKKHHFJJFB                    ADDDDDGJGLHNNNNMB                     BFFJGKKKHHHDDDDDDDDKHKKKHHLMMF                     
+                    FLMLHKKKKKKCFCCGCNCFHKKKKHFJJFB                     EDDDDFJGONNOCNC                      BFFJFHKKHHHEDDDDDDENKKKKKHLMMF                     
+                    FLMLHKKKKKKNLONCFGHNHKKKKHFJJFA                     GDDDDFJFLHNNNLC                      AFFJFHKKHHHHEDDDDDKHHKKKKHLMMM                     
+                    FLMOHKKKKKHLONHGFGHNNKKKKHJJJFA                     ADDDEFFFOHHLMLC                      AFFFFHKKHHHKHEDDDKKHNKKKKHLMMM                     
+                    FLMOHKKKKKNLHHHFFGKNMHKKKNJFJFA                      EDDEJFFLHNOONCB                     AFFFFLKKKHHKHHEDKHHNOKKKKHLMMMB                    
+                    FLMMHKKKEHLNNLHFFFHHNNKKKLJFFA                       ADDHJFFNHLLHNCB                      AFFJOKKKHHHKHHKHHHNMHKKKHLCMMB                    
+                    FOMMHKKKKHLNLNHFFFHHHNHKKOJFI                         IDHJFFNHLHNNCB                       IFJCKKKHHHKHNHHHHOONKKKHOGMMB                    
+                    FLMMHKKKKNNLLHNJFFHKHLHKKCJGI                          GKJFFHHNNLLCB                       ICJCHKKHHHHHNNHHHMLLKKKHOMMLB                    
+                    ANMMHKKKHLLLLHOJFFNHHLNKKCJHI                          BNCFFHHNNLNCA                       FHFGHKHHHNHHHNHHHCOLHKKHMMMF                     
+                     FMMHKKKHLLLLHCJFFOHHNLHKGCHA                          AHNCFHHNNONGA                       IHOGHKHNNNHHHHHHNMOOHKKHMMMB                     
+                     BMMNKKKNOLLNHGJFFMHHNLHHOLNA                          AKLOCHHNNONGA                       INLOHKNNNNHHHHHHLMOONKKHMMA                      
+                     BCMNHKKLOLONHGJFFCNHNLHHOONA                          IHOCCHHNLONFA                       INOMHKNNNNNHHHHHOMOOLKKNMOA                      
+                     BOOLHKKLLLONNFJFJCLHNLHHCCNA                          IHOCCHNNOONFA                       INMCHHNNNNNHHHHNOMMOLKKNMLA                      
+                     BOOMHKHOLOONLFJFJCLHHLHHGGNA                          FHCGGHNNMLLFA                       INGFHHNNNNLNHHHNOMMOOHKLMOA                      
+                     BLLOHKHOLOOLOFJFJCONHLHHFFCA                          GNGFGHNLMNOJI                       ICFFNKNNNNLNHHNNMMMOOHKOCMA                      
+                     BNLCHKHOLOOLOJJFJGOLHLHNFFGA                          OLFFGHNOONCJI                       ACFFLKNNNLLNHHNNMMMOOHKCCOA                      
+                     ANOGNKHOLOOLCJJJJGLMHNHNFCA                           OHGFGHNOONCJI                        ICFOKNNNLLLNHNLMMMOOHHGFOI                      
+                     ANCFNKHOOOOLCJJJJFLMHNHOGF                            NHLFFHNOONGII                        BFFCKNNNLLLNHNLMMMOOHHGFOI                      
+                     AOGFOKHOOOOLGJJJJFNMNNHCGA                           BHHHCFNLOOLFIJB                        AGCHHNNLLLLNNLMMMOOHHFFGI                      
+                     BFGFCKHOLOMLFJJJJFNMLHHCF                            BHHNNGNOOOLFIJB                        BCCHNNLLLLLNNOMMMOOHHFGA                       
+                      BGGCKHOLOMLFJJJJJNMMHHCC                            AHNNHLOOOOOFIJB                        BOGHNNLLLLLNNMMMMOOHHFGA                       
+                       ACGKHOLOOOFJJJJJLOMNHLC                            AHNNNNOOOOOFIJA                        BOOHHHLLLLLNNMMMMOOKNGI                        
+                        ICKHOLMOMJJJJFJOLMLHNG                            AHNNNLOOOOMFIJA                        BONHNHLLLLLLLMMMMMOKNFB                        
+                        AOKHOOMOMJJJFFJCLMLKHC                            AHNNNLOOOOMFIJA                        BOKHNHLLLLLLLMMMMMMHNI                         
+                        BOKHOMOOCJJJFFJLLMMHEC                            IHNNNOOOOMMFIJA                        BHEHNHNLLLLLOMMMMMMHHI                         
+                         CKHOMMOGJJJFJCHLMMHEH                            FHNNLOOOOMCFJJA                        AKKHNHNLLLLLMMMMMMOHKA                         
+                         GEHOMMOGJJJFGHHOMMNDI                            FHNNOOOOOMCJJFA                         CENLHHLLLLOMOMMMMOHKA                         
+                         GEHMMMOFJJJFNHHMMMNH                             CHNLMOOOOMGJJFA                         BKNOHHLLLLOMOMMMMMHKA                         
+                         IELCMMMFJJJGOHHMMMNA                             OHNOMOOOMCGJJJB                          AHMHHLLLLMMOMMMOMHH                          
+                         BKMMMMMFJJFOOHNMMMF                              LHNMMMOMMFFJJJ                            FLNHNLLLCCOMMMOMHF                          
+                          LMMMMGJJFGOOOLMMMF                             BNNLMMMMMMFFJJC                            FLNHNOLLCCOMMMOMNA                          
+                          IMMMMFJJCGOOCLOMMM                             BHNOMMMMMMFFJGO                            GONHNLLLGCOMMMMOG                           
+                          AMMMMFJCMFOOCLOMMMB                            AHNMMMMMMGFFFMCB                           MOLHNLLLFMOMMMMLF                           
+                          IMMOCJFLFJLOGOOMMMB                            AHOMMMMMMFFFGMCB                           MOLHNLLOFMOMMMOOMB                          
+                          IMMOFFOMFJNOGMMMMMB                            AHMMMMMMMFFFLGOB                          BMMLHNLLOFMOMMMOOMB                          
+                          FMMOFFMGJFNOFCMMMMA                            INMMMMMMMFFCOFOB                          BOMONNNLMFMOMMMOMMA                          
+                          MMMMFFGGJFNCGCMMMMA                            FNMMMMMMCFFGCFOB                          BLMONNNLCFMOMMMMMMA                          
+                         BMMMGJFFFJFNCGFMMMMA                            FLMMMMMMGFFFGFLA                          ALMONHNNCFMOMMMOCMA                          
+                         BMMMFJFFFJFHCGFFMMMA                            FLMMMMMMFFFFGFLA                          ANMONHNNGFMOMMMOCMI                          
+                         ALMMFFFFGFFHCFFFMMMA                            MOMMMMMMFFFFGGNA                          ANMONHHHFFCOMMMMFMF                          
+                         ALMCJFFFFGGHMFFFMMMI                           BLMMMMMMGJFFFGCNA                          ANMMNHHHFFCOMMMMFMF                          
+                         ALMFJFFFFCCHMFFJCMMI                           ANMMMMMMFJFFFFCNA                          ANMMNNHNFFCOMMOMFMMB                         
+                         IMMFJFFFFGHNMFJJFMMF                           INMMMMMMFFFFFFNNA                          ANMMLNHOFFCOMMOCFMMB                         
+                         FMMJFFFFFCKLMFJJFMMF                           FNMMMMMGJFFFFOHNA                          INMMLNHCFFMOMMOGFMLA                         
+                         FMFJFFFFGHKCMFJJFMMF                           OOMMMMMFFFFFGKHNI                          INOMOHHGFFMOOMOFFMLA                         
+                        BMMFJFFFGCHKCCFJJJCMG                          BNOMMMMMFFFFFHKNNI                          FNOMOHHGFFCOOOOFFMLA                         
+                        BMMFFFFFCCHKCCFJFJGMM                          AHMMOMMCFFFFNEKNNF                          FLOMMHHFFFCOOOMFFMLI                         
+                        ALFJFFFCCCCKCCGJFJFMMB                         IHMMOMMFJFFGKKKLNF                          FLOMOHNFFFCOOOMFGMOF                         
+                        ALFFFFHCCCCKCCCFJJFMMB                         GNCCMMMFFFFNKKKLNF                          GLOMOHOFFFCOOOCFGMMF                         
+                        AMFFFHKCCGCKCCCGJFJCLB                         ONCCMMCJFFCHKKKLNF                          MLOOMHCFFFCLOLFFCMMM                         
+                        IMFFHKKCGGCKCJGNCJJFNA                        ANLCCMMFJFCCHKKKOLG                          MOOOOHCFFFCLOLFFCMMMB                        
+                        FCJHKKKCJJCKGJGHKFJFNA                        AHLMCMMFJGCCHKKHOLM                         BMMOOONGFFFCLOOFFMMMLA                        
+                        FFCKKKKCJJCKJJGHECJFNI                        IHLCGMCJGCCGHKKHMNF                          FNMOLLFFFFCLLOFFCOLI                         
+                        FCNHKKKCJJCKJJGHKHFJNA                        FNLCGMFGHCGGHKHHNF                            FNLLMFFFFCLLMFFMMA                          
+                       BOOOKHHKHJJCKGJGKKKOFF                         ONLCCCGKHGJGHHHHA                              AOLCFFFFCLLCFFFB                           
+                       BCOOKHHKHJJCKGJGKKHHGA                        AHLLCCCHECJJGHHKI                                ANGFFFFCLLFFF                             
+                        BFNHNHKKGJLKGJCKKHHHA                         FHLCCLHKCJJGHHKA                                BHGFFFFCLLCGI                             
+                          CHNHKKGIGKJJCKKNLKF                          AOCONHKCIIJHCA                                 BGFFFFFCLNNLI                             
+                          FKHHHKJIGKJICKKHNCA                           CNNLHKGIIIA                                     BICGIGNCAA                              
+                          BAFOHECJCKJJHKHFA                             ICLNHKNJJJB                                      AGGBIGI                                
+                              AAIIIAIIIAB                                 BAAAIJIIIB                                     AGGBGCI                                
+                               BJIIAGII                                       IIIIJJA                                    AIGAJJI                                
+                               AIIIAIIIB                                     AJIIJIJGIB                                  IJGIJJI                                
+                              BIIIIAIIJI                                     AJJIJGIIIJIAB                              AJJJIIIJA                               
+                              AGJGGAJGGGB                                    AGJJJJIIJJJGA                              IGGGIGJGI                               
