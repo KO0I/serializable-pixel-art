@@ -1,0 +1,33 @@
+name: Validate RFL asset sources
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  sources:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate every character fit and item source
+        run: |
+          node --input-type=module <<'JS'
+          import fs from 'node:fs';
+          import path from 'node:path';
+          import {createHash} from 'node:crypto';
+          const root=path.resolve('rfl-source'), c=JSON.parse(fs.readFileSync(path.join(root,'catalog-source.json')));
+          if(c.format!=='xpm-rfl-sources'||c.version!==1)throw Error('Unsupported source catalog');
+          for(const ch of c.characters)if(!ch.fits.some(f=>f.id===ch.defaultFit))throw Error('Missing default fit: '+ch.id);
+          const entries=[...c.characters.flatMap(c=>c.fits),...c.items];
+          for(const e of entries){const file=path.resolve(root,e.source);if(!file.startsWith(root+path.sep))throw Error('Source path escapes catalog');const hash=createHash('sha256').update(fs.readFileSync(file)).digest('hex');if(hash!==e.sha256)throw Error('Source hash mismatch: '+e.source);}
+          console.log('Validated',entries.length,'character/item source files');
+          JS
+      - uses: actions/upload-artifact@v4
+        with:
+          name: rfl-xpm-sources
+          path: rfl-source/

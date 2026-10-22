@@ -1,0 +1,21 @@
+! XPM2
+! a larger color table
+12 8 8 1
+! colors
+a c #ff595e
+b c #ff924c
+c c #ffca3a
+d c #8ac926
+e c #1982c4
+f c #6a4c93
+g c #f15bb5
+h c #00bbf9
+! pixels
+aaaabbbbcccc
+aaaabbbbcccc
+ddddeeeeffff
+ddddeeeeffff
+gggghhhhaaaa
+gggghhhhaaaa
+bbbbccccdddd
+eeeeffffgggg

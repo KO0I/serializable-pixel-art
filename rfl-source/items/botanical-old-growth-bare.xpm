@@ -1,0 +1,389 @@
+! XPM2
+! xpm-workbench primitive dihedral-impostor
+! xpm-workbench impostor-size 75 128
+! xpm-workbench impostor-gap 1
+! xpm-workbench scene-model botanical-old-growth-bare
+! xpm-workbench model-pivots 74 74
+! Front view, one transparent column, then side view. Both are rooted at the bottom.
+151 128 251 2
+! colors
+   c None
+01 c #130b0c
+02 c #13221d
+03 c #140e0d
+04 c #150e0d
+05 c #15231d
+06 c #160f0e
+07 c #16100f
+08 c #161f1b
+09 c #16251e
+0A c #170f0e
+0B c #170f0f
+0C c #17100f
+0D c #171412
+0E c #171c1a
+0F c #17211d
+0G c #17221d
+0H c #17231d
+0I c #17241e
+0J c #17251e
+0K c #17251f
+0L c #17261f
+0M c #180e0e
+0N c #180f0f
+0O c #18100f
+0P c #181110
+0Q c #18221d
+0R c #18231d
+0S c #18231e
+0T c #18241d
+0U c #18241e
+0V c #18251e
+0W c #190f0e
+0X c #190f0f
+0Y c #19100f
+0Z c #191110
+0a c #191210
+0b c #191412
+0c c #19201b
+0d c #19221d
+0e c #19231d
+0f c #19231e
+0g c #19241d
+0h c #19241e
+0i c #19251e
+0j c #19251f
+0k c #192620
+0l c #1a1110
+0m c #1a211c
+0n c #1a251e
+0o c #1a2b20
+0p c #1b1211
+0q c #1b1411
+0r c #1b1614
+0s c #1b1814
+0t c #1b201b
+0u c #1b221d
+0v c #1c0d0f
+0w c #1c1211
+0x c #1c1f1b
+0y c #1c241e
+0z c #1d1f19
+0_ c #1e1211
+0- c #1e1312
+10 c #1e1b18
+11 c #1e1d19
+12 c #1e271e
+13 c #1f1312
+14 c #1f1315
+15 c #201413
+16 c #201b18
+17 c #202d1f
+18 c #203320
+19 c #210f12
+1A c #211312
+1B c #211313
+1C c #211413
+1D c #211715
+1E c #21241d
+1F c #212d1e
+1G c #212f20
+1H c #213220
+1I c #221213
+1J c #221313
+1K c #221413
+1L c #221514
+1M c #221816
+1N c #221b17
+1O c #223020
+1P c #223320
+1Q c #223420
+1R c #231413
+1S c #231414
+1T c #231514
+1U c #231f17
+1V c #233220
+1W c #233221
+1X c #233320
+1Y c #233321
+1Z c #233421
+1a c #233521
+1b c #241414
+1c c #241514
+1d c #241614
+1e c #241615
+1f c #241715
+1g c #242d1f
+1h c #243120
+1i c #243220
+1j c #243221
+1k c #243321
+1l c #243421
+1m c #243522
+1n c #243622
+1o c #251213
+1p c #251313
+1q c #251414
+1r c #251514
+1s c #251515
+1t c #251614
+1u c #251615
+1v c #251816
+1w c #253421
+1x c #261413
+1y c #261514
+1z c #261615
+1_ c #261715
+1- c #261716
+20 c #262621
+21 c #271716
+22 c #271816
+23 c #281c1a
+24 c #281e1a
+25 c #291917
+26 c #291a19
+27 c #292f22
+28 c #2a1a18
+29 c #2a2420
+2A c #2a2621
+2B c #2a3122
+2C c #2b1c1a
+2D c #2c1816
+2E c #2c1d1b
+2F c #2c1f1d
+2G c #2c2521
+2H c #2d1c19
+2I c #2d3f24
+2J c #2e3924
+2K c #2e4225
+2L c #2f1a18
+2M c #2f201d
+2N c #2f2922
+2O c #2f2b22
+2P c #301a18
+2Q c #301e1d
+2R c #302421
+2S c #303e23
+2T c #312020
+2U c #312421
+2V c #312522
+2W c #312722
+2X c #322522
+2Y c #322622
+2Z c #322623
+2a c #332422
+2b c #332623
+2c c #332723
+2d c #34211f
+2e c #342423
+2f c #342523
+2g c #342623
+2h c #342723
+2i c #342724
+2j c #343325
+2k c #352523
+2l c #352623
+2m c #352724
+2n c #362825
+2o c #362c26
+2p c #362e26
+2q c #374627
+2r c #382422
+2s c #392723
+2t c #392925
+2u c #3a4f28
+2v c #3b2623
+2w c #3b2724
+2x c #3b2b27
+2y c #3c2924
+2z c #3c2a26
+2_ c #3c2e28
+2- c #3d2724
+30 c #3d552a
+31 c #3e2925
+32 c #3e2b27
+33 c #3e2c27
+34 c #3e2c28
+35 c #3f2b27
+36 c #3f2c27
+37 c #3f2c28
+38 c #402c28
+39 c #412b28
+3A c #412d28
+3B c #422c28
+3C c #432e29
+3D c #43302a
+3E c #43592c
+3F c #455e2e
+3G c #462f2a
+3H c #46302a
+3I c #47302a
+3J c #47312a
+3K c #47652e
+3L c #482c2a
+3M c #48312b
+3N c #48662f
+3O c #49312b
+3P c #49322b
+3Q c #49322c
+3R c #49672f
+3S c #49682f
+3T c #496830
+3U c #4a302b
+3V c #4a312b
+3W c #4a322c
+3X c #4a332c
+3Y c #4a682f
+3Z c #4a6930
+3a c #4a6b30
+3b c #4b322c
+3c c #4b332c
+3d c #4b332d
+3e c #4b6931
+3f c #4b6a30
+3g c #4b6b31
+3h c #4b6e31
+3i c #4c312b
+3j c #4c322c
+3k c #4c6c31
+3l c #4c6d31
+3m c #4d6e31
+3n c #4d6f32
+3o c #4d7132
+3p c #50372f
+3q c #51352e
+3r c #52362e
+3s c #53362e
+3t c #54372f
+3u c #55362f
+3v c #55372f
+3w c #563930
+! pixels
+                                                                                                                                        1u                          1u                                                                                                                                        
+                                                                                                                                        1u                          1u                                                                                                                                        
+                                                                                                                                        1u      1u          1u      1u                                                                                                                                        
+                                                                                                                                                1u          1u                                                                                                                                                
+                                                                                                                                      1u      1u1u          1u1u      1u                                                                                                                                      
+                                                                                                                                      1u      2Q3I          3I2Q      1u                                                                                                                                      
+                                                                                                                                      1u      3M              3M      1u                                                                                                                                      
+                                                                                                                                      1u    2Q                  2Q    1u                                                                                                                                      
+                                                                                                0Z                                  1u1u  1u2w                  2w1u  1u1u                                  0Z                                                                                                
+                                                                                                0Z                                  1u1u  313M                  3M31  1u1u                                  0Z                                                                                                
+                                            0h200h                                              0Z                                    1u  3d3M                  3M3d  1u                                    0Z                                              0h200h                                            
+                                            0h2A3h                                              0Z                                    1u  3M                      3M  1u                                    0Z                                              3h2A0h                                            
+                                            0h0x3n1u                                        1u0Z0Z                                    1u1u                          1u1u                                    0Z0Z1u                                        1u3n0x0h                                            
+        3I                                  0h0x3n1u                                    1u  1u0-0Z                                    1u3p                          3p1u                                    0Z0-1u  1u                                    1u3n0x0h                                  3I        
+        2v1u                                  0x3a1u                                    1u    0-0Z                                      3d                          3d                                      0Z0-    1u                                    1u3a0x                                  1u2v        
+      3M3B                                    1u3a1u                                      1u1u0-0O1u1u                                  3W                          3W                                  1u1u0O0-1u1u                                      1u3a1u                                    3B3M      
+    1u3P2Q                                0h  1u0v1_                                      1u1u1c1c                                      3W                          3W                                      1c1c1u1u                                      1_0v1u  0h                                2Q3P1u    
+    3d2Q2Q                                0h  163l1u                                      1u1u                                          3d1A                      1A3d                                          1u1u                                      1u3l16  0h                                2Q2Q3d    
+    3P1c1u                1u              0h0h301_1u                                      1u1u                                          3d                          3d                                          1u1u                                      1u1_300h0h              1u                1u1c3P    
+    3P1u1u                1u                  2u1_1u                                    1u1u                                            3M                          3M                                            1u1u                                    1u1_2u                  1u                1u1u3P    
+  1u3P1u0n0h              1u25            0h  1N1A22                                    1u1u                                            3O1T                      1T3O                                            1u1u                                    221A1N  0h            251u              0h0n1u3P1u  
+  1u3P1c2I0R              1u3Z                  1u3I1A1u                                1u1u                                            1u3d                      3d1u                                            1u1u                                1u1A3I1u                  3Z1u              0R2I1c3P1u  
+  1u222u  0h              3N3T              0h  1u1A1A                                1u1u1u                                            1u3d                      3d1u                                            1u1u1u                                1A1A1u  0h              3T3N              0h  2u221u  
+  1q0i3K  0h          0Z1u3g0h              0h  1u1A                                  1u1u1u1u                                          1u3d                      3d1u                                          1u1u1u1u                                  1A1u  0h              0h3g1u0Z          0h  3K0i1q  
+  1r0U1N  0h            1c3h0R            1u    1u3O  0h                              1u1u1u                                            1u3d                      3d1u                                            1u1u1u                              0h  3O1u    1u            0R3h1c            0h  1N0U1r  
+  1u3a0h  0h            1u1I25              1M  1u3i  0h                    1u      1u1u1u1u                                            1u3d                      3d1u                                            1u1u1u1u      1u                    0h  3i1u  1M              251I1u            0h  0h3a1u  
+  193K0h  0h            3l1I1u                1u1c3i  0h                1u1c        1u1u1u1u                                            1u3X0h                  0h3X1u                                            1u1u1u1u        1c1u                0h  3i1c1u                1u1I3l            0h  0h3K19  
+  19080z0z          1u043N1r0O                  1A3j  0h                1u1c1c1c  1u1u1u1u1u                                            1u3X0h                  0h3X1u                                            1u1u1u1u1u  1c1c1c1u                0h  3j1A                  0O1r3N041u          0z0z0819  
+  1u160x0h            04080Y0Z            0h  0_033j                      1c0Z0O  1u1u  1u1u                                            1u3X0h                  0h3X1u                                            1u1u  1u1u  0O0Z1c                      3j030_  0h            0Z0Y0804            0h0x161u  
+  1u1u0x0h            0O0V1r              0h  0Z073i                      1c0Z0O  1u    1u1R                                            1u3d2o                  2o3d1u                                            1R1u    1u  0O0Z1c                      3i070Z  0h              1r0V0O            0h0x1u1u  
+  1u1c1T10    1u        0U1r                  0w1A  0h                      0Z0Z  1u    1c2i                                            1u1R2o                  2o1R1u                                            2i1c    1u  0Z0Z                      0h  1A0w                  1r0U        1u    101T1c1u  
+  1e1u2Q3W  1u          0R1u1u                0O1J  0h                      0Z0Z  1u1c1e1c                                              1u3d                      3d1u                                              1c1e1c1u  0Z0Z                      0h  1J0O                1u1u0R          1u  3W2Q1u1e  
+  0U1u2Q3M  1A3H        0M1u222b            0b1K3I  0h                      1z0Z1u1u0Z  1u1u                                            1u3d                      3d1u                                            1u1u  0Z1u1u0Z1z                      0h  3I1K0b            2b221u0M        3H1A  3M2Q1u0U  
+  1e1u2Q2y3c1A          0Z1u1-          0h  0b0p3I  0h0h                      1u1u1C    1u1u                                            1u                          1u                                            1u1u    1C1u1u                      0h0h  3I0p0b  0h          1-1u0Z          1A3c2y2Q1u1e  
+    1u3G252-2H          0Z1u2b          0h  0r2s    0h0h                      1c1u0_    1u1u1u                    0h313M                3d  0h                  0h  3d                3M310h                    1u1u1u    0_1u1c                      0h0h    2s0r  0h          2b1u0Z          2H2-253G1u    
+  1e1u1r3M3I3M          0Z1u22            0h0r2s    0h0h        1u            1u1u1u    1u1u1u                    0h1c3Q              1u3d                          3d1u              3Q1c0h                    1u1u1u    1u1u1u            1u        0h0h    2s0r0h            221u0Z          3M3I3M1r1u1e  
+      0h2v3d1R          0Z1u1-            0Z0w13      0h      1u2D1u          1u1u      1u1u1u                    0h1c3W              1A3I                          3I1A              3W1c0h                    1u1u1u      1u1u          1u2D1u      0h      130w0Z            1-1u0Z          1R3d2v0h      
+      0h1u133I3O1u      0Z1u2X            0O2y1u              2L2D  1u      1u1u1u      1u1u2E                    0e1u1T            1u1A  3M2o                  2o3M  1A1u            1T1u0e                    2E1u1u      1u1u1u      1u  2D2L              1u2y0O            2X1u0Z      1u3O3I131u0h      
+      0h1u1u3I3C        0Z1u2U1c          0Z2y1u            1u2D1u  1c      1u1u1u      1c1-2C                      1u1u            1u3I3M                          3M3I1u            1u1u                      2C1-1c      1u1u1u      1c  1u2D1u            1u2y0Z          1c2U1u0Z        3C3I1u1u0h      
+      0h    3G3I3I1u    0Z1u1-1u          0Z2y1C          1c0e0e    0O      1c0Z  0Z    0Z2m2X2X                    1u1u          0Z1c1u3d    0h              0h    3d1u1c0Z          1u1u                    2X2X2m0Z    0Z  0Z1c      0O    0e0e1c          1C2y0Z          1u1-1u0Z    1u3I3I3G    0h      
+  0h  0h    1A1A3M2-      1u1-2b1c        0Z3M      1u2L2-0e0R      0O1u    0Z1u0Z      0Z2i2C2b                    1u1u        1c0O1c        0h              0h        1c0O1c        1u1u                    2b2C2i0Z      0Z1u0Z    1u0O      0R0e2-2L1u      3M0Z        1c2b1-1u      2-3M1A1A    0h  0h  
+  0h        0Z1_1A3M1u  1u0O1u2X2b        1u1v    1c2L2O0h2P0h        1c  1c0Z0O        0Z1u2C1c1u                  1c1u      0Z0Z2b2X        0h    1u  1u    0h        2X2b0Z0Z      1u1c                  1u1c2C1u0Z        0O0Z1c  1c        0h2P0h2O2L1c    1v1u        2b2X1u0O1u  1u3M1A1_0Z        0h  
+  0h          1z3X3M1u  1u0O0p222b        0O0Z152D2L3X2v0h            0O1u1c1c0O      0Z1c1u2C1u1u                  0O2U3G  0Z0Z2b  1u        0x1u          1u0x        1u  2b0Z0Z  3G2U0O                  1u1u2C1u1c0Z      0O1c1c1u0O            0h2v3X2L2D150Z0O        2b220p0O1u  1u3M3X1z          0h  
+  0h0h        0Z3d3M1u  1u1c0l1u2b        0Y0X232D3I3W3I              1c1c0Z1c1u      0Z1u1u2C  1u                  0Z2b1-  0R1b0A  1u  0C1r1c0x              0x1c1r0C  1u  0A1b0R  1-2b0Z                  1u  2C1u1u0Z      1u1c0Z1c1c              3I3W3I2D230X0Y        2b1u0l1c1u  1u3M3d0Z        0h0h  
+    0h        0Z1u2w3O    1c0Z1u1c1u    1u0h0h0h3I2P      0h0h          1u1c1u        061R1A2b  1u                    1u222i2l0h2X1C  0O0A2c1u0h              0h1u2c0A0O  1C2X0h2l2i221u                    1u  2b1A1R06        1u1c1u          0h0h      2P3I0h0h0h1u    1u1c1u0Z1c    3O2w1u0Z        0h    
+              0Z1u2w3I      1T1c3X2b0d0e0i0n3m1n3Q        0h0h          1e0U0Z          2b2U2E  1u                    1r1u1r0U1x1K0Z0Z062X  0h                  0h  2X060Z0Z1K1x0U1r1u1r                    1u  2E2U2b          0Z0U1e          0h0h        3Q1n3m0n0i0e0d2b3X1c1T      3I2w1u0Z              
+              0O1_2w3I      1T0O1A3O0h0h0n3N3Z261u        0h            0V0d0e          2i2b2F  1u                    0Z1u1r2l0h1j2B0h0h  0h0h                  0h0h  0h0h2B1j0h2l1r1u0Z                    1u  2F2b2i          0e0d0V            0h        1u263Z3N0n0h0h3O1A0O1T      3I2w1_0O              
+              0Z1z2H3I1z  1u    0_2d0y0R3a2-3Z241u                    2q0e0Z0h          2i2i2k                        0Z1u0R200h1k1k1k0h  0h0h                  0h0h  0h1k1k1k0h200R1u0Z                        2k2i2i          0h0Z0e2q                    1u243Z2-3a0R0y2d0_    1u  1z3I2H1z0Z              
+              1u1z1u3I1J  1u    1c210y3H3J3Q3F241u          0h      3S0n0R0C0h          2i2i2E                      0O1c1u0e0J0Q1k  0Q0Q  0h0h0h              0h0h0h  0Q0Q  1k0Q0J0e1u1c0O                      2E2i2i          0h0C0R0n3S      0h          1u243F3Q3J3H0y211c    1u  1J3I1u1z1u              
+              0Z1z1u1S3W        1u0O1e1c3M3M3F242L          0h      3f1e0Z              2i2i2C1u                    0O1u0m0H1o1k1k1k1V1k  0h  0h              0h  0h  1k1V1k1k1k1o0H0m1u0O                    1u2C2i2i              0Z1e3f      0h          2L243F3M3M1c1e0O1u        3W1S1u1z0Z              
+              0Z1u1u1K3Q1u      1u1c0Z0C3M0_3E242L2L1c            3S080C                0A2b2b                      0Z1u0y1w1V      3m1l  0h  0h              0h  0h  1l3m      1V1w0y1u0Z                      2b2b0A                0C083S            1c2L2L243E0_3M0C0Z1c1u      1u3Q1K1u1u0Z              
+              0Z0Z1u1u3G3I1Z    1u1u0Z0Z1u1u302_3M2L2L0O          3E0P0Z                0Z2b2b                    0O2i2X1k1V0R    0h3R3m  0h  0h              0h  0h  3m3R0h    0R1V1k2X2i0O                    2b2b0Z                0Z0P3E          0O2L2L3M2_301u1u0Z0Z1u1u    1Z3I3G1u1u0Z0Z              
+              0Z0Z1u1u1K3I1Z    1u1u1u0Z0Z1u312x3M1u2D1L        3K0t1C0Z                0Z2i2b                    1D2M2N1k0h1V    0h3R3Z  0h0h                  0h0h  3Z3R0h    1V0h1k2N2M1D                    2b2i0Z                0Z1C0t3K        1L2D1u3M2x311u0Z0Z1u1u1u    1Z3I1K1u1u0Z0Z              
+                0Z1T1u1R1P1H1N    1u  1u0O1u39333M2H1R130Z      300Z1K      0h          0Z2Z0h                  0Z2M2b1X0n0R2I    0h3R3Z                              3Z3R0h    2I0R0n1X2b2M0Z                  0h2Z0Z          0h      1K0Z30      0Z131R2H3M33391u0O1u  1u    1N1H1P1R1u1T0Z                
+                1c0Z1c1q1j1P1i1u  1u    0O3P3M2Q1J3W1J13      3S0c0O0Z      0h          0Z3Q0h                0O0l2X2b1l0n0R3k      3S3Z                              3Z3S      3k0R0n1l2b2X0l0O                0h3Q0Z          0h      0Z0O0c3S      131J3W1J2Q3M3P0O    1u  1u1i1P1j1q1c0Z1c                
+                  0Z1c1q1X1X1k1Z1u      1u3W3I3P1u1R3W0Z      0F0t1L0Z                  0Z3Q0h1u            0h2l2X2b1b1k0R0F17        3Z                              3Z        170F0R1k1b2b2X2l0h            1u0h3Q0Z                  0Z1L0t0F      0Z3W1R1u3P3I3W1u      1u1Z1k1X1X1q1c0Z                  
+                  0Z0O1K1P1P2B1j1r1f    0O3P311c3I1K030Z      1e0t1L                  0P1z2c2f111u  0h  1m3a0U3M1-2X  0R0h1O1G        3Z                              3Z        1G1O0h0R  2X1-3M0U3a1m  0h  1u112f2c1z0P                  1L0t1e      0Z031K3I1c313P0O    1f1r1j2B1P1P1K0O0Z                  
+                    0Z1K1P1H283M1k1v    0Z3I2y1u1-3I041c1u    1e0t1L                0Z0O0U2l2E111u3o0R  3K0i0n3M2X2X  0h1O1O1G        3Z                              3Z        1G1O1O0h  2X2X3M0n0i3K  0R3o1u112E2l0U0O0Z                1L0t1e    1u1c043I1-1u2y3I0Z    1v1k3M281H1P1K0Z                    
+                    1u0Z1l1l3I3M1c1k3D0Z0Z3I1u1u3I3M030Z      0U1e1V1k              0Z0e1k3i330e2X1d3S300h0U3I3I2X    0h1O3S1G                                                  1G3S1O0h    2X3I3I0U0h303S1d2X0e333i1k0e0Z              1k1V1e0U      0Z033M3I1u1u3I0Z0Z3D1k1c3M3I1l1l0Z1u                    
+                        0O1V0l1S3O1W0R1P0H3V3M1u3I3d0C0-    1u1c1u3F0R          0Z0c0h0Q3U3b2d0h3O1R050x2H3P2b1S2U    0h3a3Z                                                      3Z3a0h    2U1S2b3P2H0x051R3O0h2d3b3U0Q0h0c0Z          0R3F1u1c1u    0-0C3d3I1u3M3V0H1P0R1W3O1S0l1V0O                        
+                          1V0Z0O1S1j1V1k3V3V3M311c1c0O1u    1u0O1U081r          1u0h0h1V3U3M2d113Q1u3w3q3M2X2g0e1u  0h0h3Z3Z                                                      3Z3Z0h0h  1u0e2g2X3M3q3w1u3Q112d3M3U1V0h0h1u          1r081U0O1u    1u0O1c1c313M3V3V1k1V1j1S0O0Z1V                          
+                          3F1C0Z0l1j1h1k3O3V3M3G1c1u0O1u  1u1u1u2u0b1c          0Z0h1g183M252d2O3B3i3t3C3C2g2b1M    0h1k3Z3Z                                                      3Z3Z1k0h    1M2b2g3C3C3t3i3B2O2d253M181g0h0Z          1c0b2u1u1u1u  1u0O1u1c3G3M3V3O1k1h1j0l0Z1C3F                          
+                          3k  0Z0O1h1Z1k3O3V2H3M1J1q0O1u  1u1u3n3E0O1c  0Z0Z    0Z0m1i3L3I2b3s2p3J3t3w3j2l0h0h      0h1k3l3Z                                                      3Z3l1k0h      0h0h2l3j3w3t3J2p3s2b3I3L1i0m0Z    0Z0Z  1c0O3E3n1u1u  1u0O1q1J3M2H3V3O1k1Z1h0O0Z  3k                          
+                          17    0Z1h3D1t2l3O2b3M2b1j010Z  1u3m0I1e1c1u  0Z0Z  0W3j1O3E3d3d3w3t2p2R3t2R2G0h0J0F      0R  3S1l                                                      1l3S  0R      0F0J0h2G2R3t2R2p3t3w3d3d3E1O3j0W  0Z0Z  1u1c1e0I3m1u  0Z011j2b3M2b3O2l1t3D1h0Z    17                          
+                          3k    0Z1i070A0H2X2b3A2b1j1V0Z  0M1l1u1u1e1e      1e0h0h1k1O2X2b023t2p2Y2R1R1b1q  0F      0R  3Z                                                          3Z  0R      0F  1q1b1R2R2Y2p3t022b2X1O1k0h0h1e      1e1e1u1u1l0M  0Z1V1j2b3A2b2X0H0A071i0Z    3k                          
+                          3g      3K0b0O0R2g2b263O2T3f1c111l  1z1e0U0R0R    1e0h1V3K2X2X3w053t2p            0F      3n  3Z                                                          3Z  3n      0F            2p3t053w2X2X3K1V0h1e    0R0R0U1e1z  1l111c3f2T3O262b2g0R0O0b3K      3g                          
+                          3S1k    3S0b0O0R2g2b293M2O170-1n0z0Z0Z0z0d0s0P    1e0h0o2S2b2R3t02  0h                    3Z  3Z                                                          3Z  3Z                    0h  023t2R2b2S0o0h1e    0P0s0d0z0Z0Z0z1n0-172O3M292b2g0R0O0b3S    1k3S                          
+                          3S1k    3S0b0O0R2g2f303b3N0o0Z0a1q0W0C0h0X0Y0e1u1r2k340f3M2R3r3t02  0h                    3Z  3Z                                                          3Z  3Z                    0h  023t3r2R3M0f342k1r1u0e0Y0X0h0C0W1q0a0Z0o3N3b302f2g0R0O0b3S    1k3S                          
+                          3S1k    3S0b0O0H2g273Z121Q3H2M0Z0X0j0n2N0u1r051p1b1V3h0R2B3j3t3t0R  0h          0h      3Z3Z                                                                  3Z3Z      0h          0h  0R3t3t3j2B0R3h1V1b1p051r0u2N0n0j0X0Z2M3H1Q123Z272g0H0O0b3S    1k3S                          
+                          3S1k    3S  0j1x041k2I3N1x1K330a3k3n1n0Z0l1e181j3U3m320h2B3X3t  0h  0h          0h        3Z                                                                  3Z        0h          0h  0h  3t3X2B0h323m3U1j181e0l0Z1n3n3k0a331K1x3N2I1k041x0j  3S    1k3S                          
+                          3Z      1O  0h0Z2X2N2N2Y2n1u322T1n3e3i0X1m1k1k3l3S2T2V3t1V3v    0h  0h          0h    3Z                                                                          3Z    0h          0h  0h    3v1V3t2V2T3S3l1k1k1m0X3i3e1n2T321u2n2Y2N2N2X0Z0h  1O      3Z                          
+                          3Z          0h0Z1D242g2b2i1u2y2S0s2V320s1k1X2B1j2X2X2b322B      0h  0h          0h    3Z                                                                          3Z    0h          0h  0h      2B322b2X2X1j2B1X1k0s322V0s2S2y1u2i2b2g241D0Z0h          3Z                          
+                                      0h0b2h2N2z2b2R3E2q2W0A2X321N1F2X352Z2b2b37333H      0h              0h    3Z                                                                          3Z    0h              0h      3H33372b2b2Z352X1F1N322X0A2W2q3E2R2b2z2N2h0b0h                                      
+                                        0U0O1Y3A2X1p3I2j2b0A2X331j1h2X372b2b2b323v1u      0h                                                                                                                      0h      1u3v322b2b2b372X1h1j332X0A2b2j3I1p2X3A1Y0O0U                                        
+                                        0e0U2G2F3O3L3L3I1E0A2X332I2z2X372b322b321S          0h                                                                                                                  0h          1S322b322b372X2z2I332X0A1E3I3L3L3O2F2G0U0e                                        
+                                        0Z0Z2G2F2R3M3H2O232X2b1Q2B372f2f1d1d3s371S                                                                                                                                          1S373s1d1d2f2f372B1Q2b2X232O3H3M2R2F2G0Z0Z                                        
+                                        0Z0Z0e292g3I1H2O242X2b1Z33332f0R1f1h3r3r                                                                                                                                              3r3r1h1f0R2f33331Z2b2X242O1H3I2g290e0Z0Z                                        
+                                          0Z0Z0c0U0h1y1j2F1R2b1Z371h353t1k1j1k0R                                                                                                                                              0R1k1j1k3t351h371Z2b1R2F1j1y0h0U0c0Z0Z                                          
+                                          0Z0Z0Z1c1x0U2d1u1u2f1w2I1h0R1H0R1V0f1T                                                                                                                                              1T0f1V0R1H0R1h2I1w2f1u1u2d0U1x1c0Z0Z0Z                                          
+                                          0Z0Z0Z2m1c0J111u0J051P2I0T391X1u1z3t1T                                                                                                                                              1T3t1z1u1X390T2I1P050J1u110J1c2m0Z0Z0Z                                          
+                                          0Z0Z0Z0Z0O0D1116141H2p2B3D353t321_3s0R1k1k                                                                                                                                      1k1k0R3s1_323t353D2B2p1H1416110D0O0Z0Z0Z0Z                                          
+                                          0Z0Z0O06060X3205193C332B373u3t373s3s0Q1k                                                                                                                                          1k0Q3s3s373t3u372B333C1905320X06060O0Z0Z                                          
+                                          0Z0A1D042r082t1T1u1c3A2B371V3t373s0h1n1k                                                                                                                                          1k1n0h3s373t1V372B3A1c1u1T2t082r041D0A0Z                                          
+                                          0Z2F2z3B2-2v2X2d3D1u1K2B251H3t3t3p0n1e                                                                                                                                              1e0n3p3t3t1H252B1K1u3D2d2X2v2-3B2z2F0Z                                          
+                                          0Z2z37372b2b2b2t321u0C1N0Z1k3t3m3Z171o                                                                                                                                              1o173Z3m3t1k0Z1N0C1u322t2b2b2b37372z0Z                                          
+                                          0Z2n37372b2t2t2t3A1u0Z0s0l1Y2A2u3S1k                                                                                                                                                  1k3S2u2A1Y0l0s0Z1u3A2t2t2t2b37372n0Z                                          
+                                        1c0Z1E2i2b2b2b2t2t3D1u1u2p0P0G3m1V1Q1V                                                                                                                                                  1V1Q1V3m0G0P2p1u1u3D2t2t2b2b2b2i1E0Z1c                                        
+                                        1c0A1E302Y372b2t2t1u2z322n0f0G1k3r371k                                                                                                                                                  1k373r1k0G0f2n322z1u2t2t2b372Y301E0A1c                                        
+                                        1c2b0h3E2c2R2X32231c3202051l1j1V3H361k                                                                                                                                                  1k363H1V1j1l0502321c23322X2R2c3E0h2b1c                                        
+                                        0O2n2G2Y2Y2V322T0Z1r0h1w1j3937321B0U1V1u                                                                                                                                              1u1V0U1B3237391j1w0h1r0Z2T322V2Y2Y2G2n0O                                        
+                                      1u0Z2b29271Q2V2s1T0E0R272B37322s2s1u0e1V2C                                                                                                                                              2C1V0e1u2s2s32372B270R0E1T2s2V1Q27292b0Z1u                                      
+                                      1u0p0h0h272Y2X1K0r3K1l1h38372r1u1L3i0e1V2s                                                                                                                                              2s1V0e3i1L1u2r37381h1l3K0r1K2X2Y270h0h0p1u                                      
+                                    1u0Z0Z0h0S1j2Y2X052K1X2Y2Z3837250Z0O1u0h0Z0Z                                                                                                                                              0Z0Z0h1u0O0Z2537382Z2Y1X2K052X2Y1j0S0h0Z0Z1u                                    
+                                    1u0Z0Z0e1F2N2l0G3n2q2a2X2f3932250Z0Z0Z0h0Z0Z                                                                                                                                              0Z0Z0h0Z0Z0Z2532392f2X2a2q3n0G2l2N1F0e0Z0Z1u                                    
+                                    1c0N2X1k1V2X0h3N1F2b2F2X1j392m1u0Z0O0e0e3s3Z1u                                                                                                                                          1u3Z3s0e0e0O0Z1u2m391j2X2F2b1F3N0h2X1V1k2X0N1c                                    
+                                    0Z0R1V1l2N1E1V1k2e2b2F2X1j392m1g350O0h0n3t3S1u                                                                                                                                          1u3S3t0n0h0O351g2m391j2X2F2b2e1k1V1E2N1l1V0R0Z                                    
+                                  0h0U0h1k1X2b2G1X1k2e2b2F2X1F3S2p1N1i1k0h0y0h3S1u                                                                                                                                          1u3S0h0y0h1k1i1N2p3S1F2X2F2b2e1k1X2G2b1X1k0h0U0h                                  
+                                0h0h0q0O1X0H0h1E0G1k1X2b1u2X1F2-1g1s1r1r0e0P0h3S3w                                                                                                                                          3w3S0h0P0e1r1r1s1g2-1F2X1u2b1X1k0G1E0h0H1X0O0q0h0h                                
+                                0h1e1G2b2h3e2b2b1r1i1X1E1u2a3a172B323A1r0h0Z0S0h0Y28                                                                                                                                      280Y0h0S0Z0h1r3A322B173a2a1u1E1X1i1r2b2b3e2h2b1G1e0h                                
+                                  1c0Z1k3g2a2b2b2R2a1P1g262e3g283725371r3F0Z0e0h0c1M1u1u1u                                                                                                                          1u1u1u1M0c0h0e0Z3F1r372537283g2e261g1P2a2R2b2b2a3g1k0Z1c                                  
+                                  1c0Z1n3o2k2b2b2i2X2Y1k272e3a2X37323719090R0Z050j0h1k1e1e  0h                                                                                                                  0h  1e1e1k0h0j050Z0R09193732372X3a2e271k2Y2X2i2b2b2k3o1n0Z1c                                  
+                                0e0e0a0M0B1X2b2b2X2b2X1E272e2c2b2m371o0i320a0e32323E0c0e0e  0h                                                                                                                  0h  0e0e0c3E32320e0a320i1o372m2b2c2e271E2X2b2X2b2b1X0B0M0a0e0e                                
+                              1r0U0d0Z0P1n1O2G2X2b2b1J2b173o2c2c15323o0h3M0Z3B05373F0Z0W1y0h0h                                                                                                                  0h0h1y0W0Z3F37053B0Z3M0h3o32152c2c3o172b1J2b2b2X2G1O1n0P0Z0d0U1r                              
+                              0J3n0q0Z0Z0M1G2G2b2b2b1b202K081e2c0Z1U08321B1z1K0h3C313C3H0Z0U11                                                                                                                  110U0Z3H3C313C0h1K1z1B32081U0Z2c1e082K201b2b2b2b2G1G0M0Z0Z0q3n0J                              
+                        1u1u1u0R2S0Z0Z131_0F242b2E2i1u202u0h0h0e0Z0Z1T131c1u1u2A37  37372E1u1u                                                                                                                  1u1u2E3737  372A1u1u1c131T0Z0Z0e0h0h2u201u2i2E2b240F1_130Z0Z2S0R1u1u1u                        
+                      1u13162J2I1c0Z0Z0h0Z0H0h29102b20202A0V0e0h0u1C0Z0O0Z1c160h0h      0-151u0h                                                                                                              0h1u150-      0h0h161c0Z0O0Z1C0u0h0e0V2A20202b10290h0H0Z0h0Z0Z1c2I2J16131u                      
+                      1z0O3g173n  1c0d0Z0Z0H2G0h0U2n0k230z0L0K0J0e  0Z0O1u1r0e1e          0Z1u111e                                                                                                          1e111u0Z          1e0e1r1u0O0Z  0e0J0K0L0z230k2n0U0h2G0H0Z0Z0d1c  3n173g0O1z                      
+                      0Z  010W    1e0X0O1z2f2M2J0J0j2n0Z0O0L1u  0h  0Z0P0Z0J0e1u1n0m0h    0Z0O0U1K32                                                                                                      321K0U0O0Z    0h0m1n1u0e0J0Z0P0Z  0h  1u0L0O0Z2n0j0J2J2M2f1z0O0X1e    0W01  0Z                      
+                    1u  0U0e0V1r0h0W0Z1u2b1c0t2K1y0O0Z0Z0Z0M1e0L0e        0e0Z0O1c1g0n0J    0Z0Y0337                                                                                                      37030Y0Z    0J0n1g1c0O0Z0e        0e0L1e0M0Z0Z0Z0O1y2K0t1c2b1u0Z0W0h1r0V0e0U  1u                    
+                  1u1u1r1r1M0h0h0c0Z1c1u2b1c0y2K1e0Z0Z0l0Z0X1M0m1f  0h    0h  0Z0Z0Z1k0n0R    0Z0O2y                                                                                                      2y0O0Z    0R0n1k0Z0Z0Z  0h    0h  1f0m1M0X0Z0l0Z0Z1e2K0y1c2b1u1c0Z0c0h0h1M1r1r1u1u                  
+                1u1u  1u1M1r1u0b0m  1u1u1u2b0h2K1e0Z1z    0Y0F1m1U2J3g0h0h          1K1p1b    0Z0Z1z1J                                                                                                  1J1z0Z0Z    1b1p1K          0h0h3g2J1U1m0F0Y    1z0Z1e2K0h2b1u1u1u  0m0b1u1r1M1u  1u1u                
+                1u  1u0Y3k38350h0U1u1u1c1S0U302K1i1n3C    0e0Z1m1g1Y3f0U0e0f        0Z1p1i0K    0Z213232                                                                                              3232210Z    0K1i1p0Z        0f0e0U3f1Y1g1m0Z0e    3C1n1i2K300U1S1c1u1u0U0h35383k0Y1u  1u                
+                  1u  3R011R1M0Z    37313S3k2O1U1a1m0Z3237    0O0s1Y1Y    0h        0Z0C1e1p      0Z1u2r                                                                                              2r1u0Z      1p1e0C0Z        0h    1Y1Y0s0O    37320Z1m1a1U2O3k3S3137    0Z1M1R013R  1u                  
+                0Z    0n0X0h0m    323K3Y1c0U1u1C1p1f0C132Q      0s1i1Z1u    0h      0w0C  1r1u    0Z0Z321u                                                                                          1u320Z0Z    1u1r  0C0w      0h    1u1Z1i0s      2Q130C1f1p1C1u0U1c3Y3K32    0m0h0X0n    0Z                
+              0Z    3k0i  0U0F    1u3Z0i1u0O  0Z1c1u0P0-2Q37    0Z1e1Y1u    0h      0O0O    1u    0Z0Z2C2s                                                                                          2s2C0Z0Z    1u    0O0O      0h    1u1Y1e0Z    372Q0-0P1u1c0Z  0O1u0i3Z1u    0F0U  0i3k    0Z              
+                0Y0h0i  3f0Y0Z  383R0o0O0U1k0s0Z1c1u  0O230O  0Z0p2w1Y1u1u          1K1u              0Z0w37                                                                                      370w0Z              1u1K          1u1u1Y2w0p0Z  0O230O  1u1c0Z0s1k0U0O0o3R38  0Z0Y3f  0i0h0Y                
+              0Z0j0h    083A3A  1b0q0Y  0g0M0s0Z0C1u    1u32  0Z2C2w      1u1u    1u                      0Z1c                                                                                  1c0Z                      1u    1u1u      2w2C0Z  321u    1u0C0Z0s0M0g  0Y0q1b  3A3A08    0h0j0Z              
+              0k      3A0G3A  1S0O  0d0U1u1h  0Z0Z1c      1z  0Z321u                                                                                                                                                                      1u320Z  1z      1c0Z0Z  1h1u0U0d  0O1S  3A0G3A      0k              
+            0h        200O2s1M1u  37200U1Z0N      0O1z        0Z28                                                                                                                                                                          280Z        1z0O      0N1Z0U2037  1u1M2s0O20        0h            
+            0Z      32210Z320Z1c  320Q1c1V0C      0Z0Z1z      1u1u                                                                                                                                                                          1u1u      1z0Z0Z      0C1V1c0Q32  1c0Z320Z2132      0Z            
+          0Z        1-0C1u0Z    3B1-1V1i0O1u          0Z      1z                                                                                                                                                                              1z      0Z          1u0O1i1V1-3B    0Z1u0C1-        0Z          
+          0Z      320C1u      370U1l0Z0M0Z                                                                                                                                                                                                                          0Z0M0Z1l0U37      1u0C32      0Z          
+                  06          321x1V0Y0O1c                                                                                                                                                                                                                          1c0O0Y1V1x32          06                  
+                  0Z          1u130a1c1u                                                                                                                                                                                                                              1u1c0a131u          0Z                  
+                            32151k1c                                                                                                                                                                                                                                      1c1k1532                            
+                            2y0Z1u                                                                                                                                                                                                                                          1u0Z2y                            
+                            2t0O                                                                                                                                                                                                                                              0O2t                            
+                              0Z                                                                                                                                                                                                                                              0Z                              

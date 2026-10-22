@@ -1,0 +1,49 @@
+! XPM2
+! xpm-workbench primitive dihedral-impostor
+! xpm-workbench impostor-size 5 8
+! xpm-workbench impostor-gap 1
+! xpm-workbench scene-model k-star-flower
+! xpm-workbench model-pivots 5 5
+! Front view, one transparent column, then side view. Both are rooted at the bottom.
+11 8 31 2
+! colors
+   c None
+01 c #6c4630
+02 c #402a23
+03 c #9b6841
+04 c #75631e
+05 c #d6b83d
+06 c #061522
+07 c #08283a
+08 c #0a3d54
+09 c #0c536b
+0A c #106b82
+0B c #16859a
+0C c #289faf
+0D c #52b9bf
+0E c #8ed2cd
+0F c #d6eee0
+0G c #713116
+0H c #be4e1d
+0I c #f28a2b
+0J c #38251d
+0K c #684124
+0L c #8f3519
+0M c #d35d20
+0N c #ff9d34
+0O c #344854
+0P c #526d7a
+0Q c #8097a0
+0R c #7f481f
+0S c #ef7925
+0T c #149da2
+0U c #5ee1dc
+! pixels
+    0T          0T    
+  0T          0T      
+0T  0U  0U  0T  0U  0U
+    0R0U        0R    
+    0U          0U    
+    0R          0R    
+    0R          0R    
+                      

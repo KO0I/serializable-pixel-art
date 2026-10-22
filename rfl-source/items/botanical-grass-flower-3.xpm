@@ -1,0 +1,32 @@
+! XPM2
+! xpm-workbench primitive dihedral-impostor
+! xpm-workbench impostor-size 16 13
+! xpm-workbench impostor-gap 1
+! xpm-workbench scene-model botanical-grass-flower-3
+! xpm-workbench model-pivots 15 15
+! Front view, one transparent column, then side view. Both are rooted at the bottom.
+33 13 9 2
+! colors
+   c None
+01 c #114c3f
+02 c #253838
+03 c #2a7e2e
+04 c #4c1129
+05 c #6aa438
+06 c #e8e8e8
+07 c #efe61d
+08 c #f577cd
+! pixels
+  05        05                                      05        05  
+  03        05                                      05        03  
+  01        03              03      03              03        01  
+03    08  0503  05        03          03        05  0305  08    03
+01  0807080501  05      01              01      05  0105080708  01
+01    080101    05    0803              0308    05    010108    01
+      01  01    03    0703    01  01    0307    03    01  01      
+0101  050803      01  0108    01  01    0801  01      030805  0101
+  010105  0301    010801    03      03    010801    0103  050101  
+  0103    0101    0301    0603      0306    0103    0101    0301  
+  030101  0103    0301      0103  0301      0103    0301  010103  
+03030301010401  010401  01  0103  0301  01  010401  01040101030303
+01020401040404020102040404040202  02020404040402010204040401040201

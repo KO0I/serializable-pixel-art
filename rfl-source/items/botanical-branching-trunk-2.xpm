@@ -1,0 +1,387 @@
+! XPM2
+! xpm-workbench primitive dihedral-impostor
+! xpm-workbench impostor-size 119 128
+! xpm-workbench impostor-gap 1
+! xpm-workbench scene-model botanical-branching-trunk-2
+! xpm-workbench model-pivots 118 118
+! Front view, one transparent column, then side view. Both are rooted at the bottom.
+239 128 249 2
+! colors
+   c None
+01 c #311a0a
+02 c #321b0c
+03 c #331b0c
+04 c #331c0c
+05 c #361d0c
+06 c #361d0d
+07 c #371e0d
+08 c #381d0d
+09 c #381e0d
+0A c #381f0e
+0B c #391f0d
+0C c #391f0e
+0D c #3a1e0b
+0E c #3a1f0d
+0F c #3a1f0e
+0G c #3a200e
+0H c #3b1f0c
+0I c #3b1f0e
+0J c #3b200d
+0K c #3b200e
+0L c #3b200f
+0M c #3c200e
+0N c #3c210f
+0O c #3d200c
+0P c #3d200d
+0Q c #3d210e
+0R c #3d210f
+0S c #3d220f
+0T c #3e210d
+0U c #3e220f
+0V c #3e2210
+0W c #3f220f
+0X c #3f2310
+0Y c #412310
+0Z c #412410
+0a c #412411
+0b c #422410
+0c c #432511
+0d c #442511
+0e c #442611
+0f c #452611
+0g c #452612
+0h c #462611
+0i c #462712
+0j c #472712
+0k c #472813
+0l c #482712
+0m c #482812
+0n c #482813
+0o c #492812
+0p c #4a2812
+0q c #4a2913
+0r c #4b2913
+0s c #4c2a13
+0t c #4c2a14
+0u c #4c2b15
+0v c #4d2a13
+0w c #4d2b14
+0x c #4d2b15
+0y c #4e2b13
+0z c #4e2b14
+0_ c #4e2b15
+0- c #4e2c15
+10 c #4f2b14
+11 c #4f2c14
+12 c #4f2d16
+13 c #502c14
+14 c #502c15
+15 c #502d16
+16 c #512c15
+17 c #512d14
+18 c #512d15
+19 c #512e16
+1A c #522d14
+1B c #522d15
+1C c #522e15
+1D c #522e16
+1E c #532d15
+1F c #532e15
+1G c #532e16
+1H c #532f17
+1I c #542e15
+1J c #542f16
+1K c #552f16
+1L c #553017
+1M c #553118
+1N c #563016
+1O c #563017
+1P c #563119
+1Q c #573017
+1R c #573117
+1S c #573118
+1T c #573219
+1U c #583118
+1V c #583218
+1W c #583219
+1X c #593218
+1Y c #593219
+1Z c #593319
+1a c #5a3319
+1b c #5a331a
+1c c #5b3318
+1d c #5b3319
+1e c #5b341a
+1f c #5c3318
+1g c #5c341a
+1h c #5c351b
+1i c #5d351a
+1j c #5d351b
+1k c #5e351b
+1l c #5e361b
+1m c #5e361c
+1n c #5f361a
+1o c #5f361b
+1p c #5f361c
+1q c #5f371d
+1r c #60361b
+1s c #60371a
+1t c #60371c
+1u c #61371b
+1v c #61371c
+1w c #61381c
+1x c #62371b
+1y c #62381c
+1z c #62381d
+1_ c #62391d
+1- c #63371a
+20 c #63381c
+21 c #63381d
+22 c #63391c
+23 c #63391d
+24 c #64381a
+25 c #64381b
+26 c #64391d
+27 c #643a1d
+28 c #643a1e
+29 c #65381b
+2A c #65391b
+2B c #653a1e
+2C c #653b1f
+2D c #663a1d
+2E c #663b1e
+2F c #663c1f
+2G c #673b1f
+2H c #673c1f
+2I c #683c1f
+2J c #683d20
+2K c #693c1d
+2L c #693d1f
+2M c #693d20
+2N c #6a3d1f
+2O c #6a3e20
+2P c #6c3f21
+2Q c #6d3e1e
+2R c #6d3f20
+2S c #6d4021
+2T c #6e3f1f
+2U c #6e4021
+2V c #6e4022
+2W c #6e4122
+2X c #6e4123
+2Y c #6f4021
+2Z c #6f4122
+2a c #6f4123
+2b c #6f4222
+2c c #6f4223
+2d c #704120
+2e c #704222
+2f c #704223
+2g c #714223
+2h c #714323
+2i c #724323
+2j c #724324
+2k c #724424
+2l c #734424
+2m c #744423
+2n c #744424
+2o c #744524
+2p c #754422
+2q c #754523
+2r c #754524
+2s c #754525
+2t c #754625
+2u c #764422
+2v c #764523
+2w c #764524
+2x c #764525
+2y c #764624
+2z c #764625
+2_ c #774523
+2- c #774623
+30 c #774625
+31 c #774726
+32 c #784725
+33 c #784726
+34 c #794726
+35 c #794826
+36 c #7a4826
+37 c #7a4927
+38 c #7b4723
+39 c #7b4824
+3A c #7c4926
+3B c #7c4a28
+3C c #7f4b28
+3D c #844c25
+3E c #844d26
+3F c #854e27
+3G c #864d26
+3H c #874f28
+3I c #884f28
+3J c #885028
+3K c #8b5129
+3L c #8c5128
+3M c #8e5229
+3N c #8f5329
+3O c #8f542a
+3P c #90542a
+3Q c #92542a
+3R c #92552a
+3S c #93552a
+3T c #94562b
+3U c #95562b
+3V c #95572b
+3W c #96572b
+3X c #96572c
+3Y c #97572b
+3Z c #97582c
+3a c #98582b
+3b c #98582c
+3c c #98592c
+3d c #99592c
+3e c #9a592c
+3f c #9a5a2d
+3g c #9b5a2c
+3h c #9b5a2d
+3i c #9c5b2d
+3j c #9d5b2d
+3k c #9d5c2e
+3l c #9e5c2d
+3m c #9e5c2e
+3n c #9f5c2e
+3o c #9f5d2e
+3p c #a05d2e
+3q c #a05e2f
+3r c #a15e2f
+3s c #a45f30
+3t c #a66130
+3u c #a96332
+! pixels
+                                                                                                              3d3d                                                                                                                                                                                                                                                          3d3d                                                                                                              
+                                                                                                              3g3g                                                                                                                                                                                                                                                          3g3g                                                                                                              
+                                                                                                              2l2l                                                                                                                                                                                                                                                          2l2l                                                                                                              
+                                                                                                              3H3H                                                                                                                                                                                                                                                          3H3H                                                                                                              
+                                                                                                              3d3d                                                                                                                                                                                                                                                          3d3d                                                                                                              
+                                                                                                              3d3d                                                                                                                                                                                                                                                          3d3d                                                                                                              
+                                                                                                              3a3a                                                                                                                                                                                                                                                          3a3a                                                                                                              
+                                                                                            1t1t1t1t      2l2i2i2i                                                                                                                                                                                                                                                          2i2i2i2l      1t1t1t1t                                                                                            
+                                                                                            1t1t1t1t      2a2a2l2l                                                                                                                                                                                                                                                          2l2l2a2a      1t1t1t1t                                                                                            
+                                                                                                1t1t      3a3a                                                                                                                                                                                                                                                                  3a3a      1t1t                                                                                                
+                                                                                                1t1t      3d3d                                                                                                                                                                                                                                                                  3d3d      1t1t                                                                                                
+                                                                                                1t1t1t1t1t3i3d                                    2l2l2l                                                                                                                                                                              2l2l2l                                    3d3i1t1t1t1t1t                                                                                                
+                                                                                                1t1t1t2J2i2o2n                            2l2l2l2l2l2l2l                                                                                                                                                                              2l2l2l2l2l2l2l                            2n2o2i2J1t1t1t                                                                                                
+                                                                                                1t1t1t2L2l2l2l                            2l2l2l2l2h2h2l                                                                                                                                                                              2l2h2h2l2l2l2l                            2l2l2l2L1t1t1t                                                                                                
+                                                                                                    1t2L2l                            2l2l2l2l2l330O0D                                                                                                                                                                                  0D0O332l2l2l2l2l                            2l2L1t                                                                                                    
+                                                                                                    1t2L2l                            2l2l2l2l2z3B0T0P                                                                                                                                                                                  0P0T3B2z2l2l2l2l                            2l2L1t                                                                                                    
+                                                                                                    1t2L2l                          2l2l2l2l2i0T0M1-24                                                                                                                                                                                  241-0M0T2i2l2l2l2l                          2l2L1t                                                                                                    
+                                                                                                    1t2L2l                          2l2l2l2l2i0P0H242A                                                                                                                                                                                  2A240H0P2i2l2l2l2l                          2l2L1t                                                                                                    
+                                                                                                    1t2L2l3g3d                      2l2l2l2l2l                                                                                                                                                                                                  2l2l2l2l2l                      3d3g2l2L1t                                                                                                    
+                                                                1t1t                                1t1P0x3l3d              252A0U0J2i2l2l2l2l                                                                                                                                                                                                  2l2l2l2l2i0J0U2A25              3d3l0x1P1t                                1t1t                                                                
+                                                                1o1o                                1t0_0R3l3a              1-290U0J2i2l2l2l2l                                                                                                                                                                                                  2l2l2l2l2i0J0U291-              3a3l0R0_1t                                1o1o                                                                
+                                                            0N0N0909                                    0R2k2X1u1y1y1n1F1F1A161A0U0J2i2l2l                                                                                                                                                                                                          2l2l2i0J0U1A161A1F1F1n1y1y1u2X2k0R                                    09090N0N                                                            
+                                                            0K0K0K0N                                    0R2z2i1u1u1y1o1F1F1A1A1F0Q0E2i2j2l                                                                                                                                                                                                          2l2j2i0E0Q1F1A1A1F1F1o1y1u1u2i2z0R                                    0N0K0K0K                                                            
+                                                            1t1v0N0N0N0N                        1t1y0R0R0R2z2i1u221E100M131F201u2p2v2v2m2l                                                                                                                                                                                                          2l2m2v2v2p1u201F130M101E221u2i2z0R0R0R1y1t                        0N0N0N0N1v1t                                                            
+                                                            1t1v0B090K0B                        1t1y0R0F08302i1u221E100R0p0s1k1e2_2-2-2q2l                                                                                                                                                                                                          2l2q2-2-2_1e1k0s0p0R101E221u2i30080F0R1y1t                        0B0K090B1v1t                                                            
+                                                                1o1y0N0t1t                          0R1T2i2l2i1r1y1B0z0R3L3a3a3g1x1v1v                                                                                                                                                                                                                  1v1v1x3g3a3a3L0R0z1B1y1r2i2l2i1T0R                          1t0t0N1y1o                                                                
+                                                                1t1z0N0g19                          0R1T2l2l2i1X1d1B160-3M3a3I3K1x1v1v                                                                                                                                                                                                                  1v1v1x3K3I3a3M0-161B1d1X2i2l2l1T0R                          190g0N1z1t                                                                
+                                                                1t1z0N0N0N1w1t                  2l2z0R1T2i2l2i11151B1K2M3Q3Y2f2n                                                                                                                                                                                                                              2n2f3Y3Q2M1K1B15112i2l2i1T0R2z2l                  1t1w0N0N0N1z1t                                                                
+                                                                    1v150N1w1t              18112i2n1v1t1o2n2i1o1o2M2M2J                                                                                                                                                                                                                                              2J2M2M1o1o2i2n1o1t1v2n2i1118              1t1w0N151v                                                                    
+                                                                    1t120N1v1o              18132i2n1t1t1t2n2i1o1o2I2M2M                                                                                                                                                                                                                                              2M2M2I1o1o2i2n1t1t1t2n2i1318              1o1v0N121t                                                                    
+                                                                          0C0G1w1t    180W0R362o2l2n1t1t1t2n2l2n2r2M2M                                                                                                                                                                                                                                                  2M2M2r2n2l2n1t1t1t2n2l2o360R0W18    1t1w0G0C                                                                          
+                                                                          0N0N1w1o    180W0R332i2z311k1o1t2n2l2l2o2N2M                                                                                                                                                                                                                                                  2M2N2o2l2l2n1t1o1k312z2i330R0W18    1o1w0N0N                                                                          
+                                                                              1t230N0U180W0R332n1B112i2L1t2n2i2I2N1t1t                                                                                                                                                                                                                                                  1t1t2N2I2i2n1t2L2i111B2n330R0W180U0N231t                                                                              
+                                                                              1t230N0U0z0W0R2x2h1G132e2I1t2n2i2U2Y1t1t                                                                                                                                                                                                                                                  1t1t2Y2U2i2n1t2I2e131G2h2x0R0W0z0U0N231t                                                                              
+                                                                                      0N0N0N231t1t1t1t1t1t2n2l3b3Z                                                                                                                                                                                                                                                          3Z3b2l2n1t1t1t1t1t1t230N0N0N                                                                                      
+                                                                                                1t1t1t1t1t2n2i1c1f                                                                                                                                                                                                                                                          1f1c2i2n1t1t1t1t1t                                                                                                
+                                                                                                1t1o1t1t1t2n2i1118                                                                                                                                                                                                                                                          18112i2n1t1t1t1o1t                                                                                                
+                                                                                                1t1k2o2O1t2n2i1118                                                                                                                                                                                                                                                          18112i2n1t2O2o1k1t                                                                                                
+                                                                                                1o1j2i2M1t2n2i1118                                                                                                                                                                                                                                                          18112i2n1t2M2i1j1o                                                                                                
+                                                                                                2i2i2l2M1t2n2i1118                                                                                        0R0R0R0R                                                          0R0R0R0R                                                                                        18112i2n1t2M2l2i2i                                                                                                
+                                                                                                2l2l2l2M1t2n2i1118                                                                                        0R0R0R0R                                                          0R0R0R0R                                                                                        18112i2n1t2M2l2l2l                                                                                                
+                                                                                            1t1o2i2l2l2M1t2n2i1118                                                                                    0R0R                                                                          0R0R                                                                                    18112i2n1t2M2l2l2i1o1t                                                                                            
+                                                                                            1t1o2i2l2l2M1t2n2i1118                                                                    3Z3Z3Z3Z3h1C1818                                                                                  18181C3h3Z3Z3Z3Z                                                                    18112i2n1t2M2l2l2i1o1t                                                                                            
+                                                                                            1t1o2i2i2l2M1t2n2i1118                                                                    3Z3Z3Z3Z3h1C1818                                                                                  18181C3h3Z3Z3Z3Z                                                                    18112i2n1t2M2l2i2i1o1t                                                                                            
+                                                                                            1t1t1k1g2i2l2o2i2i1118                                                                    3Z3Z3Z3Z3h1C1818                                                                                  18181C3h3Z3Z3Z3Z                                                                    18112i2i2o2l2i1g1k1t1t                                                                                            
+                                                                                            1t1t1t1l2i2l2l2l2i1118                                                                    3Z3Z3Z3Z3h1C1818                                                                                  18181C3h3Z3Z3Z3Z                                                                    18112i2l2l2l2i1l1t1t1t                                                                                            
+                                                                                            1t1t1t1l2i2l2l2l2l2l2l                                                                3Z3Z3Z3Z3Z        1818130I0R                                                                  0R0I131818        3Z3Z3Z3Z3Z                                                                2l2l2l2l2l2l2i1l1t1t1t                                                                                            
+                                                                                            1t1t1t1k2o2l2l2l2l2l2i                                                                3Z3c3m3Z3Z        1818130I0R                                                                  0R0I131818        3Z3Z3m3c3Z                                                                2i2l2l2l2l2l2o1k1t1t1t                                                                                            
+                                                                                            1t1t1t1o1t2M2l2l2l2l2o1t1t                                                    3Z3Z3Z3Z3Z3G1B                                                                                                              1B3G3Z3Z3Z3Z3Z                                                    1t1t2o2l2l2l2l2M1t1o1t1t1t                                                                                            
+                                                                                            1g1g1o1t1t2G2V2V2V2l2l2R2R                                                    3Z3Z3Z3c3G3818                                                                                                              18383G3c3Z3Z3Z                                                    2R2R2l2l2V2V2V2G1t1t1o1g1g                                                                                            
+                                                                                            18131o1t1t1t1t1t1t2l2a3W3Z                                                3Z3Z3Z3Z3Z3m1B18                                                                                                                  181B3m3Z3Z3Z3Z3Z                                                3Z3W2a2l1t1t1t1t1t1t1o1318                                                                                            
+                                                                                            181318131o1t1t1t1t2l2a3W3Z3Z                                        3Z3Z3Z3Z3Z3Z3W1B1J                                                                                                                          1J1B3W3Z3Z3Z3Z3Z3Z                                        3Z3Z3W2a2l1t1t1t1t1o13181318                                                                                            
+                                                                                            181818111o1t1t1t1t2l2W3T3V3Z                                        3Z3Z3Z3V3U3U3T1118                                                                                                                          18113T3U3U3V3Z3Z3Z                                        3Z3V3T2W2l1t1t1t1t1o11181818                                                                                            
+                                                                                                18111o1t1t1t1o1k1l1e263Z3Z3Z                                    3Z3Z3Z2K0r0r0r1818                                                                                                                          18180r0r0r2K3Z3Z3Z                                    3Z3Z3Z261e1l1k1o1t1t1t1o1118                                                                                                
+                                                                                                110y1t1t1t1t1t1t1t1t2K3d3Z3Z                                    3Z3Z3Z2Q1818181818                                                                                                                          18181818182Q3Z3Z3Z                                    3Z3Z3d2K1t1t1t1t1t1t1t1t0y11                                                                                                
+                                                                                                1o1t181V1t1t1t1t1t1t232l3R3Z3Z3Z                            3Z3Z3Z3Z3Z2Q181818                                                                                                                                  1818182Q3Z3Z3Z3Z3Z                            3Z3Z3Z3R2l231t1t1t1t1t1t1V181t1o                                                                                                
+                                                                                                1t1v181U1o1o1o1t1t1t1_2i3R3W3Z3Z                            3W3W3W3W3V2Q181818                                                                                                                                  1818182Q3V3W3W3W3W                            3Z3Z3W3R2i1_1t1t1t1o1o1o1U181v1t                                                                                                
+                                                                                                    1o1V1818181t1t1t1t1t2e2l3e3Z3Z3Z                  3Z3Z3W2c2l2l2n181818                                                                                                                                          1818182n2l2l2c3W3Z3Z                  3Z3Z3Z3e2l2e1t1t1t1t1t1818181V1o                                                                                                    
+                                                                                                      1g1d13181t1t1t1t1t282E3C3A3W3Z3Z                3Z3C3A0k0u0u0u1418                                                                                                                                              18140u0u0u0k3A3C3Z                3Z3Z3W3A3C2E281t1t1t1t1t18131d1g                                                                                                      
+                                                                                                        1o13181t1o1o1o1t1t1t2o2f3V3W3X                3Z2w2h060K0N0K13                                                                                                                                                  130K0N0K062h2w3Z                3X3W3V2f2o1t1t1t1o1o1o1t18131o                                                                                                        
+                                                                                                          1w1v0y10101B1t1t1o1j1k1b1P3W3Z3W2f2l    3Z3Z3Z2w2h060G1B1F18                                                                                                                                                  181F1B0G062h2w3Z3Z3Z    2l2f3W3Z3W1P1b1k1j1o1t1t1B10100y1v1w                                                                                                          
+                                                                                                          1t1o1313131G1t1t1t1t1t1t1h3Z3Z3Z2c2i    3Z3Z3Z2w2h050G131818                                                                                                                                                  1818130G052h2w3Z3Z3Z    2i2c3Z3Z3Z1h1t1t1t1t1t1t1G1313131o1t                                                                                                          
+                                                                                                              1t1w1818131k1t1t1t1t1l2i2i2l3d3Z3Z3Z3Z3O2i2l2i0v181818                                                                                                                                                      1818180v2i2l2i3O3Z3Z3Z3Z3d2l2i2i1l1t1t1t1t1k1318181w1t                                                                                                              
+                                                                                                              1t1w1311181o1v1o1t1t1l2o2o2r3d3Z3Z3Z3Z3O2l2s2r0v181818                                                                                                                                                      1818180v2r2s2l3O3Z3Z3Z3Z3d2r2o2o1l1t1t1o1v1o1811131w1t                                                                                                              
+                                                                                                                  1t1k1813131w1t1t1t1l1l1o3h3Z3Z3Z3Z3O2l1B0z18181818                                                                                                                                                      181818180z1B2l3O3Z3Z3Z3Z3h1o1l1l1t1t1t1w1313181k1t                                                                                                                  
+                                                                                                                  1t1i1113181z1v1t1t1t1t1t3p3h3W3Z3Z3N2c1G1818181818                                                                                                                                                      18181818181G2c3N3Z3Z3W3h3p1t1t1t1t1t1v1z1813111i1t                                                                                                                  
+                                                                                                                      1o1C1818131o1t1t1t1t1v1y3c3Z3Z3W3W1Q1818181818                                                                                                                                                      18181818181Q3W3W3Z3Z3c1y1v1t1t1t1t1o1318181C1o                                                                                                                      
+                                                                                                                      1t1G1B13131l1l1o1t1t1t1t3T3R3W3W3T1Q1818181813                                                                                                                                                      13181818181Q3T3W3W3R3T1t1t1t1t1o1l1l13131B1G1t                                                                                                                      
+                                                                                                                        1t1o111818131o1t1t1t1t1t1b3V3O2l1J18181818131o                                                                                                                                                  1o13181818181J2l3O3V1b1t1t1t1t1t1o131818111o1t                                                                                                                        
+                                                                                                                            131818131J1J1J1t1t1t1b3V3O2l1J18181818131o                                                                                                                                                  1o13181818181J2l3O3V1b1t1t1t1J1J1J13181813                                                                                                                            
+                                                                                                                            181818181818181t1o1v1e3V3P2l1J181C1C18131o                                                                                                                                                  1o13181C1C181J2l3P3V1e1v1o1t18181818181818                                                                                                                            
+                                                                                                                                181818181310133n3j3Z3Z3f35303r3r1C18101318                                                                                                                                          181310181C3r3r30353f3Z3Z3j3n13101318181818                                                                                                                                
+                                                                                                                                181818181818183h3d3Z3Z3Z2w2n3h3i130z131318                                                                                                                                          1813130z133i3h2n2w3Z3Z3Z3d3h18181818181818                                                                                                                                
+                                                                                                                                18181818181818180q3V3Z3Z2w2l2l2h3V3Z2I1a18                                                                                                                                          181a2I3Z3V2h2l2l2w3Z3Z3V0q1818181818181818                                                                                                                                
+                                                                                                                                181818181B1313110l3V3Z3f2y2l2l2f3i3o2C1Y18                                                                                                                                          181Y2C3o3i2f2l2l2y3f3Z3V0l1113131B18181818                                                                                                                                
+                                                                                                                                1818180f0N1B181t1b3V3L1t2g2l2l2x0S0C3W2Q18                                                                                                                                          182Q3W0C0S2x2l2l2g1t3L3V1b1t181B0N0f181818                                                                                                                                
+                                                                                                                                0i0i0i0Y0N1B181t1j382u1t2g2l2l2x0R0F2K1c18                                                                                                                                          181c2K0F0R2x2l2l2g1t2u381j1t181B0N0Y0i0i0i                                                                                                                                
+                                                                                                                                0N0N0N0N0N1B181t1t1t1t1t2g2i2i2s0R0L0N0m18                                                                                                                                          180m0N0L0R2s2i2i2g1t1t1t1t1t181B0N0N0N0N0N                                                                                                                                
+                                                                                                                            181B0N0N0N0N0N1B181t1t1t1t1t2g2g01070K0K1B1818                                                                                                                                          18181B0K0K07012g2g1t1t1t1t1t181B0N0N0N0N0N1B18                                                                                                                            
+                                                                                                                            181B0N0N0N0N0N1B181t1t1t1t1t2g2h060K0R0N131818                                                                                                                                          1818130N0R0K062h2g1t1t1t1t1t181B0N0N0N0N0N1B18                                                                                                                            
+                                                                                                                            181B0N0N0N0j1813181t1t1t232l2l2h06063b3i1818181v1t                                                                                                                                  1t1v1818183i3b06062h2l2l231t1t1t1813180j0N0N0N1B18                                                                                                                            
+                                                                                                                            181B0N0N0N0j1310111t1t1k1y2l323005063T3d181818231w                                                                                                                                  1w231818183d3T060530322l1y1k1t1t1110130j0N0N0N1B18                                                                                                                            
+                                                                                                                            181B0N0N0N0j181t1o1t1k2i2i2l0b0R0K063T3d1818181818                                                                                                                                  18181818183d3T060K0R0b2l2i2i1k1t1o1t180j0N0N0N1B18                                                                                                                            
+                                                                                                                            0s0w0N0N0N0j181v1t231z2W2Z2l0Z0N0N063T3d1818181J1J                                                                                                                                  1J1J1818183d3T060N0N0Z2l2Z2W1z231t1v180j0N0N0N0w0s                                                                                                                            
+                                                                                                                        18130C0N0N0N0N0j181v1t2l2o1t232l0Z0N0N063T3d1818181v1t                                                                                                                                  1t1v1818183d3T060N0N0Z2l231t2o2l1t1v180j0N0N0N0N0C1318                                                                                                                        
+                                                                                                                      1t1C130C0N0N0G101S1l2i2g1v1w1t232l0Z0N0N0G1N1N1818181v1t                                                                                                                                  1t1v1818181N1N0G0N0N0Z2l231t1w1v2g2i1l1S100G0N0N0C131C1t                                                                                                                      
+                                                                                                                      1o1B110F0K0N0L181X1t2o2i1o1o1t262l0Z0N0U0R13181818181t1o                                                                                                                                  1o1t18181818130R0U0N0Z2l261t1o1o2i2o1t1X180L0N0K0F111B1o                                                                                                                      
+                                                                                                                      110N0F0N0F1y231v1t1t2o2i1o1j2n3A3e0e0U3u3s1C181818131111                                                                                                                                  1111131818181C3s3u0U0e3e3A2n1j1o2i2o1t1t1v231y0F0N0F0N11                                                                                                                      
+                                                                                                                      180U0K0G0A1o1t1l1l1l2t2l1k1g2f343i0X0A3t3q1I1B1818181818                                                                                                                                  18181818181B1I3q3t0A0X3i342f1g1k2l2t1l1l1l1t1o0A0G0K0U18                                                                                                                      
+                                                                                                                  1818180U0N1B111o1l2i2i2i1o1t2l2W3V3E0U3L3R060U0N0K1318181818                                                                                                                                  18181818130K0N0U063R3L0U3E3V2W2l1t1o2i2i2i1l1o111B0N0U181818                                                                                                                  
+                                                                                                                  1318180U0N1C131o1l2i2l2i1k1t2l2a3Z3G0N3N3V030N0K0G1318181313                                                                                                                                  13131818130G0K0N033V3N0N3G3Z2a2l1t1k2i2l2i1l1o131C0N0U181813                                                                                                                  
+                                                                                                              1t1w180w0N0N0N231o1t1l2i2l2i1k1t2l330R0N0N0N0N0K0G1313180d0N211o                                                                                                                                  1o210N0d1813130G0K0N0N0N0N0R332l1t1k2i2l2i1l1t1o230N0N0N0w181w1t                                                                                                              
+                                                                                                          1t1o1L1O180w0N151H1v1o2P2P2E2E2E1o1t2l330R0N0N0N0N0q0o13180c0W0N                                                                                                                                          0N0W0c18130o0q0N0N0N0N0R332l1t1o2E2E2E2P2P1o1v1H150N0w181O1L1o1t                                                                                                          
+                                                                                                          1o1o1318130v0N1e1t1t1o2i2n1t1t1t1t1t2n340R0N0N0N0N1C1813180N0N0N                                                                                                                                          0N0N0N1813181C0N0N0N0N0R342n1t1t1t1t1t2n2i1o1t1t1e0N0v1318131o1o                                                                                                          
+                                                                                                      1t1o0y11181F0G0S1F1k1t1t1o2i2n1t1t1t2z2r3h3s0U0N0N0N0N1C1B0G0C0L0o1F                                                                                                                                          1F0o0L0C0G1B1C0N0N0N0N0U3s3h2r2z1t1t1t2n2i1o1t1t1k1F0S0G1F18110y1o1t                                                                                                      
+                                                                                                        1t1318181F0N0W131k1t1t1o2i2n1t1o1o2o2l3b3p0U0K0K0K0N1C1B0N0N0N0m18                                                                                                                                          180m0N0N0N1B1C0N0K0K0K0U3p3b2l2o1o1o1t2n2i1o1t1t1k130W0N1F1818131t                                                                                                        
+                                                                                                    1t1V130G0K0K0C131G1t1t1t1t1t1o1o1t2O2l2i2l3b3p0U0c1t1C18131B0N0N0N0K0K                                                                                                                                          0K0K0N0N0N1B13181C1t0c0U3p3b2l2i2l2O1t1o1o1t1t1t1t1t1G130C0K0K0G131V1t                                                                                                    
+                                                                                                    1v1a1C0G0N0N0F101B1t1t1t1t1t1t1t1t2R332W2c3r3u0N0a1v1C18181B0N0N0N0N0N                                                                                                                                          0N0N0N0N0N1B18181C1v0a0N3u3r2c2W332R1t1t1t1t1t1t1t1t1B100F0N0N0G1C1a1v                                                                                                    
+                                                                                                    180i0N0K0N0N091l1o1t1t1t1t1t1t1t1t0u0R3k3V0G0K1313181818181B0N0N0N0N0N                                                                                                                                          0N0N0N0N0N1B1818181813130K0G3V3k0R0u1t1t1t1t1t1t1t1t1o1l090N0N0K0N0i18                                                                                                    
+                                                                                                    0o0i0c0n0n0n0i1o1t1t1t1t1t1t1t1o2E120N382u0Z0Y1L1K181818181B0N0N0N0N0N                                                                                                                                          0N0N0N0N0N1B181818181K1L0Y0Z2u380N122E1o1t1t1t1t1t1t1t1o0i0n0n0n0c0i0o                                                                                                    
+                                                                                                131B0N0h181v1t1t1t1t1t1t1t1t1t1t1t1l2i1M0N0N0N18101o1i181818181B0N0N0N0N0N                                                                                                                                          0N0N0N0N0N1B181818181i1o10180N0N0N1M2i1l1t1t1t1t1t1t1t1t1t1t1t1v180h0N1B13                                                                                                
+                                                                                            18180N0K0N0h181v1t1t1t1t1t1t1t1t2r2l2l2z0K0K0N0N0N1v1w1813181l1o111B0N0K180e0N                                                                                                                                          0N0e180K0N1B111o1l1813181w1v0N0N0N0K0K2z2l2l2r1t1t1t1t1t1t1t1t1v180h0N0K0N1818                                                                                            
+                                                                                            181B0N0N0N0j181t1t1t1o1t1t1t1t1t2o2l2h2o0N0N0N0N0R1v1w1818181j1l10180N0K1C0f0N                                                                                                                                          0N0f1C0K0N18101l1j1818181w1v0R0N0N0N0N2o2h2l2o1t1t1t1t1t1o1t1t1t180j0N0N0N1B18                                                                                            
+                                                  181818181818181818                  1t1G181z1w1B171y1w1t1o1t1t1j2l2n2n2n2n2i2s0C090K0N0N2B1y1o1w1818180K0C0G0G0K093h200N0N0N                                                                                                                                  0N0N0N203h090K0G0G0C0K1818181w1o1y2B0N0N0K090C2s2i2n2n2n2n2l1j1t1t1o1t1w1y171B1w1z181G1t                  181818181818181818                                                  
+                                                  181818181818181818                  1v1G181z1w18111o1t1o1k1k1k1g2i2l2l2l2l33360R0N0N0G0G211t1v2313131C0U0N0N0N0N093W1s0F0304                                                                                                                                  04030F1s3W090N0N0N0N0U1C1313231v1t210G0G0N0N0R36332l2l2l2l2i1g1k1k1k1o1t1o11181w1z181G1v                  181818181818181818                                                  
+                                              1818181818181818181818181818181818181818181818181818111o1t1t2l2i2i2i2i2l2l2l2h090S0N0N0N0j131v1o13111o1W0N0N0N0N0N0N093W2Q183f3T                                                                                                                                  3T3f182Q3W090N0N0N0N0N0N1W1o11131o1v130j0N0N0N0S092h2l2l2l2i2i2i2i2l1t1t1o111818181818181818181818181818181818181818181818181818                                              
+                                              1B1B1B1B1B1B1B1B1B1B1B1B1B1B131818181818181C1C1C1C1G1C1v1w1w2n2l2l2l2l2l2r2r2n050N0N0K0R0m1B1o1l18131o1W0N0N0N0N0K0V0K3W2T1G3j3W                                                                                                                                  3W3j1G2T3W0K0V0K0N0N0N0N1W1o13181l1o1B0m0R0K0N0N052n2r2r2l2l2l2l2l2n1w1w1v1C1G1C1C1C1C181818181818131B1B1B1B1B1B1B1B1B1B1B1B1B1B                                              
+                                        1818181t1t1t1t1t1t1t1t1t1t1t1t1t1o131818181818182B2M2M2I2i2l2l2l2l2l2l2l2l2l323Z3Z3T030N0N0G131X1o11181t1t1t1W0N0N0N0N0C1o1j3W392M3h3W0C0N                                                                                                                          0N0C3W3h2M393W1j1o0C0N0N0N0N1W1t1t1t18111o1X130G0N0N033T3Z3Z322l2l2l2l2l2l2l2l2l2i2I2M2M2B181818181818131o1t1t1t1t1t1t1t1t1t1t1t1t1t181818                                        
+                        181818181818181O1g1g1i1t1l2W2Z2Z2Z2Z2Z2Z2Z2e1t1t1o1g1g1g1k181G262I2I1G1L1S1S1S1S1S1S1S1S1D3N3P3Z2d2N0o0s0s0r1g1U1J1i1g1t1z0c0a0N0N0N1e1W1o1o363F3M3Z3W3D3L0S0N                                                                                                                  0N0S3L3D3W3Z3M3F361o1o1W1e0N0N0N0a0c1z1t1g1i1J1U1g0r0s0s0o2N2d3Z3P3N1D1S1S1S1S1S1S1S1S1L1G2I2I261G181k1g1g1g1o1t1t2e2Z2Z2Z2Z2Z2Z2Z2W1l1t1i1g1g1O18181818181818                        
+                        181818131818181R1t1t1t1t1l2i2i2h2i2i2h2h2h2l1t1t1t1t1t1t1w1B1J2I2I2I0y1818181818181818180p3S3T3T2D1o111818131o1S131t1o1o1z0N0N0N0N0N231t1t1o2i3I3W3V3V3V3m0U0N                                                                                                                  0N0U3m3V3V3V3W3I2i1o1t1t230N0N0N0N0N1z1o1o1t131S1o131818111o2D3T3T3S0p1818181818181818180y2I2I2I1J1B1w1t1t1t1t1t1t2l2h2h2h2i2i2h2i2i1l1t1t1t1t1R18181813181818                        
+                      18181818131v1w1w1t1t2s2o2o2r2l2S052F2h010505012o2o2o2o2o2o2o2z2l1o1o1l111818181818181818181I0302020r1118181818100c0C090909070K0N0N0N0N231t1t1o2i3I3W1q280o0m1C0v0N                                                                                                              0N0v1C0m0o281q3W3I2i1o1t1t230N0N0N0N0K070909090C0c1018181818110r0202031I181818181818181818111l1o1o2l2z2o2o2o2o2o2o2o010505012h2F052S2l2r2o2o2s1t1t1w1w1v1318181818                      
+                      18181311101o1o1o1o1o2s2o2o2o2o2b0N2M2l050N0N072n2o2o2o2o2o2o2o2i1v1v1t131818181818181818181I0K0G0N0z1818181818180f0N0N0N0N0N0N0N0N0N0N231t1t1o2i3J3Z282I1318180s0N                                                                                                              0N0s1818132I283Z3J2i1o1t1t230N0N0N0N0N0N0N0N0N0N0f1818181818180z0N0G0K1I181818181818181818131t1v1v2i2o2o2o2o2o2o2o2n070N0N052l2M0N2b2o2o2o2o2s1o1o1o1o1o1011131818                      
+                  18181818182z2i2i2i2i2i2i0G0N0N0N0N0N0N0N0N0K0N0N0K0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N091l1Z0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N231t1t1o2i2l2l2I2I1318180s0N0N0N211t1t1t                                                                                      1t1t1t210N0N0N0s1818132I2I2l2l2i1o1t1t230N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N1Z1l090N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0K0N0N0K0N0N0N0N0N0N0N0N0G2i2i2i2i2i2i2z1818181818                  
+                  18130y0y102z2i2z2z2z2z2z0C0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N091o1Z0C0C0C0C0C0G0G0L0N0N0N0N0N0N0N0N0N0G0K231t1t1o2i2l2i2G2I0y10130r0G0K0R2B1z1t1t                                                                                      1t1t1z2B0R0K0G0r13100y2I2G2i2l2i1o1t1t230K0G0N0N0N0N0N0N0N0N0N0L0G0G0C0C0C0C0C1Z1o090N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0C2z2z2z2z2z2i2z100y0y1318                  
+              1818181C2i2i2i2l2n0N0N0N0N0N0K0N                  0N0N0N0N0N0N0N0N0N0N0N  0N0N                      1p1o1o1o1o1o1t181B0N0N0N0N0N0N0N0N0N0N0z181v1t1t1o2i2l2l2i2i2I2P1813130R0N0N0C1o1t1t1t1t1t1t        1t                                              1t        1t1t1t1t1t1t1o0C0N0N0R1313182P2I2i2i2l2l2i1o1t1t1v180z0N0N0N0N0N0N0N0N0N0N1B181t1o1o1o1o1o1p                      0N0N  0N0N0N0N0N0N0N0N0N0N0N                  0N0K0N0N0N0N0N2n2l2i2i2i1C181818              
+            1818111w1_2l1m1T1T1W0N0N0N                                                                                          1V1X0-0-0x0G0N0N0N0N0N0N10181X1U1o1o2L2M2M2M2L26281y1i180j0h0K0F1S1V1V1i1o0t0x      0c0-0R                                          0R0-0c      0x0t1o1i1V1V1S0F0K0h0j181i1y28262L2M2M2M2L1o1o1U1X18100N0N0N0N0N0N0G0x0-0-1X1V                                                                                          0N0N0N1W1T1T1m2l1_1w111818            
+          1818180y2h2i2i0q0N0N0N0N0N                                                                                            1t1t1t1t1o0B0N0N0N0N0N0N0z1318131o1t1t1t1t1t1t1t1k2i2O1818130G0G1318181a1o090K1t230N0N0N0N0N1y1o                              1o1y0N0N0N0N0N231t0K091o1a1818130G0G1318182O2i1k1t1t1t1t1t1t1t1o1318130z0N0N0N0N0N0N0B1o1t1t1t1t                                                                                            0N0N0N0N0N0q2i2i2h0y181818          
+          181831370C09090K0N0N0N                                                                                                              1y1y1y1b0N0G0K1F131o1t1t1t1t1t1t1t1t1l262s2s2o101B18181813110F0N0C0B0K0N0N0N0K0B0C0K0N0N0N0N          0N0N0N0N0K0C0B0K0N0N0N0K0B0C0N0F11131818181B102o2s2s261l1t1t1t1t1t1t1t1t1o131F0K0G0N1b1y1y1y                                                                                                              0N0N0N0K09090C37311818          
+          181B2r300R0N0N0N0N0N0N                                                                                                              1t1t1t1W0N0N0R1C131o1o1t1t1t1t1t1t1t1t272i2i2i0y1818181818130G0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N          0N0N0N0N0N0N0N0N0N0N0N0N0N0N0N0G1318181818180y2i2i2i271t1t1t1t1t1t1t1t1o1o131C0R0N0N1W1t1t1t                                                                                                              0N0N0N0N0N0N0R302r1B18          
+        2l2n2n2i300R0N0N                                                                                                                              1v1v1t111813111o1t1t1t1t1t1t1t1o1o2h2i1l1t1t1t1t1O1818181818181818181818181818180c0N0N0N  0N0N0N0c1818181818181818181818181818181O1t1t1t1t1l2i2h1o1o1t1t1t1t1t1t1t1o111318111t1v1v                                                                                                                              0N0N0R302i2n2n2l        
+        2l33332l300S0N0N                                                                                                                              1t1t1o111818131w1w1w1w1w1w1w1t1t1t2h2i1k1t1t1t1t1L1018181010131818181818181818180b0N0N0N  0N0N0N0b1818181818181818181310101818101L1t1t1t1t1k2i2h1t1t1t1w1w1w1w1w1w1w131818111o1t1t                                                                                                                              0N0N0S302l33332l        
+    2l2l2i0N0R    0N0N                                                                                                                                          1813181818181818111o1t1t              1o1o11131o1v1818181818                                      18181818181v1o13111o1o              1t1t1o111818181818181318                                                                                                                                          0N0N    0R0N2i2l2l    
+    2H2H2H0K0N    0N0N                                                                                                                                          1818181818181818111g1g1g              1t1o11131t1w1818181818                                      18181818181w1t13111o1t              1g1g1g111818181818181818                                                                                                                                          0N0N    0N0K2H2H2H    
+0N0N0N0N0N                                                                                                                                                          181818181818181818181818                                                                                                      181818181818181818181818                                                                                                                                                          0N0N0N0N0N
+                                                                                                                                                                                  18181818181818181818                                                                                  18181818181818181818                                                                                                                                                                                  
+                                                                                                                                                                                  18181818181818181818                                                                                  18181818181818181818                                                                                                                                                                                  
+                                                                                                                                                                                                    1818181818                                                                  1818181818                                                                                                                                                                                                    
+                                                                                                                                                                                                    1818181818                                                                  1818181818                                                                                                                                                                                                    

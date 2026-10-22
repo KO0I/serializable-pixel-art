@@ -1,0 +1,49 @@
+! XPM2
+! xpm-workbench primitive dihedral-impostor
+! xpm-workbench impostor-size 14 16
+! xpm-workbench impostor-gap 1
+! xpm-workbench scene-model botanical-plant-16-06
+! xpm-workbench model-pivots 13 13
+! Front view, one transparent column, then side view. Both are rooted at the bottom.
+29 16 23 2
+! colors
+   c None
+01 c #1a3d4e
+02 c #28635d
+03 c #344550
+04 c #345e55
+05 c #3d6a4b
+06 c #3d855f
+07 c #3e7a49
+08 c #4180a9
+09 c #438349
+0A c #457359
+0B c #466665
+0C c #4c7359
+0D c #54844a
+0E c #5d9851
+0F c #5fcde4
+0G c #73ab58
+0H c #7ce1f1
+0I c #9cf7ff
+0J c #befaff
+0K c #dc9960
+0L c #e5aa66
+0M c #f9d384
+! pixels
+    0F0F  0F0F                              0F0F  0F0F    
+  0F0J0J0F0J0J0F                          0F0J0J0F0J0J0F  
+0F0J0J0H0I0J0I0H0F                      0F0H0I0J0I0H0J0J0F
+0F0J0H0M0L0H0H0I08                      080I0H0H0L0M0H0J0F
+  0F0I0L0K0I080808                      0808080I0K0L0I0F  
+0F0J0J0H0J0I0J08                          080J0I0J0H0J0J0F
+080J0H0H080J0J08                          080J0J080H0H0J08
+  080808010808                              080801080808  
+          0101                              0101          
+          010B                              0B01          
+          030C01    0606          0606    010C03          
+    070505010B0C  060E0G06      060G0E06  0C0B01050507    
+  09050303040B0C0201010E0G06  060G0E0101020C0B0403030509  
+070503    0A0B0D01    010G06  060G01    010D0B0A    030507
+0303    0A0B0D01        0606  0606        010D0B0A    0303
+      03030301                              01030303      

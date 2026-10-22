@@ -1,0 +1,46 @@
+! XPM2
+! xpm-workbench primitive dihedral-impostor
+! xpm-workbench impostor-size 12 33
+! xpm-workbench impostor-gap 1
+! xpm-workbench scene-model botanical-14-twig
+! xpm-workbench model-pivots 11 11
+! Front view, one transparent column, then side view. Both are rooted at the bottom.
+25 33 3 2
+! colors
+   c None
+01 c #b66904
+02 c #f0bd14
+! pixels
+                  02          02                  
+                02020202  02020202                
+              0202020202  0202020202              
+              0202020202  0202020202              
+              020202          020202              
+                  01          01                  
+                  01          01                  
+                01              01                
+                01              01                
+              0101              0101              
+              01                  01              
+              01                  01              
+              01                  01              
+              01                  01              
+  02          01                  01          02  
+0202          01                  01          0202
+0202          01                  01          0202
+020202        01                  01        020202
+    01        01                  01        01    
+      01      01                  01      01      
+      01    0101                  0101    01      
+      01    0101                  0101    01      
+        01  0101                  0101  01        
+        01  0101                  0101  01        
+          010101                  010101          
+          0101                      0101          
+          0101                      0101          
+          0101                      0101          
+          0101                      0101          
+          0101                      0101          
+          0101                      0101          
+          0101                      0101          
+          0101                      0101          
