@@ -1,0 +1,1221 @@
+{
+  "format": "xpm-rfl-sources",
+  "version": 1,
+  "characters": [
+    {
+      "id": "purple-character-sep13-modular",
+      "name": "Zes",
+      "defaultFit": "hair",
+      "heightMeters": 2,
+      "fits": [
+        {
+          "id": "hair",
+          "name": "Hair",
+          "source": "art/purple-character-sep13-modular.xpm",
+          "sha256": "8f53c43133cf2c2e142f2108a60404fea655a446d4066a4d721f665f6611a2a1"
+        },
+        {
+          "id": "bald",
+          "name": "Bald",
+          "source": "art/purple-character-sep13-modular-bald.xpm",
+          "sha256": "1f41f81d62f70f641e961e5886ed9d88cc6b44febbc145e37afa043b297e645b"
+        }
+      ]
+    },
+    {
+      "id": "orange-character-modular",
+      "name": "Gratsluni-Kear",
+      "defaultFit": "default",
+      "heightMeters": 2,
+      "fits": [
+        {
+          "id": "default",
+          "name": "Default",
+          "source": "art/orange-character-modular.xpm",
+          "sha256": "9748e0a4f1cc4b0f04ea2e2a326b4c1e0cda120d8c5e96524e8e47bbc645166a"
+        }
+      ]
+    },
+    {
+      "id": "red-trouser-character-modular",
+      "name": "Kebline",
+      "defaultFit": "original",
+      "heightMeters": 2,
+      "fits": [
+        {
+          "id": "original",
+          "name": "Original · trousers & scarf",
+          "source": "art/red-trouser-character-modular.xpm",
+          "sha256": "b7813a50b8d38312ccf095782c48980f3eb7f16a13052a1966ec6a3f0ee5b7a4"
+        },
+        {
+          "id": "gelsuit-hair",
+          "name": "Gelsuit · hair",
+          "source": "art/kebline-gelsuit-hair-character-modular.xpm",
+          "sha256": "378db6a227427af4c4943338d2ba0869e2e8da6b8d5fbba1a44c7d1afbc8b039"
+        },
+        {
+          "id": "gelsuit-bald",
+          "name": "Gelsuit · bald",
+          "source": "art/kebline-gelsuit-bald-character-modular.xpm",
+          "sha256": "076b500f02dee333276a0f0fda88d48cd59dc7241e9b0e54318cbe1ea3bf3f47"
+        },
+        {
+          "id": "trousers-bald",
+          "name": "Trousers & scarf · bald",
+          "source": "art/kebline-trousers-bald-character-modular.xpm",
+          "sha256": "5440865fef67eb2c8533adacdfc3a4cd8217c3fc9f9f9b06eea6b3ea97a788b3"
+        },
+        {
+          "id": "swimsuit-scarf",
+          "name": "Swimsuit · scarf",
+          "source": "art/kebline-swimsuit-scarf-character-modular.xpm",
+          "sha256": "f4751ee9a453f2d5f1087daa4cfef3cc77f4526d0bd8decf8646d9facde87efb"
+        },
+        {
+          "id": "swimsuit",
+          "name": "Swimsuit",
+          "source": "art/kebline-swimsuit-character-modular.xpm",
+          "sha256": "948a0c20948b58fadc1c7f72e9ffff7914b06c820160a81cea7ca9b53d49028b"
+        }
+      ]
+    },
+    {
+      "id": "feather-mantle-character-modular",
+      "name": "Amotter Lelwi",
+      "defaultFit": "default",
+      "heightMeters": 2,
+      "fits": [
+        {
+          "id": "default",
+          "name": "Default",
+          "source": "art/feather-mantle-character-modular.xpm",
+          "sha256": "e1d8cead4b42cafffe8af5662f05316dd36a3b1c6188313fb4cbe0c5d798b43c"
+        }
+      ]
+    },
+    {
+      "id": "jorsl-swimsuit-character-modular",
+      "name": "Jorsl",
+      "defaultFit": "culturnik",
+      "heightMeters": 2,
+      "fits": [
+        {
+          "id": "culturnik",
+          "name": "Culturnik kit",
+          "source": "art/jorsl-culturnik-character-modular.xpm",
+          "sha256": "2c60eefedc7981d081da7b751fee9e3210919a27b682c2c2b67dd3f94717cb0c"
+        },
+        {
+          "id": "swimsuit",
+          "name": "Swimsuit · red trunks",
+          "source": "art/jorsl-swimsuit-character-modular.xpm",
+          "sha256": "04bee3fd487594bad1d0919b87907632aba9e1c9afd540a1ab202715c31fb1d4"
+        }
+      ]
+    },
+    {
+      "id": "sendra-sal",
+      "name": "Sendra Sal",
+      "defaultFit": "kit-bald",
+      "heightMeters": 2,
+      "fits": [
+        {
+          "id": "kit-bald",
+          "name": "Culturnik kit · Bald",
+          "source": "art/sendra-sal-kit-bald-character-modular.xpm",
+          "sha256": "068ea0c41f062d354902d84669c97b1df169e190589c085991a7835974846147"
+        },
+        {
+          "id": "swimsuit",
+          "name": "Swimsuit · Hair",
+          "source": "art/sendra-sal-swimsuit-character-modular.xpm",
+          "sha256": "69a85cc7643ceb59b01ebe0524e80c31b1bcc6f4041d2a38206d7d66fab90740"
+        },
+        {
+          "id": "swimsuit-bald",
+          "name": "Swimsuit · Bald",
+          "source": "art/sendra-sal-swimsuit-bald-character-modular.xpm",
+          "sha256": "a93c7b7be19959ee45a9ee450f5c0ec890d18dae554bc8a12b5ca9aa1c520e82"
+        }
+      ]
+    },
+    {
+      "id": "xilsce-fiday",
+      "name": "Xilsce Fiday",
+      "defaultFit": "kit",
+      "heightMeters": 2,
+      "fits": [
+        {
+          "id": "kit",
+          "name": "Culturnik kit",
+          "source": "art/xilsce-fiday-kit-character-modular.xpm",
+          "sha256": "b2fb34ab03812ca08a9a4750309dc20b9e1a5cec7f9b5fdfb31391a36979a6fc"
+        },
+        {
+          "id": "swimsuit",
+          "name": "Swimsuit",
+          "source": "art/xilsce-fiday-swimsuit-character-modular.xpm",
+          "sha256": "d354a177283c0f4206049f262d3566e7dc4a791b2e9f2fb09a3967dab283cdce"
+        }
+      ]
+    },
+    {
+      "id": "persodj",
+      "name": "Persodj",
+      "defaultFit": "kit",
+      "heightMeters": 2,
+      "fits": [
+        {
+          "id": "kit",
+          "name": "Punk kit",
+          "source": "art/persodj-kit-character-modular.xpm",
+          "sha256": "57d2434f94c1c47027fdf41295b314a2385eaa3648c66aea75ad78a4a8aa6157"
+        },
+        {
+          "id": "swimsuit",
+          "name": "Swimsuit",
+          "source": "art/persodj-swimsuit-character-modular.xpm",
+          "sha256": "324b1e2811b0d33695405d428fc035f9ef842942753088918b0a18798f739aa4"
+        },
+        {
+          "id": "gelfield",
+          "name": "Gelfield suit",
+          "source": "art/persodj-gelfield-character-modular.xpm",
+          "sha256": "31c55e29b09da975ca9669b144c30ff1a83623e6adf49a90eb12e17831d8bafc"
+        }
+      ]
+    },
+    {
+      "id": "haldedjey",
+      "name": "Haldedjey",
+      "defaultFit": "kit",
+      "heightMeters": 2,
+      "fits": [
+        {
+          "id": "kit",
+          "name": "Culturnik kit",
+          "source": "art/haldedjey-kit-character-modular.xpm",
+          "sha256": "0ce0c97187df86f41cabe1d8251cba2eaabb2b67152185edefefd3edb645bef1"
+        },
+        {
+          "id": "kit-bald",
+          "name": "Culturnik kit · Bald",
+          "source": "art/haldedjey-kit-bald-character-modular.xpm",
+          "sha256": "ddaa1499a1d30676d442eb26b7adab187e473783d50ddd06632b6329d5903ede"
+        },
+        {
+          "id": "swimsuit",
+          "name": "Swimsuit · Bald",
+          "source": "art/haldedjey-swimsuit-character-modular.xpm",
+          "sha256": "482ee065765161d92f712d9fe38180680ca6aa6e5207a1b84052114423f141e8"
+        }
+      ]
+    },
+    {
+      "id": "thaul",
+      "name": "Thaul",
+      "defaultFit": "hooded",
+      "heightMeters": 2,
+      "fits": [
+        {
+          "id": "hooded",
+          "name": "Hooded culturnik kit",
+          "source": "art/thaul-hooded-character-modular.xpm",
+          "sha256": "db7dda4066a813209cf8b22e986322a621f4c22869c2e6f15c84bcc09ccb3812"
+        },
+        {
+          "id": "swimsuit",
+          "name": "Swimsuit",
+          "source": "art/thaul-swimsuit-character-modular.xpm",
+          "sha256": "42aa9c0054abe945355e218ccae4bab7d9bae7f934377ff96f1a1bdb4d717d0a"
+        },
+        {
+          "id": "bald",
+          "name": "Swimsuit · Bald",
+          "source": "art/thaul-bald-character-modular.xpm",
+          "sha256": "b7d60fffcaa4963422286414da03da5283632da86932ef4ec3339420053b810f"
+        },
+        {
+          "id": "gelfield",
+          "name": "Green gelfield",
+          "source": "art/thaul-gelfield-character-modular.xpm",
+          "sha256": "14d046f9e0c095b356de864e055be9534f62dba92ddc2a031fa1bb57d785b676"
+        }
+      ]
+    },
+    {
+      "id": "hesh",
+      "name": "Hesh",
+      "defaultFit": "culturnik",
+      "heightMeters": 2,
+      "fits": [
+        {
+          "id": "culturnik",
+          "name": "Culturnik kit",
+          "source": "art/hesh-culturnik-character-modular.xpm",
+          "sha256": "0c894bc5952cb59b39d591e6933e6bd4637bb0240b2194447bd1b9e5f2f8c453"
+        },
+        {
+          "id": "swimsuit-headphones",
+          "name": "Swimsuit · headphones",
+          "source": "art/hesh-swimsuit-headphones-character-modular.xpm",
+          "sha256": "3f5ee093dd04e4a90ead152d26be312d23a8c8c242f00d4404699aaa92810011"
+        },
+        {
+          "id": "swimsuit",
+          "name": "Swimsuit · no headphones",
+          "source": "art/hesh-swimsuit-character-modular.xpm",
+          "sha256": "a2cc25933f711b01b2cb446fcd953713ac483dd58749851409af0a26554db1c1"
+        },
+        {
+          "id": "gelsuit-burgundy",
+          "name": "Burgundy gelsuit",
+          "source": "art/hesh-gelsuit-burgundy-character-modular.xpm",
+          "sha256": "9747ab859e765f40ffa83b3070b11349cd38ecc8a24d7d7e5800e442d708bbb6"
+        }
+      ]
+    },
+    {
+      "id": "sa",
+      "name": "Sa",
+      "defaultFit": "culturnik",
+      "heightMeters": 2,
+      "fits": [
+        {
+          "id": "culturnik",
+          "name": "Culturnik kit",
+          "source": "art/sa-culturnik-character-modular.xpm",
+          "sha256": "48aeb2e2701a2c08f653254e43ed6b5c3d37c3cdf07067a797d4cf577c6a600c"
+        },
+        {
+          "id": "swimsuit-bald",
+          "name": "Swimsuit · bald",
+          "source": "art/sa-swimsuit-bald-character-modular.xpm",
+          "sha256": "0ad330c4f85a39c23c76ade1e67a8200eca5f0e1425d07c0d71654d80b44087f"
+        },
+        {
+          "id": "swimsuit",
+          "name": "Swimsuit · hair & cap",
+          "source": "art/sa-swimsuit-character-modular.xpm",
+          "sha256": "ae19831d5433d02dcf560287f7dcb3179a32dc501714ffdd84c1a0d3ff2e6285"
+        },
+        {
+          "id": "gelsuit-burgundy",
+          "name": "Burgundy gelfield suit",
+          "source": "art/sa-gelsuit-burgundy-character-modular.xpm",
+          "sha256": "2e301bd06d00caf8ce95d8f224638da60438093300a71aacf727ff0d837be776"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "checker",
+      "name": "Checker",
+      "source": "items/checker.xpm",
+      "sha256": "7e43a8e955e45f6a8b133383bb7cfb89172f5d61a2c55ff41a690b41c7399c07"
+    },
+    {
+      "id": "transparent",
+      "name": "Transparent",
+      "source": "items/transparent.xpm",
+      "sha256": "6e9481941a8d6a618e2fe900cddd4cc9e26f0fef8015b2a79636e67ee4966836"
+    },
+    {
+      "id": "palette",
+      "name": "Palette",
+      "source": "items/palette.xpm",
+      "sha256": "2168aefcaab4bea8be0ebae3aed82abc871b2a6ecbb00180ea0153ab4c2e419f"
+    },
+    {
+      "id": "monochrome",
+      "name": "Monochrome",
+      "source": "items/monochrome.xpm",
+      "sha256": "7d821d16eee2efe1d128dae1a57b4f9cfc28031452fff0b66fcb1260490d8f4f"
+    },
+    {
+      "id": "flower",
+      "name": "Flower",
+      "source": "items/flower.xpm",
+      "sha256": "9763362eed3a8334b374ef47c0853cbdcc534dce60ac5b4ce69c5fc45e306c8e"
+    },
+    {
+      "id": "extruded-box",
+      "name": "Extruded box",
+      "source": "items/extruded-box.xpm",
+      "sha256": "f8e6db034301646c73e877ee3479bfa21fd17d43e862239f4734834379587a45"
+    },
+    {
+      "id": "earthlike-grass",
+      "name": "Grass · Earthlike",
+      "source": "items/earthlike-grass.xpm",
+      "sha256": "23919dfb1211d520fb4c6bbc6da705573fc28467cc7408f0a16623c1b825a5e9"
+    },
+    {
+      "id": "earthlike-bush",
+      "name": "Bush · Earthlike",
+      "source": "items/earthlike-bush.xpm",
+      "sha256": "02effdc0144b698b1b1bda288f6ea5bdc979f6c2a09a5849db743b3971c79cb0"
+    },
+    {
+      "id": "earthlike-tree",
+      "name": "Tree · Earthlike",
+      "source": "items/earthlike-tree.xpm",
+      "sha256": "ebb18860368276c46062e6bcaaa52efc7eee62e661eb19c9bb1d2d8d191e1c4a"
+    },
+    {
+      "id": "earthlike-tall-grass",
+      "name": "Tall grass · Earthlike",
+      "source": "items/earthlike-tall-grass.xpm",
+      "sha256": "d1b91e55ffe1b1f17ef1834a7e71afd1639342311654f7e9b116dbb77ee9d277"
+    },
+    {
+      "id": "red-dwarf-grass",
+      "name": "Grass · Red dwarf",
+      "source": "items/red-dwarf-grass.xpm",
+      "sha256": "527dd186aa59700cea40e4971f282e43d2158e74529c9f584c76706c8c1d6e51"
+    },
+    {
+      "id": "red-dwarf-bush",
+      "name": "Bush · Red dwarf",
+      "source": "items/red-dwarf-bush.xpm",
+      "sha256": "307d887b9a9c9294210d286c49028982a7d5d45e3627aff67515ad8f24bcb4dd"
+    },
+    {
+      "id": "red-dwarf-tree",
+      "name": "Tree · Red dwarf",
+      "source": "items/red-dwarf-tree.xpm",
+      "sha256": "42dfacbab0cacdd67a8d639aadd68cc8e53d9c00262ad13cd12e49e93d28f85e"
+    },
+    {
+      "id": "red-dwarf-rock",
+      "name": "Rock · Red dwarf",
+      "source": "items/red-dwarf-rock.xpm",
+      "sha256": "8d999d4fc4477c814c446ec6c705f9fe4cf3915a956fdc9d610a42c317a229b3"
+    },
+    {
+      "id": "k-star-grass",
+      "name": "Grass · K star",
+      "source": "items/k-star-grass.xpm",
+      "sha256": "b302b69d0001c66a29de649be2830012bc0b69a876e45085654ea48e8a922e1d"
+    },
+    {
+      "id": "k-star-bush",
+      "name": "Bush · K star",
+      "source": "items/k-star-bush.xpm",
+      "sha256": "8ec6015f63ce183196356014353344542be96b76131c3543bb1cc56ffe75bf08"
+    },
+    {
+      "id": "k-star-tree",
+      "name": "Tree · K star",
+      "source": "items/k-star-tree.xpm",
+      "sha256": "e572165018b09492ba88c4747fb888d3c44c7d4eeda8d9c6b04d7a46ae76e977"
+    },
+    {
+      "id": "k-star-rock",
+      "name": "Rock · K star",
+      "source": "items/k-star-rock.xpm",
+      "sha256": "3f4d30dfb0ef431e80d7f154b27227694acc6e62ee8d83fde68b3187f1349358"
+    },
+    {
+      "id": "k-star-flower",
+      "name": "Flower · K star",
+      "source": "items/k-star-flower.xpm",
+      "sha256": "9126f47d654feb806ff4d9021b65fcd8a68ceba2387a1f81953d09ecf5b6e8a4"
+    },
+    {
+      "id": "desert-bush",
+      "name": "Low cactus · Desert",
+      "source": "items/desert-bush.xpm",
+      "sha256": "921dd1b14a40ea1ff7cf80dccfbcbe0a568fb63719e461929682da5724b1aed2"
+    },
+    {
+      "id": "desert-tree",
+      "name": "Tall cactus · Desert",
+      "source": "items/desert-tree.xpm",
+      "sha256": "ae502de78b59cfdbfbb927bf4203debc4cd1587b1fd956c0da9e608e8ea65c55"
+    },
+    {
+      "id": "water-clover",
+      "name": "Clover · Water",
+      "source": "items/water-clover.xpm",
+      "sha256": "3d21f11c7fde5e859fc0732c60f5d023bcc8300e0ee16db5d54c06b3c9672396"
+    },
+    {
+      "id": "earthlike-flower",
+      "name": "Flower · Earthlike",
+      "source": "items/earthlike-flower.xpm",
+      "sha256": "3ae8569abf55cc3382cf569c4bca4ac7477224be6efce93d01ef9068fc1e6ce3"
+    },
+    {
+      "id": "botanical-plant-16-01",
+      "name": "Small plant 01 · 16×16",
+      "source": "items/botanical-plant-16-01.xpm",
+      "sha256": "764fe253d6652b70ac4e0895fac8f5433b480077a1f57d1ae35c2ea1ff3ea312"
+    },
+    {
+      "id": "botanical-plant-16-02",
+      "name": "Small plant 02 · 16×16",
+      "source": "items/botanical-plant-16-02.xpm",
+      "sha256": "6c9350d7f7086d2b2c47ef41b9b00f0d7fc1bc68f924b35cb09e82ddd57675d7"
+    },
+    {
+      "id": "botanical-plant-16-03",
+      "name": "Small plant 03 · 16×16",
+      "source": "items/botanical-plant-16-03.xpm",
+      "sha256": "8ae96fbf9ee822f731b2a90d3d93a330386263eeaa105636a46a3e55473b79ee"
+    },
+    {
+      "id": "botanical-plant-16-04",
+      "name": "Small plant 04 · 16×16",
+      "source": "items/botanical-plant-16-04.xpm",
+      "sha256": "b33927e2fd8109ed2b63114483f9e414e1b70b1c6334c70b3a2dc585ce045069"
+    },
+    {
+      "id": "botanical-plant-16-05",
+      "name": "Small plant 05 · 16×16",
+      "source": "items/botanical-plant-16-05.xpm",
+      "sha256": "7afae02c5e386e9cdcac432484592fecb75a1a80be53a77520d34eccaa8fb47e"
+    },
+    {
+      "id": "botanical-plant-16-06",
+      "name": "Small plant 06 · 16×16",
+      "source": "items/botanical-plant-16-06.xpm",
+      "sha256": "a86928f051bebc7fbda1c4d79b10f55df253bd0f2fe641330fae299cfd028b8d"
+    },
+    {
+      "id": "botanical-plant-16-07",
+      "name": "Small plant 07 · 16×16",
+      "source": "items/botanical-plant-16-07.xpm",
+      "sha256": "1fc5a780f53a7d1b82552546faf2b179523a552ca3d7ec50fdcb823e03cbf54c"
+    },
+    {
+      "id": "botanical-plant-16-08",
+      "name": "Small plant 08 · 16×16",
+      "source": "items/botanical-plant-16-08.xpm",
+      "sha256": "63faa244593ad694a91f93ba36b4e9711c0779433946b1b410b6c60944bbb404"
+    },
+    {
+      "id": "botanical-plant-16-09",
+      "name": "Small plant 09 · 16×16",
+      "source": "items/botanical-plant-16-09.xpm",
+      "sha256": "98884ed78f1d924c25c60a7bf8cf53d019975615e20a7d7247ffa16fad56753f"
+    },
+    {
+      "id": "botanical-plant-16-10",
+      "name": "Small plant 10 · 16×16",
+      "source": "items/botanical-plant-16-10.xpm",
+      "sha256": "a38c65fe30440f500f89ad17cb90a6c614302a2daca73ce0918cb5c3a932dcec"
+    },
+    {
+      "id": "botanical-plant-16-11",
+      "name": "Small plant 11 · 16×16",
+      "source": "items/botanical-plant-16-11.xpm",
+      "sha256": "055c3410fca4833e552cfe35ef0a5e13b915268ac71b5b49dfabae6f1c7035dd"
+    },
+    {
+      "id": "botanical-plant-16-12",
+      "name": "Small plant 12 · 16×16",
+      "source": "items/botanical-plant-16-12.xpm",
+      "sha256": "9cd60f098a9db9ffbfb2bfc42dbf70bf7731772fadd97ed0d67ce009c8044aea"
+    },
+    {
+      "id": "botanical-plant-16-13",
+      "name": "Small plant 13 · 16×16",
+      "source": "items/botanical-plant-16-13.xpm",
+      "sha256": "6c248d64d0796af734d11bfc89173668798edbdccc6eaa0b6b08323a0c638b24"
+    },
+    {
+      "id": "botanical-plant-16-14",
+      "name": "Small plant 14 · 16×16",
+      "source": "items/botanical-plant-16-14.xpm",
+      "sha256": "1bfe8d547dd39633e0e76be641a4a4b42495cafc39e201b6b4b025dba1865431"
+    },
+    {
+      "id": "botanical-plant-16-15",
+      "name": "Small plant 15 · 16×16",
+      "source": "items/botanical-plant-16-15.xpm",
+      "sha256": "c2f7d1d9788afd7f94eba33f1b31135ac83e268f8533098ca3062b6f1e196b22"
+    },
+    {
+      "id": "botanical-plant-16-16",
+      "name": "Small plant 16 · 16×16",
+      "source": "items/botanical-plant-16-16.xpm",
+      "sha256": "0b22ca21682449de00895bb0e0c9b1abb667cf728073cb7e00adacd02273da3f"
+    },
+    {
+      "id": "botanical-plant-16-17",
+      "name": "Small plant 17 · 16×16",
+      "source": "items/botanical-plant-16-17.xpm",
+      "sha256": "7c731cbe451bd4c779561eade905b1dcdbe77dabcfd05b6c93859c731dfc2d8f"
+    },
+    {
+      "id": "botanical-plant-16-18",
+      "name": "Small plant 18 · 16×16",
+      "source": "items/botanical-plant-16-18.xpm",
+      "sha256": "12c3c72136eb001488320b7e730916fe5f1fe03594a68dac2157dbafa49f3b7f"
+    },
+    {
+      "id": "botanical-plant-16-19",
+      "name": "Small plant 19 · 16×16",
+      "source": "items/botanical-plant-16-19.xpm",
+      "sha256": "eb516bb659808570e1be8d405cf89e75e331ee74b6311ebf9eef11f027d2ce96"
+    },
+    {
+      "id": "botanical-plant-16-20",
+      "name": "Small plant 20 · 16×16",
+      "source": "items/botanical-plant-16-20.xpm",
+      "sha256": "726012ff8b762089bab0b2635cd8700de2f4e843383bd025d6c06359bebde940"
+    },
+    {
+      "id": "botanical-plant-tall-01",
+      "name": "Tall plant 01 · 16×32",
+      "source": "items/botanical-plant-tall-01.xpm",
+      "sha256": "db15315b86982aee2dc31916b54885f10bdcde33a49ef07c0f0f0e5725a8ff45"
+    },
+    {
+      "id": "botanical-plant-tall-02",
+      "name": "Tall plant 02 · 16×32",
+      "source": "items/botanical-plant-tall-02.xpm",
+      "sha256": "f2efb2ace754d871b9a372924b527e844fb289f1ced277b26deb989234197425"
+    },
+    {
+      "id": "botanical-plant-tall-03",
+      "name": "Tall plant 03 · 16×32",
+      "source": "items/botanical-plant-tall-03.xpm",
+      "sha256": "456fec3f01edf9fea4d63295a084a343d21d4227f512c25416c182e003614ff6"
+    },
+    {
+      "id": "botanical-plant-tall-04",
+      "name": "Tall plant 04 · 16×32",
+      "source": "items/botanical-plant-tall-04.xpm",
+      "sha256": "d743d5829fe0decc558c1bfb44d2624930fa378f5b602a22ca49e74adcf233c4"
+    },
+    {
+      "id": "botanical-plant-tall-05",
+      "name": "Tall plant 05 · 16×32",
+      "source": "items/botanical-plant-tall-05.xpm",
+      "sha256": "82b11fb9f5186e78ecc8d22d0caaf174267bbdad58fac0a67e69cc02d7cd95d1"
+    },
+    {
+      "id": "botanical-plant-tall-06",
+      "name": "Tall plant 06 · 16×32",
+      "source": "items/botanical-plant-tall-06.xpm",
+      "sha256": "3e5668c7593361d4cbc98057f93a4402524dbb310c9e94ac36c5fb093ba9116c"
+    },
+    {
+      "id": "botanical-plant-tall-07",
+      "name": "Tall plant 07 · 16×32",
+      "source": "items/botanical-plant-tall-07.xpm",
+      "sha256": "aaae10d312c1e534e80699ae7236eaa32d50bdf52ec85d38c02599fffcc590ca"
+    },
+    {
+      "id": "botanical-plant-tall-08",
+      "name": "Tall plant 08 · 16×32",
+      "source": "items/botanical-plant-tall-08.xpm",
+      "sha256": "7ec4e58da83004e447376710ca9c528f1c7af565f3a8f7a61a7948b9ea78fe00"
+    },
+    {
+      "id": "botanical-plant-tall-09",
+      "name": "Tall plant 09 · 16×32",
+      "source": "items/botanical-plant-tall-09.xpm",
+      "sha256": "f7b1f746881112c6af01a86ef2b7b3bfad92e2172885c107e1c1cd7d2e5e5318"
+    },
+    {
+      "id": "botanical-plant-tall-10",
+      "name": "Tall plant 10 · 16×32",
+      "source": "items/botanical-plant-tall-10.xpm",
+      "sha256": "1f431ef6e06040e9cc1ba5efa240c8b923d3dd26108bdfa59c56e5b5aad32c13"
+    },
+    {
+      "id": "botanical-plant-32-01",
+      "name": "Flowering plant 01 · 32×32",
+      "source": "items/botanical-plant-32-01.xpm",
+      "sha256": "8dee7fb5670f807c255d59471c6dbb1ee65f202d22132aa53bfaf9387939f4e6"
+    },
+    {
+      "id": "botanical-plant-32-02",
+      "name": "Flowering plant 02 · 32×32",
+      "source": "items/botanical-plant-32-02.xpm",
+      "sha256": "4ca1bd30b7392f6e9486089953aebcb0211c7cb10b51cee7d466266216222f6c"
+    },
+    {
+      "id": "botanical-plant-32-03",
+      "name": "Flowering plant 03 · 32×32",
+      "source": "items/botanical-plant-32-03.xpm",
+      "sha256": "21e93a4e184bea446aa13d8b6dae45d2dd25311f2e02a1931e2704ea39ca8948"
+    },
+    {
+      "id": "botanical-plant-32-04",
+      "name": "Flowering plant 04 · 32×32",
+      "source": "items/botanical-plant-32-04.xpm",
+      "sha256": "ca8a636b23cb21bc57b4386475436b79c288e0d6be85017b066f89af2379320c"
+    },
+    {
+      "id": "botanical-plant-32-05",
+      "name": "Flowering plant 05 · 32×32",
+      "source": "items/botanical-plant-32-05.xpm",
+      "sha256": "bfb242ef129340cfb57928e6f425559230b80921247372770376f787e71e5c1f"
+    },
+    {
+      "id": "botanical-plant-32-06",
+      "name": "Flowering plant 06 · 32×32",
+      "source": "items/botanical-plant-32-06.xpm",
+      "sha256": "199d1b204b070851756588811a99281ea6c1b539710a75e9871f3d1564559a93"
+    },
+    {
+      "id": "botanical-plant-32-07",
+      "name": "Flowering plant 07 · 32×32",
+      "source": "items/botanical-plant-32-07.xpm",
+      "sha256": "93e7eee0fed418794afc81fc61b86ec3b1846642f5a1b6da099c65e0f230f787"
+    },
+    {
+      "id": "botanical-plant-32-08",
+      "name": "Flowering plant 08 · 32×32",
+      "source": "items/botanical-plant-32-08.xpm",
+      "sha256": "70ba72b8ee683208d44bfd786589d093120be3b993cc70a9c933012a5c0fed50"
+    },
+    {
+      "id": "botanical-plant-32-09",
+      "name": "Flowering plant 09 · 32×32",
+      "source": "items/botanical-plant-32-09.xpm",
+      "sha256": "813111ca8e937b01bce70bce4376169bc119526d979325d66a1af985edb96d53"
+    },
+    {
+      "id": "botanical-plant-32-10",
+      "name": "Flowering plant 10 · 32×32",
+      "source": "items/botanical-plant-32-10.xpm",
+      "sha256": "94bf8597ac8652996268c40ac422954c7cbb9a5e11ca8266e4832095675857ee"
+    },
+    {
+      "id": "botanical-tree-48-1",
+      "name": "Spreading tree · 48×48",
+      "source": "items/botanical-tree-48-1.xpm",
+      "sha256": "e068e2429b73b6154125db4e2070d86fa247bf977d25ed6db8505db885a3d055"
+    },
+    {
+      "id": "botanical-tree-48-2",
+      "name": "Gnarled tree · 48×48",
+      "source": "items/botanical-tree-48-2.xpm",
+      "sha256": "69fbe7f77d120073d2d90507f2d80b0b2caba567305f7ce644264792a249ebf7"
+    },
+    {
+      "id": "botanical-tree-48-3",
+      "name": "Round-crown tree · 48×48",
+      "source": "items/botanical-tree-48-3.xpm",
+      "sha256": "2514dd206cd81c4e0976742316b13df183857e320467fd810c2f112e817a57cf"
+    },
+    {
+      "id": "botanical-tree-48-4",
+      "name": "Forked tree · 48×48",
+      "source": "items/botanical-tree-48-4.xpm",
+      "sha256": "28dd8a068dff86bd1d11b5c8ac7620cbb98440b23a1770e24bd6254259a1292a"
+    },
+    {
+      "id": "botanical-palm-large-1",
+      "name": "Large palm 1",
+      "source": "items/botanical-palm-large-1.xpm",
+      "sha256": "f033d25c10c97674ed09803cf83cea4a7ce3d722a6710060933b33fcef049ce0"
+    },
+    {
+      "id": "botanical-palm-large-2",
+      "name": "Large palm 2",
+      "source": "items/botanical-palm-large-2.xpm",
+      "sha256": "ef8ef978b5c252dc29632cf366baf6a78e1cfce82687e59d9dffe550eff59607"
+    },
+    {
+      "id": "botanical-palm-frond-1",
+      "name": "Palm frond 1",
+      "source": "items/botanical-palm-frond-1.xpm",
+      "sha256": "d092ab95b1b85750bf935a83238866d6c3ddaa3aabf7a4f38d57f0cff8d70653"
+    },
+    {
+      "id": "botanical-palm-frond-2",
+      "name": "Palm frond 2",
+      "source": "items/botanical-palm-frond-2.xpm",
+      "sha256": "dc0627709bfe12a9e8915ae8fd735dc9509034422c594b728c528967297f6cbb"
+    },
+    {
+      "id": "botanical-palm-frond-3",
+      "name": "Palm frond 3",
+      "source": "items/botanical-palm-frond-3.xpm",
+      "sha256": "78c2f7a3e6f66a7919b39c043bc6cf7200bc0033fa37a410ddefed37ca38eca7"
+    },
+    {
+      "id": "botanical-palm-frond-4",
+      "name": "Palm frond 4",
+      "source": "items/botanical-palm-frond-4.xpm",
+      "sha256": "eba09b1a7abaac3215abd2cc4546ddcdf6943d55adee527be13b46def162759e"
+    },
+    {
+      "id": "botanical-palm-frond-5",
+      "name": "Palm frond 5",
+      "source": "items/botanical-palm-frond-5.xpm",
+      "sha256": "337378d6d9e08e573eeb902238c7f4ced90ef667c116d9c14f481be95ac0e64b"
+    },
+    {
+      "id": "botanical-palm-medium-1",
+      "name": "Medium palm 1",
+      "source": "items/botanical-palm-medium-1.xpm",
+      "sha256": "de9d4bdcc861b56ae1df75cefb820e371bf6a31a75b474779f75f4327b1bbe01"
+    },
+    {
+      "id": "botanical-palm-medium-2",
+      "name": "Medium palm 2",
+      "source": "items/botanical-palm-medium-2.xpm",
+      "sha256": "490e6e3d7fa127dbfea470f567541efa5d1e3d7a81ee1e7b1d33c78226199be7"
+    },
+    {
+      "id": "botanical-palm-medium-3",
+      "name": "Medium palm 3",
+      "source": "items/botanical-palm-medium-3.xpm",
+      "sha256": "1ee5535f030bcdecc5264f2f09a206385f5b8680acc402718209edb5653229e3"
+    },
+    {
+      "id": "botanical-palm-medium-4",
+      "name": "Medium palm 4",
+      "source": "items/botanical-palm-medium-4.xpm",
+      "sha256": "ec9eeb44921e9ce9227c6215fb7823a046bbc9727adef2d403f008490eeb90e8"
+    },
+    {
+      "id": "botanical-palm-leaning",
+      "name": "Leaning palm",
+      "source": "items/botanical-palm-leaning.xpm",
+      "sha256": "f64771db067fd71ea7ba575d90c8f343db3ac408e1eed84330e9808f0748b410"
+    },
+    {
+      "id": "botanical-palm-small-1",
+      "name": "Small palm 1",
+      "source": "items/botanical-palm-small-1.xpm",
+      "sha256": "8a5c11f0b7d6b936c96fddbf6d8d4301874353583758de44a74c926d5bc852c7"
+    },
+    {
+      "id": "botanical-palm-small-2",
+      "name": "Small palm 2",
+      "source": "items/botanical-palm-small-2.xpm",
+      "sha256": "fcfee713f05eec0ae3f7845dc52c45b4bc540029fd4fbf243f831910c7350af3"
+    },
+    {
+      "id": "botanical-palm-small-3",
+      "name": "Small palm 3",
+      "source": "items/botanical-palm-small-3.xpm",
+      "sha256": "7cbd8cb8de1ba9a91972e2cfb0a66bd596ba794f4be6a3a4e67c4f0fa76882f4"
+    },
+    {
+      "id": "botanical-palm-small-4",
+      "name": "Small palm 4",
+      "source": "items/botanical-palm-small-4.xpm",
+      "sha256": "914e912b0fae941660ad7ac7706b922dbc2efd0976b3213ed091164a8e726e1e"
+    },
+    {
+      "id": "botanical-palm-small-5",
+      "name": "Small palm 5",
+      "source": "items/botanical-palm-small-5.xpm",
+      "sha256": "3e3823f68190760848577914fbdba141f71608b7f72a33eeb864e20f0d7db385"
+    },
+    {
+      "id": "botanical-grass-flower-1",
+      "name": "Grass & flowers 1",
+      "source": "items/botanical-grass-flower-1.xpm",
+      "sha256": "bde99ea58c44c7b8fddc151c6e80a7ce3b71f8bc18a8743d96275876d539cf04"
+    },
+    {
+      "id": "botanical-grass-flower-2",
+      "name": "Grass & flowers 2",
+      "source": "items/botanical-grass-flower-2.xpm",
+      "sha256": "75208c8ef1fe0a9537bce14376ca7e070daeec9eaf70de30df0977a31d2c3da3"
+    },
+    {
+      "id": "botanical-grass-flower-3",
+      "name": "Grass & flowers 3",
+      "source": "items/botanical-grass-flower-3.xpm",
+      "sha256": "041573c8f211c569f0e6ef40e90cf151d434b67753a822096ede94d89291ced4"
+    },
+    {
+      "id": "botanical-bug-1-frame-1",
+      "name": "Bug 1 · frame 1",
+      "source": "items/botanical-bug-1-frame-1.xpm",
+      "sha256": "c7fc55b59954e1fdfc6d654c52fe7a85627230355342e22576a2d486421942f4"
+    },
+    {
+      "id": "botanical-bug-1-frame-2",
+      "name": "Bug 1 · frame 2",
+      "source": "items/botanical-bug-1-frame-2.xpm",
+      "sha256": "3f5b86230556a11a44831a7fd3f483a719e584789774d53e09e8aaf3414977ca"
+    },
+    {
+      "id": "botanical-bug-1-frame-3",
+      "name": "Bug 1 · frame 3",
+      "source": "items/botanical-bug-1-frame-3.xpm",
+      "sha256": "39cc2431a3edc9c40ea420d02f4603150927deb6cf413dd4684ecf2dbed69f84"
+    },
+    {
+      "id": "botanical-bug-1-frame-4",
+      "name": "Bug 1 · frame 4",
+      "source": "items/botanical-bug-1-frame-4.xpm",
+      "sha256": "d6e6bd0bd7c0fb1677600a42d6ebbef2d49445e252c3030950ebac816485e243"
+    },
+    {
+      "id": "botanical-bug-1-frame-5",
+      "name": "Bug 1 · frame 5",
+      "source": "items/botanical-bug-1-frame-5.xpm",
+      "sha256": "cf9fafa7ea452d0b28c8c97d97fb0902d044a13911f4a8b9b584377fc0bb5582"
+    },
+    {
+      "id": "botanical-bug-1-frame-6",
+      "name": "Bug 1 · frame 6",
+      "source": "items/botanical-bug-1-frame-6.xpm",
+      "sha256": "28d5683e2de625456b9c207c71d8bf574e55697ea7c3e412f6c8baecb43d9f98"
+    },
+    {
+      "id": "botanical-bug-2-frame-2",
+      "name": "Bug 2 · frame 2",
+      "source": "items/botanical-bug-2-frame-2.xpm",
+      "sha256": "b2ab82d3b0c4e4e69300465e133935aa92376dde610adbab27efb3eef108f64a"
+    },
+    {
+      "id": "botanical-bug-2-frame-4",
+      "name": "Bug 2 · frame 4",
+      "source": "items/botanical-bug-2-frame-4.xpm",
+      "sha256": "1ddf0f742e5b137e4ae24eebe243460831ae22e39bbf445f00d68a911bc303b0"
+    },
+    {
+      "id": "botanical-bug-2-frame-6",
+      "name": "Bug 2 · frame 6",
+      "source": "items/botanical-bug-2-frame-6.xpm",
+      "sha256": "36b67f53fbcf1c1e361a4025b15155a429dfb3e28f3d8d45033a806f5535357d"
+    },
+    {
+      "id": "botanical-moss-stump-1",
+      "name": "Mossy stump · wide roots",
+      "source": "items/botanical-moss-stump-1.xpm",
+      "sha256": "f6ef4f888f252a23afb507f3e9223b0f2dc32458823a60f4f81fa41580c25969"
+    },
+    {
+      "id": "botanical-moss-stump-2",
+      "name": "Mossy stump · tall",
+      "source": "items/botanical-moss-stump-2.xpm",
+      "sha256": "3b81011a4c79dd8436daa762f51ec115554fc9793f6119fc74dbbd44c9da5e2f"
+    },
+    {
+      "id": "botanical-moss-stump-3",
+      "name": "Blue-fungus stump",
+      "source": "items/botanical-moss-stump-3.xpm",
+      "sha256": "832ddce77c4e8197aae51d0c1bebb0ec0e666a17dadb79cab5436478a7acaa11"
+    },
+    {
+      "id": "botanical-golden-broad",
+      "name": "Golden tree · broad crown",
+      "source": "items/botanical-golden-broad.xpm",
+      "sha256": "0fa3d70a22395326acba7515c143cd5d9e3e94646ec328ea3bd78a198edf2f16"
+    },
+    {
+      "id": "botanical-old-growth-draped",
+      "name": "Old growth · moss-draped tree",
+      "source": "items/botanical-old-growth-draped.xpm",
+      "sha256": "48ae88aebf574f2f6cfc25b75066a79394aaa9e19d1297eb599ad6f667060f07"
+    },
+    {
+      "id": "botanical-old-growth-bare",
+      "name": "Old growth · bare trunk",
+      "source": "items/botanical-old-growth-bare.xpm",
+      "sha256": "aefe84eaead96492168078429ea378c7ab0948fc6573aca7bc6b27f0c22a4a99"
+    },
+    {
+      "id": "botanical-golden-forked",
+      "name": "Golden tree · forked crown",
+      "source": "items/botanical-golden-forked.xpm",
+      "sha256": "5065614e623df380cc59936a7ae8466f73ea7dead628841b7b7e79c100b6e464"
+    },
+    {
+      "id": "botanical-old-growth-layered",
+      "name": "Old growth · layered crown",
+      "source": "items/botanical-old-growth-layered.xpm",
+      "sha256": "ff1dd2ca1d44da321434fc482a4602641603d63a7cd86aef1acc62ea825e0693"
+    },
+    {
+      "id": "botanical-moss-branch-trunk",
+      "name": "Moss-draped branch trunk",
+      "source": "items/botanical-moss-branch-trunk.xpm",
+      "sha256": "9da927d19b255a7f98a47b1de5bbd22b19902574acbee0b0d3409a4c3c6163a6"
+    },
+    {
+      "id": "botanical-conifer-1",
+      "name": "Tall conifer",
+      "source": "items/botanical-conifer-1.xpm",
+      "sha256": "f41db2f7593eef51bd54cd68e77b33816db72d9e0221deaff53fdaab8dffa56f"
+    },
+    {
+      "id": "botanical-conifer-2",
+      "name": "Young conifer",
+      "source": "items/botanical-conifer-2.xpm",
+      "sha256": "609c780a45c513b60b35e2697a1341f56e54e36e2e6fdbb1005b6a9f32b956a6"
+    },
+    {
+      "id": "botanical-08-canopy",
+      "name": "Golden canopy · large source",
+      "source": "items/botanical-08-canopy.xpm",
+      "sha256": "3c9dbebe5ed3bec407da28484adc5295fad0c43e55c3a6e1fabd0dd68123b194"
+    },
+    {
+      "id": "botanical-08-twig",
+      "name": "Golden twig · large source",
+      "source": "items/botanical-08-twig.xpm",
+      "sha256": "ee54d9f6eee52a926a870e2ebeef6c3680447d66dd06393f9e4fe5b34dbeabfa"
+    },
+    {
+      "id": "botanical-08-low-canopy",
+      "name": "Low golden canopy · large source",
+      "source": "items/botanical-08-low-canopy.xpm",
+      "sha256": "c14da5861a96ebda71dfa08048831212fb3254030899c7b3841933ec065afc47"
+    },
+    {
+      "id": "botanical-08-root",
+      "name": "Golden root shoot · large source",
+      "source": "items/botanical-08-root.xpm",
+      "sha256": "a81ba241d115f4a396ca3bb8a46894d5f50cb1596d258eb687840dc2ce15e6c7"
+    },
+    {
+      "id": "botanical-08-stump",
+      "name": "Broad rooted stump · large source",
+      "source": "items/botanical-08-stump.xpm",
+      "sha256": "e6f224f8e07cc7e86f4b8c3ea25283bc6e347d1f87a3508a18e9de01bb4c8e81"
+    },
+    {
+      "id": "botanical-14-canopy",
+      "name": "Golden canopy · small source",
+      "source": "items/botanical-14-canopy.xpm",
+      "sha256": "4f82e2a5ab32372d1c71d153530965485477cc0be68d5dcf50a5b4074088067c"
+    },
+    {
+      "id": "botanical-14-twig",
+      "name": "Golden twig · small source",
+      "source": "items/botanical-14-twig.xpm",
+      "sha256": "a454fd1cc041ec52a2636067092dd1e6fc9a0c2776f8e1915aabfcb4f7a6c23e"
+    },
+    {
+      "id": "botanical-14-low-canopy",
+      "name": "Low golden canopy · small source",
+      "source": "items/botanical-14-low-canopy.xpm",
+      "sha256": "6ad68f95fc301992f024d1174bd01f423e96a880eb7d0576372016cdb1f07c1d"
+    },
+    {
+      "id": "botanical-14-root",
+      "name": "Golden root shoot · small source",
+      "source": "items/botanical-14-root.xpm",
+      "sha256": "e6f34b9d433ebade4a89a902c3ec110f26c027ec65f3ab213d3f92655d991a8a"
+    },
+    {
+      "id": "botanical-14-stump",
+      "name": "Broad rooted stump · small source",
+      "source": "items/botanical-14-stump.xpm",
+      "sha256": "5731583b05ed6f3275980c526c1a5f329790266a54448f4cece73b9b498dfbbb"
+    },
+    {
+      "id": "botanical-branching-trunk-1",
+      "name": "Forked bare trunk",
+      "source": "items/botanical-branching-trunk-1.xpm",
+      "sha256": "dab903c9a4377763aaf982b6eab8d2e79efa027c9820ae5a9c5076aa8f0d73b0"
+    },
+    {
+      "id": "botanical-branching-trunk-2",
+      "name": "Sweeping bare trunk",
+      "source": "items/botanical-branching-trunk-2.xpm",
+      "sha256": "96dd47dc48b5ca25d59e1ef80d1a510e3e99864d6952437ec2ed406dbad08ab1"
+    },
+    {
+      "id": "botanical-trailing-english-ivy",
+      "name": "English ivy · trailing",
+      "source": "items/botanical-trailing-english-ivy.xpm",
+      "sha256": "1cae69d9e8c3c8059123415b863f9a0c4b899ea5e8f88f03f5b355147975e845"
+    },
+    {
+      "id": "botanical-trailing-pothos",
+      "name": "Green pothos · trailing",
+      "source": "items/botanical-trailing-pothos.xpm",
+      "sha256": "0b310dce338a021c76eec5537e3dd4f7043c6cedc490cae812d688b3fe600d9a"
+    },
+    {
+      "id": "botanical-trailing-heartleaf-philodendron",
+      "name": "Heartleaf philodendron · trailing",
+      "source": "items/botanical-trailing-heartleaf-philodendron.xpm",
+      "sha256": "a433a387bc8c55e94fb657050f946ca8f8c0a67deba022fed7815f240de316a5"
+    },
+    {
+      "id": "botanical-trailing-creeping-fig",
+      "name": "Creeping fig · trailing",
+      "source": "items/botanical-trailing-creeping-fig.xpm",
+      "sha256": "8ac3fd702a6dd1b668e354261d521b16126977932a49d7adb3926e8c50ef0174"
+    },
+    {
+      "id": "botanical-trailing-grape-ivy",
+      "name": "Grape ivy · trailing",
+      "source": "items/botanical-trailing-grape-ivy.xpm",
+      "sha256": "f7ddcac74b1b9e8176d7b4d85fbe97c34020bb623dc82d13daa6620a19efdd02"
+    },
+    {
+      "id": "botanical-trailing-boston-fern",
+      "name": "Boston fern · trailing",
+      "source": "items/botanical-trailing-boston-fern.xpm",
+      "sha256": "2d89dae3a2e61e00107b9c08147eb72bec41cdb4d1dc446fdf32fa548460357e"
+    },
+    {
+      "id": "botanical-trailing-rhipsalis",
+      "name": "Rhipsalis · trailing",
+      "source": "items/botanical-trailing-rhipsalis.xpm",
+      "sha256": "097f31917b5a2a3e7e57c4202d3d478d2c727afd042f8f9cb7f1d210ec15e39a"
+    },
+    {
+      "id": "botanical-trailing-dichondra",
+      "name": "Green Dichondra · trailing",
+      "source": "items/botanical-trailing-dichondra.xpm",
+      "sha256": "9c184a885efe5937eba8ad180cfde93db1aeb397e8621e99ff5c0c46024dbeea"
+    },
+    {
+      "id": "woodland-elm",
+      "name": "Branching elm · Earthlike",
+      "source": "items/woodland-elm.xpm",
+      "sha256": "299cabc536ac78e4b05580ccb26d5086346d83343b33ec8a486060dc8a8a189e"
+    },
+    {
+      "id": "woodland-spreading",
+      "name": "Spreading woodland tree · Earthlike",
+      "source": "items/woodland-spreading.xpm",
+      "sha256": "8e05c72db9ccc774dbe453a4ef867a4546a6d9232fc2bfdc1b71a0ef4c68bb10"
+    },
+    {
+      "id": "woodland-knotty-oak",
+      "name": "Knotty oak · Earthlike",
+      "source": "items/woodland-knotty-oak.xpm",
+      "sha256": "abf7fe3654bf0159f1e0a52a9251d52dad228b16ad955ced834bfdd8a480bfe2"
+    }
+  ],
+  "unsupported": [
+    {
+      "id": "manual-plaid",
+      "name": "Manual plaid",
+      "reason": "Procedural scene, dynamic material, controller or specialized body plan; no portable static XPM source."
+    },
+    {
+      "id": "sphere",
+      "name": "Sphere",
+      "reason": "Procedural scene, dynamic material, controller or specialized body plan; no portable static XPM source."
+    },
+    {
+      "id": "triangular-pyramid",
+      "name": "Triangular pyramid",
+      "reason": "Procedural scene, dynamic material, controller or specialized body plan; no portable static XPM source."
+    },
+    {
+      "id": "steaming-green-bowl",
+      "name": "Steaming green bowl",
+      "reason": "Procedural scene, dynamic material, controller or specialized body plan; no portable static XPM source."
+    },
+    {
+      "id": "torus",
+      "name": "Torus",
+      "reason": "Procedural scene, dynamic material, controller or specialized body plan; no portable static XPM source."
+    },
+    {
+      "id": "sphere-checker-floor",
+      "name": "Glass sphere + checker floor",
+      "reason": "Procedural scene, dynamic material, controller or specialized body plan; no portable static XPM source."
+    },
+    {
+      "id": "torus-checker-floor",
+      "name": "Glass torus + checker floor",
+      "reason": "Procedural scene, dynamic material, controller or specialized body plan; no portable static XPM source."
+    },
+    {
+      "id": "animated-glass-sphere",
+      "name": "Animated glass sphere",
+      "reason": "Procedural scene, dynamic material, controller or specialized body plan; no portable static XPM source."
+    },
+    {
+      "id": "impostor-sphere-2xpm",
+      "name": "Impostor (2 XPM) sphere",
+      "reason": "Procedural scene, dynamic material, controller or specialized body plan; no portable static XPM source."
+    },
+    {
+      "id": "impostor-triangular-pyramid-2xpm",
+      "name": "Triangular pyramid (2 XPM)",
+      "reason": "Procedural scene, dynamic material, controller or specialized body plan; no portable static XPM source."
+    },
+    {
+      "id": "impostor-cube-2xpm",
+      "name": "Solid cube (2 XPM)",
+      "reason": "Procedural scene, dynamic material, controller or specialized body plan; no portable static XPM source."
+    },
+    {
+      "id": "glass-cube-impostor",
+      "name": "Glass cube impostor",
+      "reason": "Procedural scene, dynamic material, controller or specialized body plan; no portable static XPM source."
+    },
+    {
+      "id": "rfl-heightmaps",
+      "name": "RFL heightmaps",
+      "reason": "Procedural scene, dynamic material, controller or specialized body plan; no portable static XPM source."
+    },
+    {
+      "id": "blue-red-dwarf",
+      "name": "Blue red dwarf",
+      "reason": "Procedural scene, dynamic material, controller or specialized body plan; no portable static XPM source."
+    },
+    {
+      "id": "smol-plate-class",
+      "name": "smol plate class:",
+      "reason": "Procedural scene, dynamic material, controller or specialized body plan; no portable static XPM source."
+    },
+    {
+      "id": "grass-pond",
+      "name": "Grass pond",
+      "reason": "Procedural scene, dynamic material, controller or specialized body plan; no portable static XPM source."
+    },
+    {
+      "id": "central-grass-pool",
+      "name": "Central grass pool",
+      "reason": "Procedural scene, dynamic material, controller or specialized body plan; no portable static XPM source."
+    },
+    {
+      "id": "logo-caustic-water",
+      "name": "Logo",
+      "reason": "Procedural scene, dynamic material, controller or specialized body plan; no portable static XPM source."
+    },
+    {
+      "id": "interactive-xpm-water",
+      "name": "2.5D caustic water",
+      "reason": "Procedural scene, dynamic material, controller or specialized body plan; no portable static XPM source."
+    },
+    {
+      "id": "caustic-water-glass-sphere",
+      "name": "Caustic water + glass sphere",
+      "reason": "Procedural scene, dynamic material, controller or specialized body plan; no portable static XPM source."
+    },
+    {
+      "id": "drone-b-mood-sphere",
+      "name": "Drone mood",
+      "reason": "Procedural scene, dynamic material, controller or specialized body plan; no portable static XPM source."
+    },
+    {
+      "id": "purple-character-sep13",
+      "name": "Purple character · Sep 13",
+      "reason": "Archived character; use the current modular entry."
+    },
+    {
+      "id": "faceted-character-4view",
+      "name": "Purple character · WIP",
+      "reason": "Archived character; use the current modular entry."
+    },
+    {
+      "id": "cranch-squid",
+      "name": "Cranch squid",
+      "reason": "Procedural scene, dynamic material, controller or specialized body plan; no portable static XPM source."
+    },
+    {
+      "id": "scoundrel-stl",
+      "name": "Scoundrel STL",
+      "reason": "Procedural scene, dynamic material, controller or specialized body plan; no portable static XPM source."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+! XPM2
+! transparent background
+12 12 4 1
+! colors
+  c None
+. c #ffd84d
+X c #171714
++ c #f28c28
+! pixels
+    ....    
+  ........  
+ ..XXXXXX.. 
+ .X......X. 
+.X..X..X..X.
+.X........X.
+.X..+..+..X.
+.X...++...X.
+ .X......X. 
+ ..XXXXXX.. 
+  ........  
+    ....    

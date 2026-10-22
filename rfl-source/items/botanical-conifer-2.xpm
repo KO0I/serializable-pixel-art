@@ -1,0 +1,390 @@
+! XPM2
+! xpm-workbench primitive dihedral-impostor
+! xpm-workbench impostor-size 83 128
+! xpm-workbench impostor-gap 1
+! xpm-workbench scene-model botanical-conifer-2
+! xpm-workbench model-pivots 82 82
+! Front view, one transparent column, then side view. Both are rooted at the bottom.
+167 128 252 2
+! colors
+   c None
+01 c #1d1000
+02 c #211600
+03 c #221700
+04 c #241900
+05 c #251800
+06 c #251a00
+07 c #261900
+08 c #2a1a00
+09 c #2b1c00
+0A c #2d1f00
+0B c #2e1f00
+0C c #2f1f00
+0D c #2f2000
+0E c #2f2100
+0F c #302000
+0G c #302100
+0H c #302200
+0I c #312100
+0J c #312200
+0K c #312300
+0L c #312400
+0M c #322200
+0N c #322300
+0O c #322400
+0P c #322500
+0Q c #332200
+0R c #332300
+0S c #332400
+0T c #332500
+0U c #332800
+0V c #342400
+0W c #342500
+0X c #352400
+0Y c #352500
+0Z c #352600
+0a c #352700
+0b c #362600
+0c c #362700
+0d c #362800
+0e c #372800
+0f c #372900
+0g c #382900
+0h c #382a00
+0i c #382b00
+0j c #391f0e
+0k c #392c00
+0l c #3a200e
+0m c #3a2c00
+0n c #3a2d00
+0o c #3b200e
+0p c #3b210f
+0q c #3b2d00
+0r c #3b2e00
+0s c #3c200f
+0t c #3c210f
+0u c #3c2e00
+0v c #3c2f00
+0w c #3d2e00
+0x c #3d2f00
+0y c #3d3000
+0z c #3d3100
+0_ c #3e2f00
+0- c #3e3000
+10 c #3e3100
+11 c #3e3200
+12 c #3f3100
+13 c #3f3200
+14 c #403100
+15 c #403200
+16 c #403300
+17 c #413200
+18 c #413300
+19 c #413400
+1A c #413500
+1B c #423300
+1C c #423400
+1D c #423500
+1E c #423600
+1F c #433400
+1G c #433500
+1H c #433600
+1I c #433700
+1J c #443400
+1K c #443500
+1L c #443600
+1M c #443700
+1N c #443800
+1O c #452611
+1P c #453500
+1Q c #453600
+1R c #453700
+1S c #453800
+1T c #462611
+1U c #463700
+1V c #463800
+1W c #463900
+1X c #463a00
+1Y c #473800
+1Z c #473900
+1a c #473a00
+1b c #473b00
+1c c #483800
+1d c #483900
+1e c #483a00
+1f c #483b00
+1g c #493a00
+1h c #493b00
+1i c #493c00
+1j c #493d00
+1k c #4a3b00
+1l c #4a3c00
+1m c #4a3d00
+1n c #4a3e00
+1o c #4b2913
+1p c #4b3e00
+1q c #4b3f00
+1r c #4c3d00
+1s c #4c3e00
+1t c #4c3f00
+1u c #4d3f00
+1v c #4d4000
+1w c #4d4100
+1x c #4e4100
+1y c #4e4200
+1z c #4f4000
+1_ c #4f4100
+1- c #4f4200
+20 c #4f4300
+21 c #502c14
+22 c #504200
+23 c #504300
+24 c #504400
+25 c #504500
+26 c #512d15
+27 c #514300
+28 c #514400
+29 c #514500
+2A c #522d15
+2B c #524400
+2C c #524500
+2D c #524600
+2E c #524700
+2F c #532e15
+2G c #534500
+2H c #534600
+2I c #534700
+2J c #534701
+2K c #534800
+2L c #534801
+2M c #544600
+2N c #544700
+2O c #544701
+2P c #544800
+2Q c #544801
+2R c #544900
+2S c #544901
+2T c #544a01
+2U c #553017
+2V c #554700
+2W c #554800
+2X c #554801
+2Y c #554900
+2Z c #554901
+2a c #554a00
+2b c #554a01
+2c c #564801
+2d c #564900
+2e c #564901
+2f c #564a00
+2g c #564a01
+2h c #564b01
+2i c #564c00
+2j c #574901
+2k c #574a00
+2l c #574a01
+2m c #574b00
+2n c #574b01
+2o c #574c01
+2p c #583218
+2q c #584a00
+2r c #584a01
+2s c #584b00
+2t c #584b01
+2u c #584c00
+2v c #584c01
+2w c #584d01
+2x c #584e01
+2y c #594b01
+2z c #594c00
+2_ c #594c01
+2- c #594d00
+30 c #594d01
+31 c #594e01
+32 c #594f01
+33 c #5a4c01
+34 c #5a4d00
+35 c #5a4d01
+36 c #5a4e00
+37 c #5a4e01
+38 c #5a4f00
+39 c #5a4f01
+3A c #5b4d01
+3B c #5b4e00
+3C c #5b4e01
+3D c #5b4f00
+3E c #5b4f01
+3F c #5b5001
+3G c #5c4e01
+3H c #5c4f01
+3I c #5c5000
+3J c #5c5001
+3K c #5c5101
+3L c #5d5001
+3M c #5d5101
+3N c #5d5201
+3O c #5e5101
+3P c #5e5201
+3Q c #5e5301
+3R c #5e5401
+3S c #5f361b
+3T c #5f5301
+3U c #5f5401
+3V c #5f5501
+3W c #60371c
+3X c #605401
+3Y c #605501
+3Z c #61371c
+3a c #615501
+3b c #615601
+3c c #615701
+3d c #625601
+3e c #635601
+3f c #635701
+3g c #635800
+3h c #635801
+3i c #635901
+3j c #645701
+3k c #645801
+3l c #645901
+3m c #645a01
+3n c #655901
+3o c #655a00
+3p c #655a01
+3q c #655b01
+3r c #665a01
+3s c #665b01
+3t c #665c01
+3u c #675b01
+3v c #675c01
+3w c #685c01
+3x c #685d01
+! pixels
+                                                                                  2Q                                                                                                                                                                      2Q                                                                                  
+                                                                                  2Q                                                                                                                                                                      2Q                                                                                  
+                                                                                  2Q                                                                                                                                                                      2Q                                                                                  
+                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                              
+                                                                                  2Q                                                                                                                                                                      2Q                                                                                  
+                                                                                    2Q2Q                                                                                                                                                              2Q2Q                                                                                    
+                                                                                    2Q2Q                                                                                                                                                              2Q2Q                                                                                    
+                                                                                    2Q2Q                                                                                                                                                              2Q2Q                                                                                    
+                                                                                    2Q2Q                                                                                                                                                              2Q2Q                                                                                    
+                                                                              2Q2Q2Q2Q2Q                                                                                                                                                              2Q2Q2Q2Q2Q                                                                              
+                                                                              2Q2Q2Q2Q2Q                                                                                                                                                              2Q2Q2Q2Q2Q                                                                              
+                                                                              2Q2Q2Q2Q2Q2Q                                                                                                                                                          2Q2Q2Q2Q2Q2Q                                                                              
+                                                                              2Q2Q2Q2Q2Q2Q                                                                                                                                                          2Q2Q2Q2Q2Q2Q                                                                              
+                                                                                  2Q2Q2Q2Q                                                                                                                                                          2Q2Q2Q2Q                                                                                  
+                                                                                  2Q2Q2Q2Q                                                                                                                                                          2Q2Q2Q2Q                                                                                  
+                                                                              2Q2Q2Q2Q2Q2Q                                                                                                                                                          2Q2Q2Q2Q2Q2Q                                                                              
+                                                                              2Q2Q2Q2Q2Q2Q2Q2Q                                                                                                                                                  2Q2Q2Q2Q2Q2Q2Q2Q                                                                              
+                                                                              2Q2Q2Q2Q2Q2Q2Q2Q                                                                                                                                                  2Q2Q2Q2Q2Q2Q2Q2Q                                                                              
+                                                                              2Q2Q2Q2Q2Q2Q2Q2Q2Q                                                                                                                                              2Q2Q2Q2Q2Q2Q2Q2Q2Q                                                                              
+                                                                              2Q2Q2Q2Q2Q2Q2Q2Q2Q                                                                                                                                              2Q2Q2Q2Q2Q2Q2Q2Q2Q                                                                              
+                                                                          2Q2Q2Q2Q2Q2Q2Q2Q    2Q                                                                                                                                              2Q    2Q2Q2Q2Q2Q2Q2Q2Q                                                                          
+                                                                          2Q2Q2Q2Q2Q2Q2Q2Q                                                                                                                                                          2Q2Q2Q2Q2Q2Q2Q2Q                                                                          
+                                                                          2Q2Q2Q2Q1j2Z2Q2Q2Q                                                                                                                                                      2Q2Q2Q2Z1j2Q2Q2Q2Q                                                                          
+                                                                          2Q2Q2Q2Z102g2J2Q2Q2Q                                                                                                                                                  2Q2Q2Q2J2g102Z2Q2Q2Q                                                                          
+                                                                        2Q2Q2Q2Q2J2Q090B2J2Q2Q                                                                                                                                                  2Q2Q2J0B092Q2J2Q2Q2Q2Q                                                                        
+                                                                        2Q2Q2Q2Q2I2Q05092Q2Q2Q                                                                                                                                                  2Q2Q2Q09052Q2I2Q2Q2Q2Q                                                                        
+                                                                    2Q2Q2Q201w2I2Q1y1y1y1-                                                                                                                                                          1-1y1y1y2Q2I1w202Q2Q2Q                                                                    
+                                                                    2Q2Q2Q1E0y1w1w230809091223                                                                                                                                                  2312090908231w1w0y1E2Q2Q2Q                                                                    
+                                                                    2Q2I2b1H0v1w1w1-07090B151-                                                                                                                                                  1-150B09071-1w1w0v1H2b2I2Q                                                                    
+                                                                  2Q2Q2Q131p1-1-1-231-1-0D1523                                                                                                                                                  23150D1-1-231-1-1-1p132Q2Q2Q                                                                  
+                                                            2Q2Q2Q  1z22130y0y0y10092W280D152828                                                                                                                                              2828150D282W09100y0y0y13221z  2Q2Q2Q                                                            
+                                                            2I2Q2Q  1_2213131313160D2I230D152323                                                                                                                                              2323150D232I0D1613131313221_  2Q2Q2I                                                            
+                                                            1y      1313131q20232H0H0H0H0E0h1818                                                                                                                                              18180h0E0H0H0H2H23201q131313      1y                                                            
+                                                            1y      1311131t24242C0d0d0d0d0u171818                                                                                                                                          1818170u0d0d0d0d2C24241t131113      1y                                                            
+                                                              2323131010141t28282C181818171818191919                                                                                                                                      1919191818171818182C28281t141010132323                                                              
+                                                            230y10131q2S1815151515181818190L0304    1C1C                                                                                                                              1C1C    04030L1918181815151515182S1q13100y23                                                            
+                                                        23231Z1n1m1m232Q1i1i1i1l1l1l1l1l1m1I0y0z0L04    1D                                                                                                                          1D    040L0z0y1I1m1l1l1l1l1l1i1i1i2Q231m1m1n1Z2323                                                        
+                                                        2323172b2Q2Q2J2Q292929292C2C2C2C2D2D2H2H0U04    1D                                                                                                                          1D    040U2H2H2D2D2C2C2C2C292929292Q2J2Q2Q2b172323                                                        
+                                                        231-2I2Q2Q2Q2D252929292C2B2C2G2C2D2D2G2H2D2D06021D2R2K                                                                                                                  2K2R1D02062D2D2H2G2D2D2C2G2C2B2C292929252D2Q2Q2Q2I1-23                                                        
+                                                        221-2Q2Q2Q2Q2D242d2W2W2W2W2Y2d2d2N2N2N2f2Y2P0402162i2R                                                                                                                  2R2i1602042P2Y2f2N2N2N2d2d2Y2W2W2W2W2d242D2Q2Q2Q2Q1-22                                                        
+                                                        24202428232C282H050A0H0H0H0N0N0N19191D0N0w1C    2I191M04                                                                                                              041M192I    1C0w0N1D19190N0N0N0H0H0H0A052H282C2328242024                                                        
+                                                  2322242827292C2C  10160K0H0H1H1H1H1H1H0G0G0G0J0I0G0J0N  1H1M070707                                                                                                      0707071M1H  0N0J0G0I0J0G0G0G1H1H1H1H1H0H0H0K1610  2C2C292728242223                                                  
+                                                  2222242727242H2H  1D1H0H0E0H1D1H1D1A1A0N0J0G0G0J0N0N0N  1H1M070707                                                                                                      0707071M1H  0N0N0N0J0G0G0J0N1A1A1D1H1D0H0E0H1H1D  2H2H242727242222                                                  
+                                              23222323  2824291319  0H0H0H0J0J0N0I191G1D0N0m1C1D0f0N0N0N0N      070707                                                                                                  070707      0N0N0N0N0f1D1C0m0N1D1G190I0N0J0J0H0H0H  1913292428  23232223                                              
+                                                222324  2925291319  0H0E0H0J0N0e0d1C1G1G0A0r1f0k0a0N0g0h0B      070707                                                                                                  070707      0B0h0g0N0a0k1f0r0A1G1G1C0d0e0N0J0H0E0H  1913292529  242322                                                
+                                                                  0H0H0E0N0N0N191D1G1G1G040z2Y07    1Q1Y07                                                                                                                          071Y1Q    072Y0z041G1G1G1D190N0N0N0E0H0H                                                                  
+                                                              1C1C0H0J0G2I2I2I2N2N2P2P2P2e2X2O2g                                                                                                                                              2g2O2X2e2P2P2P2N2N2I2I2I0G0J0H1C1C                                                              
+                                                              1i1i1618162H2I2I2I2N2N2P2P2X2X2X2X2Z                                                                                                                                          2Z2X2X2X2X2P2P2N2N2I2I2I2H1618161i1i                                                              
+                                                      290103292D292I2I2E2I2N2P2P2P2P2Q2Q2X2X2Z2Z2Z2Z2Z2X2b                                                                                                                          2b2X2Z2Z2Z2Z2Z2X2X2Q2Q2P2P2P2P2N2I2E2I2I292D29030129                                                      
+                                              2C2B2C292Q2Q2Q2Q2Q2Q2Q2Q2Q2P2P2P2P2O3N3U3U3U312X2Z2b2b2b2T2g2g2g2g                                                                                                              2g2g2g2g2T2b2b2b2Z2X313U3U3U3N2O2P2P2P2P2Q2Q2Q2Q2Q2Q2Q2Q2Q292C2B2C                                              
+                                              282829292Q2g2b2Q2Q2Q2Q2Q2Q2P2K2K2N2O3N3Y3Y3U302J2L2S2T2T2T2e2e2e2e                                                                                                              2e2e2e2e2T2T2T2S2L2J303U3Y3Y3N2O2N2K2K2P2Q2Q2Q2Q2Q2Q2b2g2Q29292828                                              
+                                              2I2I2I2Q2915182D2I2E2N2N2P2P2P2X2Z2Q3Q2O2Z3Q3U3U3U302g2g2e2h2h2h2h2h2h2h                                                                                                  2h2h2h2h2h2h2h2e2g2g303U3U3U3Q2Z2O3Q2Q2Z2X2P2P2P2N2N2E2I2D1815292Q2I2I2I                                              
+                                            1x1v1x1715182f2P2I2N2M2P2P2L2X2X2X3U3U3U3U3U3Y312S2Z3K3Y3Y3b2h2h2h2h2t2t2t2t2t                                                                                          2t2t2t2t2t2h2h2h2h3b3Y3Y3K2Z2S313Y3U3U3U3U3U2X2X2X2L2P2P2M2N2I2P2f1815171x1v1x                                            
+                                            1v1x201818182f2P2P2H2M2P2K2L2Q2O2O3Q3U3R3Q3Q3Y392T2Z3M3Y3Y3c2S2S2S2b2t2t2t2t2t                                                                                          2t2t2t2t2t2b2S2S2S3c3Y3Y3M2Z2T393Y3Q3Q3R3U3Q2O2O2Q2L2K2P2M2H2P2P2f181818201x1v                                            
+                                      1x2C2C281Z181R1R1R1V1V1V2Y2N2P2P2Q2X3J3Q3Q3R3U3V3U3Y392Z2g2h2h2t2l3Y3Y3b2t2t2t2t2t2t2t2v                                                                                  2v2t2t2t2t2t2t2t3b3Y3Y2l2t2h2h2g2Z393Y3U3V3U3R3Q3Q3J2X2Q2P2P2N2Y1V1V1V1R1R1R181Z282C2C1x                                      
+                                              2N2W1V1L2P1L1V1V1L1L1L1x2Q3U3U3U3U3Q3V3X3Y2b2b2h2h2n2q1L1L1G2_2j2l2t2r2v2v2_                                                                                          2_2v2v2r2t2l2j2_1G1L1L2q2n2h2h2b2b3Y3X3V3Q3U3U3U3U2Q1x1L1L1L1V1V1L2P1L1V2W2N                                              
+                                              2C2H1V1L2D1L1R1V1V1V1V1-2Q3Q3U3U3U3Q3U3Y3Y2a2a2a2a2k2k1V1V1V2_2k2k2k2k2m2s2s                                                                                          2s2s2m2k2k2k2k2_1V1V1V2k2k2a2a2a2a3Y3Y3U3Q3U3U3U3Q2Q1-1V1V1V1V1R1L2D1L1V2H2C                                              
+                                            2H1a1D1D1A1G1G1C1R1V1V1V1-2Q3Q3U3U3U3U3Y3Y3Y1S1S1V1V1V1V1V1V1V1V1V1Y1Z1Z1Z1Z1Z2s2_                                                                                  2_2s1Z1Z1Z1Z1Z1Y1V1V1V1V1V1V1V1V1V1S1S3Y3Y3Y3U3U3U3U3Q2Q1-1V1V1V1R1C1G1G1A1D1D1a2H                                            
+                                            1s1S1A1D1D1G1G1C1p1L1M1M1x2Z2P2-393F3F3F2P2Y1S1S1V1V1V1V1V1V1V1V1U1V1Z1Z1Z1Z1Z2828                                                                                  28281Z1Z1Z1Z1Z1V1U1V1V1V1V1V1V1V1V1S1S2Y2P3F3F3F392-2P2Z1x1M1M1L1p1C1G1G1D1D1A1S1s                                            
+                                            18191A1C1C1F1F1C2Q191H1H1w2Z1R252b2g2g2h1G1N1V1V1V1V1V1V1V1V1V1Y1Y1Z1V1Z1Z1Z1Z1Z1Z                                                                                  1Z1Z1Z1Z1Z1Z1V1Z1Y1Y1V1V1V1V1V1V1V1V1V1N1G2h2g2g2b251R2Z1w1H1H192Q1C1F1F1C1C1A1918                                            
+                                            2I1e1B2I2Y1H1H1H1D1H1H0N0N0J1L1M1M0T0O0O1e1V0V0V0V0V0V0V0V0V0V0W0W0W1f1Z1Z1Z1Z1Z1Z1Z                                                                              1Z1Z1Z1Z1Z1Z1Z1f0W0W0W0V0V0V0V0V0V0V0V0V1V1e0O0O0T1M1M1L0J0N0N1H1H1D1H1H1H2Y2I1B1e2I                                            
+                                        1D1D1j1R1C1m1p1H1H1H0k0m0m0S0S0N0m0q0q0T0P0W0w0q0Y0h0_1e1B0_0Y0X0Y120-  0x0w0w0w0w2323                                                                                  23230w0w0w0w0x  0-120Y0X0Y0_1B1e0_0h0Y0q0w0W0P0T0q0q0m0N0S0S0m0m0k1H1H1H1p1m1C1R1j1D1D                                        
+                                        1D1D1D1D1F1G1H1H1D1H0O0S0S0S0S0S0S0S0T0T0P0W0Y0Y0Y0w1R2m1s1U0Y0X0Z1e1Z  0Z0Z0Z0Z0Z2u30                                                                                  302u0Z0Z0Z0Z0Z  1Z1e0Z0X0Y1U1s2m1R0w0Y0Y0Y0W0P0T0T0S0S0S0S0S0S0S0O1H1D1H1H1G1F1D1D1D1D                                        
+                                      1D1D1A1D1D1G1H1H  0O0O0O0S0S0S0S0R0S0S0T0W0W0Y0Y0Y2m1x1U1Y2C2s1Z1V1Z372u302u2v1V1W1W                                                                                          1W1W1V2v2u302u371Z1V1Z2s2C1Y1U1x2m0Y0Y0Y0W0W0T0S0S0R0S0S0S0S0O0O0O  1H1H1G1D1D1A1D1D                                      
+                                      1616161G1G1H1H1H  0H0H0H0J0J0J0I0I0E0H0K0I0I0I0I0I2n1u1J1J282s1R1Q1R3E30302w301L1R1S                                                                                          1S1R1L302w30303E1R1Q1R2s281J1J1u2n0I0I0I0I0I0K0H0E0I0I0J0J0J0H0H0H  1H1H1H1G1G161616                                      
+                                      2I2I2I  1H1H      1H1D1L1R1R1R1R1M2k1m1V2k2r2t2v2v2v3M3d3f3J303030303030  3535353535                                                                                          3535353535  3030303030303J3f3d3M2v2v2v2t2r2k1V1m2k1M1R1R1R1R1L1D1H      1H1H  2I2I2I                                      
+                                      2I          1H1H1H1R1R1R1R1Q1S272y2t2_2_2t2r2t3n3f3f3k3k3k3k3k3m3s30353535    35                                                                                                  35    353535303s3m3k3k3k3k3k3f3f3n2t2r2t2_2_2t2y271S1Q1R1R1R1R1H1H1H          2I                                      
+                                      2I          1H1H191G1G1L1G1G1H1-2j2r2r2l2l2j2n3k3f3e3f3k3k3k3k3h3m2v353535    35                                                                                                  35    3535352v3m3h3k3k3k3k3f3e3f3k2n2j2l2l2r2r2j1-1H1G1G1L1G1G191H1H          2I                                      
+                                  2I2I2I      1H1H    2P2P2Z1R2n2Y2Y2k2r2t2t2v3d3d3d3f3f3f3f3k3k3J303k3n3k2t35353737  35373737                                                                                  37373735  373735352t3k3n3k303J3k3k3f3f3f3f3d3d3d2v2t2t2r2k2Y2Y2n1R2Z2P2P    1H1H      2I2I2I                                  
+                                2H2I2I      2Q1f162P2Z2Z2e2c2n2Y2Z2t2t2r2v2v2n2g2g3d3k3k3k3k3l3l3n3r2_2l3n3r3r373537373737373737373737                                                                  3737373737373737373735373r3r3n2l2_3r3n3l3l3k3k3k3k3d2g2g2n2v2v2r2t2t2Z2Y2n2c2e2Z2Z2P161f2Q      2I2I2H                                
+                                2H2I2I      2I1b192P2Z2Z2e2c2e2g2Z2t2t2r2t2v2v2v2n3d3k3k3k3k3l3l3l3k352_3n3n3n373737373737373737373737                                                                  3737373737373737373737373n3n3n2_353k3l3l3l3k3k3k3k3d2n2v2v2v2t2r2t2t2Z2g2e2c2e2Z2Z2P191b2I      2I2I2H                                
+                                2H2I2I2I161D1D1y2Q2Z2Z2Z2g2g2g2r2j2t2t2v2v3X3d3d3d3f3k3k3l3l3n3n3n3n3k3k3n3n3n3k3k3n30373737303E                                                                              3E30373737303n3k3k3n3n3n3k3k3n3n3n3n3l3l3k3k3f3d3d3d3X2v2v2t2t2j2r2g2g2g2Z2Z2Z2Q1y1D1D162I2I2I2H                                
+                                1m1n1n1n19191n292Z2Z2S2Z2g2g2g2r2r2t2t2v2v3X3d3M3M3f3k3k3l3l3n3n3n3k3T3T3T3T3T3T3U3U31373737373E                                                                              3E37373737313U3U3T3T3T3T3T3T3k3n3n3n3l3l3k3k3f3M3M3d3X2v2v2t2t2r2r2g2g2g2Z2S2Z2Z291n19191n1n1n1m                                
+                            1D1D1919191919192Q2Q2Z2Z2Z2e2g2g2b2t2t2t2t2v2n3X3d2v2g3f3j3j3i3l3n3n3n3k3737373737353232323232393E  3E3E3E                                                                  3E3E3E  3E3932323232323537373737373k3n3n3n3l3i3j3j3f2g2v3d3X2n2v2t2t2t2t2b2g2g2e2Z2Z2Z2Q2Q1919191919191D1D                            
+                                2D2D2D2J2J2Q1V1V1V1V1L2g2g2b2l2t2t2t2t2n3d3d3f3f3f3k3l3l3n3n3n3n3n3k3737373735373E3E3E3E3E3E3E3E      3E3E                                                          3E3E      3E3E3E3E3E3E3E3E3735373737373k3n3n3n3n3n3l3l3k3f3f3f3d3d2n2t2t2t2t2l2b2g2g1L1V1V1V1V2Q2J2J2D2D2D                                
+                            2H2G2I2I2I1p1p1p1V1V1V1V1R1s1s1p1s1t1t1t2H2n3J3a3f3f3j3k3l3l3n3n3n3n3n3k3731373737393E3E3E3E3E3E3E3E3E3E3E    3E                                                      3E    3E3E3E3E3E3E3E3E3E3E3E3937373731373k3n3n3n3n3n3l3l3k3j3f3f3a3J2n2H1t1t1t1s1p1s1s1R1V1V1V1V1p1p1p2I2I2I2G2H                            
+                            2H2G2I2N2N1V1V1V1R1R1R1V1V1V1V1V1V1V1V1V242v2v3X3f3k3j3k3n3n3n3k3k3n3k3k362-3436363E3E3E3E3E3E3E3E3E3E3E3E    3E                                                      3E    3E3E3E3E3E3E3E3E3E3E3E3E3636342-363k3k3n3k3k3n3n3n3k3j3k3f3X2v2v241V1V1V1V1V1V1V1V1V1R1R1R1V1V1V2N2N2I2G2H                            
+                      2D    2I2I      2Z2e2e1K1L1L1R1V1V1V1V1V3C2_302v2o2_2v2v3f3j3k3n3n3n3P2v3k3M2-1Z1V1V1V1R363E3E3E3E3E3E3E3E3E3E3E3E3E                                                          3E3E3E3E3E3E3E3E3E3E3E3E3E361R1V1V1V1Z2-3M3k2v3P3n3n3n3k3j3f2v2v2_2o2v302_3C1V1V1V1V1V1R1L1L1K2e2e2Z      2I2I    2D                      
+                      2D    2I2I      2Z2e2l1Q1Q1L1V1V1V1R1V1V3C2_2v2v2m3537373f3j3h3w3u3r3T2v3k3M2-1e1e1e1e1Y3J3J3J3J3J3J3J3J3J3J3K393E3E                                                          3E3E393K3J3J3J3J3J3J3J3J3J3J1Y1e1e1e1e2-3M3k2v3T3r3u3w3h3j3f3737352m2v2v2_3C1V1V1R1V1V1V1L1Q1Q2l2e2Z      2I2I    2D                      
+                                2H181F1H1H1H1Q1Q1R1R1R1R1V1V1V1V1R2v2v2v1Z1Z1Z3g3h3l1M1a373T3k3n3O341e1e1e1e1Z1f1f1f1f1f1f1k1k1k1k1d3B393E3E                                                      3E3E393B1d1k1k1k1k1f1f1f1f1f1f1Z1e1e1e1e343O3n3k3T371a1M3l3h3g1Z1Z1Z2v2v2v1R1V1V1V1V1R1R1R1R1Q1Q1H1H1H1F182H                                
+                            1D1A181H1H1H1H1H0J0J0J0J0J0K0K0K0R1a1V1L0g0I0Q0R0R0G0F0F1i1a1V1R1Q1Q1R1V3J3Y0V1m1f1f0M0W0W121a0W0W0W0W0N1c1d1d1d                                                      1d1d1d1c0N0W0W0W0W1a120W0W0M1f1f1m0V3Y3J1V1R1Q1Q1R1V1a1i0F0F0G0R0R0Q0I0g1L1V1a0R0K0K0K0J0J0J0J0J1H1H1H1H1H181A1D                            
+                            1D1A1D1H1H1H1H1H0S0S0S0S0R0T0T0P0W1Z1V1R0m0Y0Y0Y0Y0Y0Z0Z1f1W1Z1Z1Z1Z1Z1Z343M0b1i1a1f0V0c0c151a0c0c0c0c0W1g1g1g1k                                                      1k1g1g1g0W0c0c0c0c1a150c0c0V1f1a1i0b3M341Z1Z1Z1Z1Z1Z1W1f0Z0Z0Y0Y0Y0Y0Y0m1R1V1Z0W0P0T0T0R0S0S0S0S1H1H1H1H1H1D1A1D                            
+                  1C1C  1D1D1D1D1D1H1H1H1Q1Q0S0S0S0S0R0T0T0P0W1Z1V0Y0Y0Y0Y0Y0Y0Y0Z0Z0Z0Z0Z0Z0Z0Z0Z0Z0b0b0b0c0Z1a0V0c0c0c0c0c0c  0c0Z0c0c0c3D2C1k                                              1k2C3D0c0c0c0Z0c  0c0c0c0c0c0c0V1a0Z0c0b0b0b0Z0Z0Z0Z0Z0Z0Z0Z0Z0Z0Y0Y0Y0Y0Y0Y0Y1V1Z0W0P0T0T0R0S0S0S0S1Q1Q1H1H1H1D1D1D1D1D  1C1C                  
+                    1C  1D1D1D1A1C0q0r0u0w0w0S0S0S0S0R0T0T0P0W140-0Y0Y0Y0Y0Y0Y0Y0W0u0u0u0u151L1L1L1L0w0w0w0x0x150W0Z0_1C1R1R1R  0c0c0c0c0c3E2C1k                                              1k2C3E0c0c0c0c0c  1R1R1R1C0_0Z0W150x0x0w0w0w1L1L1L1L150u0u0u0u0W0Y0Y0Y0Y0Y0Y0Y0-140W0P0T0T0R0S0S0S0S0w0w0u0r0q1C1A1D1D1D  1C                    
+                        1D1D1D1D1C0H0L0N0N0N0S0S0S0R0R0T0T0P0W0Y0Y0Y0V0V0V0V0V0W0S1W1W1W1e2830373E361f1a1a1f1f0Z0Z0Z1g2N3J3J3J                                                                                  3J3J3J2N1g0Z0Z0Z1f1f1a1a1f363E3730281e1W1W1W0S0W0V0V0V0V0V0Y0Y0Y0W0P0T0T0R0R0S0S0S0N0N0N0L0H1C1D1D1D1D                        
+                      1C0a0J0J0J0J0O0K1H1Q1Q0S0S0R0S0T0T0T0P0W0Y0Y0Y121Z1Z2W341a1S3737371e2932393E3E3E3E361V1a1f1f1a3v3Y3J                                                                                          3J3Y3v1a1f1f1a1V363E3E3E3E3932291e3737371S1a342W1Z1Z120Y0Y0Y0W0P0T0T0T0S0R0S0S1Q1Q1H0K0O0J0J0J0J0a1C                      
+                      1p120n0n0n0q0r0q  1Q1Q0w0w0w0x0_0T0T0O0_1h1e0-1G1V231-1-2928303X3X2s3I3Y3a3a3a3E3E36292D2D2H2C3v3X3J3J3J  3J3J3J                                                                  3J3J3J  3J3J3J3X3v2C2H2D2D29363E3E3a3a3a3Y3I2s3X3X3028291-1-231V1G0-1e1h0_0O0T0T0_0x0w0w0w1Q1Q  0q0r0q0n0n0n121p                      
+                      2H1W1D1D1A1G1E1D  1Q1P1R1L1L1Q1Y0T0T0O1V312v1W1W1V2u1q1a2-37373r3n3l3l3l3p3s3p3E3E3E3C3E3E3H3C3v3X3J3J3J  3J3J3J                                                                  3J3J3J  3J3J3J3X3v3C3H3E3E3C3E3E3E3p3s3p3l3l3l3n3r37372-1a1q2u1V1W1W2v311V0O0T0T1Y1Q1L1L1R1P1Q  1D1E1G1A1D1D1W2H                      
+                        2D2D      1D1D1D1Q1P1R0h0S0T0T0T3C2k2m1L1V1W28301a2N2z3k3k3k3n3n373X3n3r3s3s3p3p3p353E3E3t3p3v3s3s3J3J3J3J3J3J3J3J                                                          3J3J3J3J3J3J3J3J3s3s3v3p3t3E3E353p3p3p3s3s3r3n3X373n3n3k3k3k2z2N1a30281W1V1L2m2k3C0T0T0T0S0h1R1P1Q1D1D1D      2D2D                        
+                        2I2I      1D1D191Q1P1R0e0J0E0E0G3O2_31181K1M293E1S2N353n3r3r3k3n2v3X3u3s3s3s3s3p3t2_35353v3p3v3v3s3C373J3J3D3N3D3J                                                          3J3D3N3D3J3J373C3s3v3v3p3v35352_3t3p3s3s3s3s3u3X2v3n3k3r3r3n352N1S3E291M1K18312_3O0G0E0E0J0e1R1P1Q191D1D      2I2I                        
+                                1D1D191Q1Q1Q1R1R1L2a2h2a1L1V1V312o2v1z1V2z35353737373r3n3p3U373p3p3p3p3t3H3t3p3p3v3v3v3v3v3v3x3J3D3M1l3M3D3D2C1h1l                                          1l1h2C3D3D3M1l3M3D3J3x3v3v3v3v3v3v3p3p3t3H3t3p3p3p3p373U3p3n3r37373735352z1V1z2v2o311V1V1L2a2h2a1L1R1R1Q1Q1Q191D1D                                
+                      1D1D1D1D1D1D    2g2g2g2n2n2n2h2o1L3E2_302m2v2o1v1V2z35353n3n3n3k3n3p3q3t3s3P373p3p3s2_3A3A3x3v3v3v3v3v3x3D1V1e1h1e1e1e1h1h3M    1k1k                          1k1k    3M1h1h1e1e1e1h1e1V3D3x3v3v3v3v3v3x3A3A2_3s3p3p373P3s3t3q3p3n3k3n3n3n35352z1V1v2o2v2m302_3E1L2o2h2n2n2n2g2g2g    1D1D1D1D1D1D                      
+                      1D1D1D1D1D16    2Z2g2g2n2n2n2o2x1Q302r2t2v2n301v1L2s2_2_3k3n3n3n3n3p3p3q3s3P373p3s3p333C3A3x3v3v3v3v3v3x3D1V1e1h1l1l1l1l1h3D    1k1k                          1k1k    3D1h1l1l1l1l1h1e1V3D3x3v3v3v3v3v3x3A3C333p3s3p373P3s3q3p3p3n3n3n3n3k2_2_2s1L1v302n2v2t2r301Q2x2o2n2n2n2g2g2Z    161D1D1D1D1D                      
+            1D1D  1D1D1D1D1D1D162I2Z2Z2Z1F1Q1R1R1R1U1K2a2t2r2t2v2v1W292u3h3h3h3k3n3n2v373l3p3p3E3d3p3s3s3s3p3p3s373J3J3J3J3J3J3J3D3M1l1l1l1l1l1h                                              1h1l1l1l1l1l3M3D3J3J3J3J3J3J3J373s3p3p3s3s3s3p3d3E3p3p3l372v3n3n3k3h3h3h2u291W2v2v2t2r2t2a1K1U1R1R1R1Q1F2Z2Z2Z2I161D1D1D1D1D1D  1D1D            
+                      1D1D1D2Y2f2I171F1F2w2n1R1R1K2o321L1L1G2m1C1H3530302n2t2t2v2v3k3r3r3p3T303v3s3s3s3s3s3s3s373J3J3J3J3D1e1U3J3J3D3N3N3N3N3N3N            3H3H              3H3H            3N3N3N3N3N3N3D3J3J1U1e3D3J3J3J3J373s3s3s3s3s3s3s3v303T3p3r3r3k2v2v2t2t2n3030351H1C2m1G1L1L322o1K1R1R2n2w1F1F172I2f2Y1D1D1D                      
+                      1D1D1D2I2I2I1F1Q1Q2g2Z1R1R1L2a2o1V1V1R2m1M1S2_2_2_30303537303k3k3k3p3U373p3s3s3s3s3s3p3s3J3J3J3J3J3D1l1e3D3J3J3J3J3J3J3J3J            3H3H              3H3H            3J3J3J3J3J3J3J3J3D1e1l3D3J3J3J3J3J3s3p3s3s3s3s3s3p373U3p3k3k3k30373530302_2_2_1S1M2m1R1V1V2o2a1L1R1R2Z2g1Q1Q1F2I2I2I1D1D1D                      
+                2D2D2G2D1W1D1G1G1G1Q1K2Q1G1R1R232Z2g2o1V1V1R2m2n2n2_2_2y2_30353k3k3n2v373l3n3n3r3s3s3s3s3p30373E3J3J3J3J3J3E3M1l3M3J3J3J3J3J3J3J3J                                          3J3J3J3J3J3J3J3J3M1l3M3E3J3J3J3J3J3E37303p3s3s3s3s3r3n3n3l372v3n3k3k35302_2y2_2_2n2n2m1R1V1V2o2g2Z231R1R1G2Q1K1Q1G1G1G1D1W2D2G2D2D                
+                1m1m1m1n1M1D1D1C1p1G1G1u1L1L1R1p1x1x1y1V1V1R2m2v2o2_2_2y2_3M3P3k3n3T3T3T3l3p3n3p3s3s3s3s3p30373E3J3J3J3J3J3J3K2C2H2H2G2G2G3E3J3J3J3J                                      3J3J3J3J3E2G2G2G2H2H2C3K3J3J3J3J3J3J3E37303p3s3s3s3s3p3n3p3l3T3T3T3n3k3P3M2_2y2_2_2o2v2m1R1V1V1y1x1x1p1R1L1L1u1G1G1p1C1D1D1M1n1m1m1m                
+                1D1D1D1D1A1A1D182I191E1K1L1L1R1R1V1V1V1R1R1L2m2v2o2_2_2y2_3b3l3n3n303r3n3p3p3l3p3s3s3s3p3s30393H3J3F3J3J3J3J3J3D1e1l1g1g1g3E3J3J3J3J3J3J3J                          3J3J3J3J3J3J3J3E1g1g1g1l1e3D3J3J3J3J3J3F3J3H39303s3p3s3s3s3p3l3p3p3n3r303n3n3l3b2_2y2_2_2o2v2m1L1R1R1V1V1V1R1R1L1L1K1E192I181D1A1A1D1D1D1D                
+            1x1v1D1D1D1D1D1G1G1C1G1D1C2Q2Q2Q2Z1r1V1V1V1V2_2l2t2v2o2_2_2y2_3035352_3k3n3n3p3p3l3p3s3s3s3t3E373E3E3H3H1g1k1k1k1c3D1d1d3D3E3E3J3J3J3J3J3J3J3J3H                      3H3J3J3J3J3J3J3J3J3E3E3D1d1d3D1c1k1k1k1g3H3H3E3E373E3t3s3s3s3p3l3p3p3n3n3k2_3535302_2y2_2_2o2v2t2l2_1V1V1V1V1r2Z2Q2Q2Q1C1D1G1C1G1G1D1D1D1D1D1v1x            
+          1x1x1v1C1C1C1C1C1G1v1x0-1-1w1l1l1l1r1Z1V1V1V1V1u1s2m1p1t2v2v2y2_1p1W1W1W1m1m1m1n2u3p1n3K3o1q1n1-3J3E3E3H3H2V2V2V2V2W221g1g222222222222222222222222                      2222222222222222222222221g1g222W2V2V2V2V3H3H3E3E3J1-1n1q3o3K1n3p2u1n1m1m1m1W1W1W1p2_2y2v2v1t1p2m1s1u1V1V1V1V1Z1r1l1l1l1w1-0-1x1v1G1C1C1C1C1C1v1x1x          
+          1x1x1v1C1C18181C1G2H2W0r2f2I1Q1K1K1R1R1V1R1R1R1V1R2m1K1R2v2s2s2u1E0r0r0r0r0r0r0r243p0r2m3o0r0k1f3J363E3H3E3E3E3H3H3L1k1k1k1k1k1k1k1k1k1k1k1k1k1k1k                      1k1k1k1k1k1k1k1k1k1k1k1k1k1k1k3L3H3H3E3E3E3H3E363J1f0k0r3o2m0r3p240r0r0r0r0r0r0r1E2u2s2s2v1R1K2m1R1V1R1R1R1V1R1R1K1K1Q2I2f0r2W2H1G1C18181C1C1v1x1x          
+          1x    281H0r0r0r0r0r0r0r0r0r2P0i0n1R1R1V0r0r0r2w2h0r0r0n2v1X0r0r0r0r0r0r0r0r0r0r0r0r0r24380r0n0r1l1g363E3E3E3E3H3H3G3D3B3B3B3B3B3D3D3B3B3B3B3B3B3B                      3B3B3B3B3B3B3B3D3D3B3B3B3B3B3D3G3H3H3E3E3E3E361g1l0r0n0r38240r0r0r0r0r0r0r0r0r0r0r0r0r1X2v0n0r0r2h2w0r0r0r1V1R1R0n0i2P0r0r0r0r0r0r0r0r0r1H28    1x          
+          1x    2H1M0r0r0r0r0r0r0n0r0n2n0i0n1R1V1Z0r0r0r3F320r0r0n371b0r0r0r0r0r0r0r0r0r0r0r0r0r2C3M0r0r0r1r1k3N3N3N3N3J3H3H3G3J3G3H3H3H3H3J3H3H3H3H3H3H3H3H                      3H3H3H3H3H3H3H3H3J3H3H3H3H3G3J3G3H3H3J3N3N3N3N1k1r0r0r0r3M2C0r0r0r0r0r0r0r0r0r0r0r0r0r1b370n0r0r323F0r0r0r1Z1V1R0n0i2n0n0r0n0r0r0r0r0r0r1M2H    1x          
+            1818180y0r0r0r0r0n0n1C0n0n0r0r0r0r0r0r0r0r0r0r0r0n0r0r0n0n0n0r0n0n0S0N0n0r0r0r0r0r0r0r0r0n0n0n0n0n0n0n0n0n1v363B3B3E3E3E3E3E3E3H3H3H3H3H3C    373E3E              3E3E37    3C3H3H3H3H3H3E3E3E3E3E3E3B3B361v0n0n0n0n0n0n0n0n0n0r0r0r0r0r0r0r0r0n0N0S0n0n0r0n0n0n0r0r0n0r0r0r0r0r0r0r0r0r0r0r0n0n1C0n0n0r0r0r0r0y181818            
+            2H2C0J0f0r0r0r0n0N0N0J0N0M0n0r0r0r0r0r0r0r0r1e1Z0N1h1Z0N0N0J1Z0f0N0N0S0N0v0r0r0r0r0r0r0n0N0N0N0N0N0N0N0N0N0G0C0B083939393939393H3H3H3H3H3B0D0S                          0S0D3B3H3H3H3H3H393939393939080B0C0G0N0N0N0N0N0N0N0N0N0n0r0r0r0r0r0r0v0N0S0N0N0f1Z0J0N0N1Z1h0N1Z1e0r0r0r0r0r0r0r0r0n0M0N0J0N0N0n0r0r0r0f0J2C2H            
+            2H2C0S0h0r0r0r0r0S0S0S0S0N0r0r0r0r0r0r0r0r0r1e1a0S1h1Z0S0S0N1Z0g0S0S0S0S0v0r0r0r0r0r0r0r0S0S0S0S0S0S0N0N0S0S0S0S0B3F3M3M3M3M3M3O3O3O3O3O3O0D0S                          0S0D3O3O3O3O3O3O3M3M3M3M3M3F0B0S0S0S0S0N0N0S0S0S0S0S0S0r0r0r0r0r0r0r0v0S0S0S0S0g1Z0N0S0S1Z1h0S1a1e0r0r0r0r0r0r0r0r0r0N0S0S0S0S0r0r0r0r0h0S2C2H            
+          0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0N0S0S0S0S0S0S0S0S0n0d0S0S0S0S0S0S0S0S0S0S0c0c0N0S0S0S0G1g0J0S0S0S0S0S0S0S0S0S0S0N0S0S0S0S              0S0S0S0S0N0S0S0S0S0S0S0S0S0S0S0J1g0G0S0S0S0N0c0c0S0S0S0S0S0S0S0S0S0S0d0n0S0S0S0S0S0S0S0S0N0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S          
+          0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0f0a0S0S0S0S0S0S0S0S0S0S0c0c0N0S0S0S0J140J0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S              0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0J140J0S0S0S0N0c0c0S0S0S0S0S0S0S0S0S0S0a0f0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S          
+0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S      0S      0S0S0S0S  0S0S  0S0S      0S0N0N0N0N0N0N0N0O    0S0S0S0S0S0S0S0S0S    0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S  0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S    0S0S0S0S0S0S0S0S0S    0O0N0N0N0N0N0N0N0S      0S0S  0S0S  0S0S0S0S      0S      0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S0S
+0S0S0S0S0S0S0S0S                                                          262626262626260s0s0t                  0S0S          0S      0S0S0S                                                      0S0S0S      0S          0S0S                  0t0s0s26262626262626                                                          0S0S0S0S0S0S0S0S
+                                                                        3W2F2626262626260t0t0t                                                                                                                                                  0t0t0t2626262626262F3W                                                                        
+                                                                        3W2U2626262626260t0t0t                                                                                                                                                  0t0t0t2626262626262U3W                                                                        
+                                                                    3W3W3W3S3S26262626260t0t0o21                                                                                                                                              210o0t0t26262626263S3S3W3W3W                                                                    
+                                                                    3W3W3W3W3S26262626260j0l0o2F                                                                                                                                              2F0o0l0j26262626263S3W3W3W3W                                                                    
+                                                                  3W3W3W3W3W3S2626212626211O0o0t                                                                                                                                              0t0o1O2126262126263S3W3W3W3W3W                                                                  
+                                                                  3W3W3W3W3W3S262A0j2F260j0o0o2F2626                                                                                                                                      26262F0o0o0j262F0j2A263S3W3W3W3W3W                                                                  
+                                                                  3W3W3S3Z3Z3Z2F2F0t2U2A0t0t0o2A2626                                                                                                                                      26262A0o0t0t2A2U0t2F2F3Z3Z3Z3S3W3W                                                                  
+                                                            3W3W3W3W3W3W2626210t0t0t0t0t0t0t0p0t1o26                                                                                                                                      261o0t0p0t0t0t0t0t0t0t2126263W3W3W3W3W3W                                                            
+                                                        3W3W3W3W3W3W2U212126210t0t0t0t0t0t0t0t0t0l0j                                                                                                                                      0j0l0t0t0t0t0t0t0t0t0t212621212U3W3W3W3W3W3W                                                        
+                                                        3W3W3W3W3W3S2U262621210t0t0t0t0t0t0t0p0t0t0t                                                                                                                                      0t0t0t0p0t0t0t0t0t0t0t212126262U3S3W3W3W3W3W                                                        
+                                                        3W3W3W3W3W262626261O0t0t0t0t0t0t0t0t0o212121                                                                                                                                      2121210o0t0t0t0t0t0t0t0t1O262626263W3W3W3W3W                                                        
+                                                        3W3W3W2p2p262626261o1T1T1T0t0t0t1T1T1T2126                                                                                                                                          26211T1T1T0t0t0t1T1T1T1o262626262p2p3W3W3W                                                        
+                                                        3W3W3W2126262626262626262A0t0t0t21262626                                                                                                                                              262626210t0t0t2A2626262626262626213W3W3W                                                        

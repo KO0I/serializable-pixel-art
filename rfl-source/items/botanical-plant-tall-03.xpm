@@ -1,0 +1,57 @@
+! XPM2
+! xpm-workbench primitive dihedral-impostor
+! xpm-workbench impostor-size 16 28
+! xpm-workbench impostor-gap 1
+! xpm-workbench scene-model botanical-plant-tall-03
+! xpm-workbench model-pivots 15 15
+! Front view, one transparent column, then side view. Both are rooted at the bottom.
+33 28 19 2
+! colors
+   c None
+01 c #3f5c2a
+02 c #4e342e
+03 c #54723e
+04 c #73211f
+05 c #83392a
+06 c #92ac3e
+07 c #93a0d5
+08 c #96402d
+09 c #a6b3e9
+0A c #aa5839
+0B c #aa7564
+0C c #cb8a7b
+0D c #dae0ea
+0E c #e0a994
+0F c #f1c7a8
+0G c #f9a31b
+0H c #fa6a0a
+0I c #fef3c0
+! pixels
+                    07                      07                    
+                  070907                  070907                  
+                07090G0907              07090G0907                
+                  070907                  070907                  
+                    07                      07                    
+                    03                      03                    
+                    03                      03                    
+  0D            0D  03                      03  0D            0D  
+0D0D          0D0H0D03                      030D0H0D          0D0D
+    01          0D03                          030D          01    
+    01            03                          03            01    
+      0303        03    0303          0303    03        0303      
+    0301  03      03  03    0I0I  0I0I    03  03      03  0103    
+  03  01    03    03  03    0I      0I    03  03    03    01  03  
+        01  03    0303                      0303    03  01        
+        01    03  0303                      0303  03    01        
+          01  03  03      06          06      03  03  01          
+          01    03      06              06      03    01          
+          01    03      06              06      03    01          
+            01  03    06                  06    03  01            
+            01  03  06                      06  03  01            
+            01  03  06                      06  03  01            
+      0F0B0B0B0B0B0B0B0B02              020B0B0B0B0B0B0B0B0F      
+      0F0B0B0B0B0B0B0B0B02              020B0B0B0B0B0B0B0B0F      
+        0E05050505050502                  020505050505050E        
+        0E0A0A0A0A0A0A02                  020A0A0A0A0A0A0E        
+          0C0404040402                      02040404040C          
+          0C0808080802                      02080808080C          

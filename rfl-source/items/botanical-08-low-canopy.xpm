@@ -1,0 +1,253 @@
+! XPM2
+! xpm-workbench primitive dihedral-impostor
+! xpm-workbench impostor-size 128 53
+! xpm-workbench impostor-gap 1
+! xpm-workbench scene-model botanical-08-low-canopy
+! xpm-workbench model-pivots 127 127
+! Front view, one transparent column, then side view. Both are rooted at the bottom.
+257 53 190 2
+! colors
+   c None
+01 c #ac5b01
+02 c #ae5c01
+03 c #b05e01
+04 c #b06102
+05 c #b16102
+06 c #b16202
+07 c #b16302
+08 c #b26202
+09 c #b26302
+0A c #b36302
+0B c #b36403
+0C c #b36503
+0D c #b36603
+0E c #b46503
+0F c #b46703
+0G c #b46803
+0H c #b56703
+0I c #b56803
+0J c #b56903
+0K c #b66904
+0L c #b66a04
+0M c #b76a04
+0N c #b76b04
+0O c #b86a04
+0P c #b96f05
+0Q c #ba6a04
+0R c #ba6b04
+0S c #ba6c05
+0T c #ba7005
+0U c #bb6c05
+0V c #bb6d05
+0W c #bc6c05
+0X c #bc6d05
+0Y c #bd6d05
+0Z c #bd6e05
+0a c #be6e05
+0b c #be6f05
+0c c #bf7b07
+0d c #c06f06
+0e c #c07d08
+0f c #c17006
+0g c #c17106
+0h c #c17d08
+0i c #c17e08
+0j c #c17f08
+0k c #c27f08
+0l c #c37206
+0m c #c37c07
+0n c #c38008
+0o c #c38209
+0p c #c47207
+0q c #c48008
+0r c #c6870a
+0s c #c77207
+0t c #c77307
+0u c #c78108
+0v c #c78208
+0w c #c7890a
+0x c #c87307
+0y c #c87407
+0z c #c87507
+0_ c #c87608
+0- c #c88308
+10 c #c88309
+11 c #c88a0a
+12 c #c97608
+13 c #c97708
+14 c #c98409
+15 c #ca7608
+16 c #ca7708
+17 c #ca7808
+18 c #cb7808
+19 c #cb7a08
+1A c #cc7808
+1B c #cc830a
+1C c #cc840a
+1D c #cc850a
+1E c #cc8709
+1F c #cc890a
+1G c #cd850a
+1H c #cd860a
+1I c #cd880b
+1J c #ce8b0b
+1K c #cf8d0a
+1L c #cf8d0b
+1M c #d08b0b
+1N c #d09d0e
+1O c #d1900c
+1P c #d19d0e
+1Q c #d19e0e
+1R c #d2890b
+1S c #d29d0e
+1T c #d29e0e
+1U c #d29f0e
+1V c #d38a0b
+1W c #d39e0e
+1X c #d39f0e
+1Y c #d39f0f
+1Z c #d3a00f
+1a c #d48c0b
+1b c #d49f0e
+1c c #d4a00f
+1d c #d4a10f
+1e c #d4a20f
+1f c #d4a30f
+1g c #d5a00f
+1h c #d5a10f
+1i c #d5a20f
+1j c #d5a30f
+1k c #d5a40f
+1l c #d6980d
+1m c #d69c0d
+1n c #d6a10f
+1o c #d6a20f
+1p c #d6a40f
+1q c #d6a510
+1r c #d7990d
+1s c #d7a20f
+1t c #d7a510
+1u c #d7a610
+1v c #d8a20f
+1w c #d8a30f
+1x c #d9960d
+1y c #d9a30f
+1z c #d9a40f
+1_ c #d9aa11
+1- c #da980d
+20 c #da990d
+21 c #daa40f
+22 c #daa50f
+23 c #db990d
+24 c #dba50f
+25 c #dca610
+26 c #dd9c0e
+27 c #dda610
+28 c #dda710
+29 c #dea710
+2A c #dea810
+2B c #dfa810
+2C c #dfa910
+2D c #e0a20f
+2E c #e0a910
+2F c #e1aa10
+2G c #e1ad11
+2H c #e2a910
+2I c #e2aa10
+2J c #e2ab10
+2K c #e3aa10
+2L c #e3ab10
+2M c #e4ab10
+2N c #e4ac10
+2O c #e4ac11
+2P c #e5ac10
+2Q c #e5ac11
+2R c #e5ad11
+2S c #e5ae11
+2T c #e6ad11
+2U c #e6ae11
+2V c #e6af11
+2W c #e7ae11
+2X c #e7af11
+2Y c #e7b111
+2Z c #e8af11
+2a c #e8b111
+2b c #e8b211
+2c c #e8b212
+2d c #e9b212
+2e c #e9b312
+2f c #e9b412
+2g c #eab412
+2h c #eab512
+2i c #ebb512
+2j c #ebb612
+2k c #ebb712
+2l c #ecb612
+2m c #ecb712
+2n c #ecb713
+2o c #edb913
+2p c #eeba13
+2q c #eebb13
+2r c #efbb13
+2s c #efbc13
+2t c #efbc14
+2u c #f0bd14
+2v c #f0be14
+2w c #f1be14
+2x c #f1bf14
+2y c #f2bf14
+2z c #f2c014
+! pixels
+                                                                                                                                    2u2u2u2u2u2u                                                                                                                                                                                                                                  2u2u2u2u2u2u                                                                                                                                    
+                                                                                                                                    2u2u2u2u2u2u                                                                                                                                                                                                                                  2u2u2u2u2u2u                                                                                                                                    
+                                                                                                                                    2u2u2u2u2u2u                                                                                                                                                                                                                                  2u2u2u2u2u2u                                                                                                                                    
+                                                                                                                              2u2u2u2u2u2u2u2u2u2u2u2u                                                                                                                                                                                                                      2u2u2u2u2u2u2u2u2u2u2u2u                                                                                                                              
+                                                                                                                              2u2u2u2u2u2u2u2u2u2u2u2u                                                                                                                                                                                                                      2u2u2u2u2u2u2u2u2u2u2u2u                                                                                                                              
+                                                                                                                              2u2u2u2u2u2u2u2u2u2u2u2u                                                                                                                                                                                                                      2u2u2u2u2u2u2u2u2u2u2u2u                                                                                                                              
+                                                                                                                        2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u                                                                                                                                                                                                          2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u                                                                                                                        
+                                                                                                                        2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u                                                                                                                                                                                                          2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u                                                                                                                        
+                                                                                                                        2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u                                                                                                                                                                                                          2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u                                                                                                                        
+                                                                                        2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u                                                                                                                                                      2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u                                                                                        
+                                                                                        2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u                                                                                                                                                      2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u                                                                                        
+                                                                                        2u2u2u2u2u2u2u2u2u2u2u2u2u2u2t2s2s2s2s2s2s2s2s2s2s2s2s2s2s2s2s2s2s2s2s2s2s2u2u2u2u2u2u2u2u2u2u                                                                                                                                                      2u2u2u2u2u2u2u2u2u2u2s2s2s2s2s2s2s2s2s2s2s2s2s2s2s2s2s2s2s2s2s2s2t2u2u2u2u2u2u2u2u2u2u2u2u2u2u                                                                                        
+                                                                2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2s2o2b2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2Y2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u                                                                                                      2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2Y2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2b2o2s2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u                                                                
+                                                                2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2s2m2N2M2M2M2M2M2M2M2M2M2M2M2M2M2M2M2M2M2M2M2K2v2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u                                                                                                      2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2v2K2M2M2M2M2M2M2M2M2M2M2M2M2M2M2M2M2M2M2M2N2m2s2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u                                                                
+                                                                2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2s2n2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2N2v2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u                                                                                                      2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2v2N2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2n2s2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u                                                                
+                                                                2u2u2u2u2u2u2u2u2u2u2u2u2u2u2s2w2w2w2w2w2w2w2w2w2w2w2v2o2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2N2z2w2w2s2u2u2u2w2w2v2u2u2u2u2u2u2u2u2u2u2u2u                                                                                                      2u2u2u2u2u2u2u2u2u2u2u2u2v2w2w2u2u2u2s2w2w2z2N2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2o2v2w2w2w2w2w2w2w2w2w2w2w2s2u2u2u2u2u2u2u2u2u2u2u2u2u2u                                                                
+                                                        2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2w2I2M2M2M2M2M2M2M2M2M2M2M2N2N2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2M2M2K2v2s2s2o2N2M2U2s2u2u2u2u2u2u2u2u2u2u2u2u2u2u                                                                                          2u2u2u2u2u2u2u2u2u2u2u2u2u2u2s2U2M2N2o2s2s2v2K2M2M2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2N2N2M2M2M2M2M2M2M2M2M2M2M2I2w2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u                                                        
+                                                          2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2v2L2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2N2v2s2s2p2R2R2V2s2u2u2u2u2u2u2u2u2u2u2u2u2u2u                                                                                          2u2u2u2u2u2u2u2u2u2u2u2u2u2u2s2V2R2R2p2s2s2v2N2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2L2v2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u                                                          
+                                                          2u2u2u2w2w2w2w2w2u2u2u2u2w2w2w2w2w2z2L2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2N2y2v2w2q2R2R2V2v2w2w2w2w2w2w2w2w2w2w2w2s2u2u                                                                                          2u2u2s2w2w2w2w2w2w2w2w2w2w2w2v2V2R2R2q2w2v2y2N2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2L2z2w2w2w2w2w2u2u2u2u2w2w2w2w2w2u2u2u                                                          
+                                            2R2R2L2w2u2u2u2u2s2g2N2M2M2M2N2e2s2s2i2N2M2M2M2M2M2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2M2M2M2N2N2O2N2M2M2M2M2M2M2M2M2M2M2M2L2u2u2u2u2u2u2u2u2u                                                                  2u2u2u2u2u2u2u2u2u2L2M2M2M2M2M2M2M2M2M2M2M2N2O2N2N2M2M2M2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2M2M2M2M2M2N2i2s2s2e2N2M2M2M2N2g2s2u2u2u2u2w2L2R2R                                            
+                                            2R2R2L2w2u2u2u2u2s2h2R2R2R2R2R2e2s2s2j2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2N2u2u2u2u2u2u2u2u2u                                                                  2u2u2u2u2u2u2u2u2u2N2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2j2s2s2e2R2R2R2R2R2h2s2u2u2u2u2w2L2R2R                                            
+                                            2L2L2H2w2u2s2u2w2v2j2R2R2R2R2R2g2v2v2m2R2R2R2R2R2R2R2R2R2R2R2R2R2R2N2U2U2U2U2U2U2U2U2U2T2R2R2R2U2U2U2U2U2U2U2U2U2N2R2N2U2U2U2U2U2U2U2U2U2U2U2U2U2U2U2U2R2R2R2R2R2N2x2w2w2s2u2u2u2u2u                                                                  2u2u2u2u2u2s2w2w2x2N2R2R2R2R2R2U2U2U2U2U2U2U2U2U2U2U2U2U2U2U2U2N2R2N2U2U2U2U2U2U2U2U2U2R2R2R2T2U2U2U2U2U2U2U2U2U2N2R2R2R2R2R2R2R2R2R2R2R2R2R2R2m2v2v2g2R2R2R2R2R2j2v2w2u2s2u2w2H2L2L                                            
+                  2u2u2u2u2u2u2u2u2u2u2u2u2u2v2v2v2s2u2w2g2N2M2N2N2R2R2R2N2N2M2M2N2N2R2R2R2R2R2R2R2R2R2R2R2R2R2U1N1X1T1T1T1T1T1T1U1s2N2N2E1X1T1T1T1T1T1T1T1Q2U2R2R1P1T1T1T1T1T1T1T1T1T1T1T1T1T1U1g2N2R2R2R2R2R2M2M2L2u2u2u2u2u2u2u2u2u2u                                                  2u2u2u2u2u2u2u2u2u2u2L2M2M2R2R2R2R2R2N1g1U1T1T1T1T1T1T1T1T1T1T1T1T1T1P2R2R2U1Q1T1T1T1T1T1T1T1X2E2N2N1s1U1T1T1T1T1T1T1X1N2U2R2R2R2R2R2R2R2R2R2R2R2R2R2N2N2M2M2N2N2R2R2R2N2N2M2N2g2w2u2s2v2v2v2u2u2u2u2u2u2u2u2u2u2u2u2u                  
+                  2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2w2h2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2U1T1c1c1c1c1c1c1c1c1w2N2N2E1c1c1c1c1c1c1c1c1X2U2R2R1T1c1c1c1c1c1c1c1c1c1c1c1c1c1c1n2N2R2R2R2R2R2R2R2N2u2u2u2u2u2u2u2u2u2u                                                  2u2u2u2u2u2u2u2u2u2u2N2R2R2R2R2R2R2R2N1n1c1c1c1c1c1c1c1c1c1c1c1c1c1c1T2R2R2U1X1c1c1c1c1c1c1c1c2E2N2N1w1c1c1c1c1c1c1c1c1T2U2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2h2w2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u2u                  
+                  2u2u2u2u2u2u2s2w2w2w2s2u2u2u2u2s2w2w2z2l2U2U2U2U2U2U2U2U2U2U2U2T2R2R2N2U2U2U2U2U2U2U2U2U2U2U2Z1T1c1c1c1c1X1X1T1T1w2T2U2F1c1X1c1T1T1T1c1c1U2Z2U2X1T1c1c1c1c1c1c1c1c1c1c1c1c1c1c1n2U2U2U2U2U2U2N2R2N2x2w2w2w2w2w2w2w2w2w                                                  2w2w2w2w2w2w2w2w2w2x2N2R2N2U2U2U2U2U2U1n1c1c1c1c1c1c1c1c1c1c1c1c1c1c1T2X2U2Z1U1c1c1T1T1T1c1X1c2F2U2T1w1T1T1X1X1c1c1c1c1T2Z2U2U2U2U2U2U2U2U2U2U2U2N2R2R2T2U2U2U2U2U2U2U2U2U2U2U2l2z2w2w2s2u2u2u2u2s2w2w2w2s2u2u2u2u2u2u                  
+            2u2u2u2u2u2u2u2u2u2w2K2M2I2w2u2u2u2u2w2I2M2P241X1T1T1T1T1T1T1T1T1T1X212N2N2U1N1T1T1T1T1T1T1T1T1T1T1T1c1X1c1c1c1c1z2R2T2E1X1T1X1X1c1U2Z2U2W1T1c1c1T1T1T1c1c1c1c1c1c1c1c1c1c1c1c1c1c1Y1X1T1T1T1T1T1T2R2R2R2M2M2M2M2M2M2M2M2M2M2R2R2R2R2N2K0z1212              12120z2K2N2R2R2R2R2M2M2M2M2M2M2M2M2M2M2R2R2R1T1T1T1T1T1T1X1Y1c1c1c1c1c1c1c1c1c1c1c1c1c1c1T1T1T1c1c1T2W2U2Z1U1c1X1X1T1X2E2T2R1z1c1c1c1c1X1c1T1T1T1T1T1T1T1T1T1T1T1N2U2N2N211X1T1T1T1T1T1T1T1T1T1X242P2M2I2w2u2u2u2u2w2I2M2K2w2u2u2u2u2u2u2u2u2u            
+            2u2u2u2u2u2u2u2u2u2w2L2R2L2w2u2u2u2u2w2L2R2U251c1c1c1c1c1c1c1c1c1c1c242N2N2U1T1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1y2N2N2E1c1c1c1c1c1U2U2R2T1T1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1X2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2N2K0z1212              12120z2K2N2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R1X1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1T2T2R2U1U1c1c1c1c1c2E2N2N1y1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1T2U2N2N241c1c1c1c1c1c1c1c1c1c1c252U2R2L2w2u2u2u2u2w2L2R2L2w2u2u2u2u2u2u2u2u2u            
+            2u2u2u2u2u2s2s2s2s2v2M2R2L2v2s2s2s2s2v2L2N2T251c1c1c1c1c1c1c1c1c1c1c222N2N2R1T1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1w2N2N2C1c1c1c1c1c1U2T2N2R1T1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1X2R2N2N2R2R2R2R2R2R2R2R2R2R2R2R2R2R2N2K131313              1313132K2N2R2R2R2R2R2R2R2R2R2R2R2R2R2R2N2N2R1X1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1T2R2N2T1U1c1c1c1c1c2C2N2N1w1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1T2R2N2N221c1c1c1c1c1c1c1c1c1c1c252T2N2L2v2s2s2s2s2v2L2R2M2v2s2s2s2s2u2u2u2u2u            
+  2u2u2u2u2u2u2u2u2u2u2s2k2d2c2e2N2R2N2e2c2c2c2c2g1w21221s1c1c1c1c1c1w2A2A211c1c1n1z1z221X1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1h1z1z1w1c1c1c1c1c1X2221211X1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1h2A2A281c1c1c1c1c1X21211z2R2R2R2R2R2R2R2R2R2R2R2R2R2R2N2N20231-0z1212  12120z1-23202N2N2R2R2R2R2R2R2R2R2R2R2R2R2R2R1z21211X1c1c1c1c1c282A2A1h1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1X2121221X1c1c1c1c1c1w1z1z1h1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1X221z1z1n1c1c212A2A1w1c1c1c1c1c1s22211w2g2c2c2c2c2e2N2R2N2e2c2d2k2s2u2u2u2u2u2u2u2u2u2u  
+2u2u2u2u2u2u2u2u2u2u2u2s2f2R2R2R2N2R2N2R2R2R2R2R2U1T1c1c1c1c1c1c1c1c242N2N281c1c1c1c1c1c1X1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1X1c1c1c1X1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1n2N2N2J1c1c1c1c1c1Y1c1c1X2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R2N2N2M2K0z1212  12120z2K2M2N2N2R2R2R2R2R2R2R2R2R2R2R2R2R2R2R1X1c1c1Y1c1c1c1c1c2J2N2N1n1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1X1c1c1c1X1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1X1c1c1c1c1c1c282N2N241c1c1c1c1c1c1c1c1T2U2R2R2R2R2R2N2R2N2R2R2R2f2s2u2u2u2u2u2u2u2u2u2u2u
+2u2u2u2u2u2u2u2u2s2s2s2s2e2R2R2R2R2R2R2R2R2R2N2N2T1T1c1c1c1c1c1c1c1c242N2N281c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1X1c1c1c1X1c1c1c1c1c1W1W1W1c1X1c1c1c1c1c1c1c1n2N2N2I1c1c1c1c1c1c1c1c1X2R2R2R2M2M2M2M2M2M2M2R2R2R2R2R2R2R2N2M131313  1313132M2N2R2R2R2R2R2R2R2M2M2M2M2M2M2M2R2R2R1X1c1c1c1c1c1c1c1c2I2N2N1n1c1c1c1c1c1c1c1X1c1W1W1W1c1c1c1c1c1X1c1c1c1X1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c282N2N241c1c1c1c1c1c1c1c1T2T2N2N2R2R2R2R2R2R2R2R2R2e2s2s2s2s2u2u2u2u2u2u2u2u
+2u2u2u2u2u2u2u2u2s2k2e2c2V2R2R2R2R2R2R2R2R2T1z21221X1c1c1c1c1c1c1c1c1o21211s1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1X2B2A2B1X1c1c1c1c1d1B1G1C1e1X1c1c1c1c1c1c1c1c21211z1c1c1c1c1c1c1c1c1X2R2R2R1R1V1V1V1V1V1a2N2R2R2R2R2R2R2N2N1-1-1-  1-1-1-2N2N2R2R2R2R2R2R2N1a1V1V1V1V1V1R2R2R2R1X1c1c1c1c1c1c1c1c1z21211c1c1c1c1c1c1c1c1X1e1C1G1B1d1c1c1c1c1X2B2A2B1X1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1s21211o1c1c1c1c1c1c1c1c1X22211z2T2R2R2R2R2R2R2R2R2V2c2e2k2s2u2u2u2u2u2u2u2u
+2u2u2u2u2u2u2u2u2s2e2R2R2R2R2R2R2R2R2R2R2R2U1U1c1c1X1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1U2T2N2R1T1c1c1c1c1e0x120y1f1X1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1X2R2R2S0z1313131313192N2R2R2R2R2R2R2R2N2M2M2M  2M2M2M2N2R2R2R2R2R2R2R2N1913131313130z2S2R2R1X1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1X1f0y120x1e1c1c1c1c1T2R2N2T1U1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1X1c1c1U2U2R2R2R2R2R2R2R2R2R2R2R2e2s2u2u2u2u2u2u2u2u
+2u2u2u2u2u2s2s2s2s2e2R2R2R2R2R2R2R2R2R2N2N2T1T1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1X1c1c1c1X1c1c1c1c1c1c1c1c1c1c1c1b1W1W1W1W1X1T2P2L2M1P1W1W1W1W1Z0s0z0t1d1S1W1W1W1W1W1W1W1W1W1W1W1W1W1W1c1c1c1c1c1X2M2L2N0t0z0z0z0z0z172N2Q2N2M2M2M2M2M2M2M2M2M  2M2M2M2M2M2M2M2M2M2N2Q2N170z0z0z0z0z0t2N2L2M1X1c1c1c1c1c1W1W1W1W1W1W1W1W1W1W1W1W1W1W1S1d0t0z0s1Z1W1W1W1W1P2M2L2P1T1X1W1W1W1W1b1c1c1c1c1c1c1c1c1c1c1c1X1c1c1c1X1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1T2T2N2N2R2R2R2R2R2R2R2R2R2e2s2s2s2s2u2u2u2u2u
+      2u2u2s2k2e2d2V2R2R2R2R2R2R2R2R2T1z21241X1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1X2B2A2B1U1c1c1c1c1c1s292A2A2A291m0k0i0q1D1G1H0v0v0-0e0h0h0h0h0i0W0Y0Y0j0h0h0h0h0h0h0h0h0h0h0h0h0h0i0o1d1c1c1c1c1c0u0v100X0Y0Y0Y0Y0Y0b      1V1V1V1V1V1V1V1V1V  1V1V1V1V1V1V1V1V1V      0b0Y0Y0Y0Y0Y0X100v0u1c1c1c1c1c1d0o0i0h0h0h0h0h0h0h0h0h0h0h0h0h0j0Y0Y0W0i0h0h0h0h0e0-0v0v1H1G1D0q0i0k1m292A2A2A291s1c1c1c1c1c1U2B2A2B1X1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1X24211z2T2R2R2R2R2R2R2R2R2V2d2e2k2s2u2u      
+      2u2u2s2e2R2R2R2R2R2R2R2R2R2R2R2U1U1c1c1X1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1T2U2N2T1T1c1c1c1c1c1z2N2N2N2N2M1r0N0L0V0_0_160J0L0L0L0L0L0L0L0L0K0K0K0L0L0L0L0L0L0L0L0L0L0L0L0L0L0L0T1i1c1c1c1c1d0I0L0L0K0K0K0K0K0K0K      131313131313131313  131313131313131313      0K0K0K0K0K0K0K0L0L0I1d1c1c1c1c1i0T0L0L0L0L0L0L0L0L0L0L0L0L0L0L0L0K0K0K0L0L0L0L0L0L0L0L0J160_0_0V0L0N1r2M2N2N2N2N1z1c1c1c1c1c1T2T2N2U1T1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1X1c1c1U2U2R2R2R2R2R2R2R2R2R2R2R2e2s2u2u      
+      2r2s2s2e2R2R2R2R2R2R2R2R2R2R2R2U1T1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1W1W1P2P2L2P1P1W1W1W1W1W1v2K2L2L2L2K1l0M0K0S0z0z120F0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0P1d1W1W1W1W1c0H0K0K0I0K0K0K0K0K0K      121212121212121212  121212121212121212      0K0K0K0K0K0K0I0K0K0H1c1W1W1W1W1d0P0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0F120z0z0S0K0M1l2K2L2L2L2K1v1W1W1W1W1W1P2P2L2P1P1W1W1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1T2U2R2R2R2R2R2R2R2R2R2R2R2e2s2s2r      
+  12172D2c2e2V2R2R2R2R2R2R2R2R2R2R2R2U1T1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1i0c0i0i1410140i0i0i0i0i0i0n10101010100m0K0K0O0Y0Z0Z0I0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K      0K0K0K0K0K0N0k0i0i0i0i0j0f0f0g0I0K0K                                                                  0K0K0I0g0f0f0j0i0i0i0i0k0N0K0K0K0K0K      0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0I0Z0Z0Y0O0K0K0m10101010100n0i0i0i0i0i0i1410140i0i0c1i1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1T2U2R2R2R2R2R2R2R2R2R2R2R2V2e2c2D1712  
+1212131-2N2R2R2R2R2R2R2R2R2R2R2R2R2R2U1T1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1p0B0L0L0L0L0L0L0L0L0L0L0L0L0L0L0L0L0L0K0K0K0K0K0K0K0I0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K      0K0K0K0K0K0K0L0L0L0L0L0K120z120I0K0K                                                                  0K0K0I120z120K0L0L0L0L0L0K0K0K0K0K0K      0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0I0K0K0K0K0K0K0K0L0L0L0L0L0L0L0L0L0L0L0L0L0L0L0L0L0B1p1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1T2U2R2R2R2R2R2R2R2R2R2R2R2R2R2N1-131212
+1212131x2K2L2L2L2L2L2L2L2L2L2L2L2R2R2U1U1c1c1X1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1X1c1W1W1j0A0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K      0K0K0K0K0K0K0K0K0K0K0K0I1212120I0K0K                                                                  0K0K0I1212120I0K0K0K0K0K0K0K0K0K0K0K      0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0A1j1W1W1c1X1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1X1c1c1U2U2R2R2L2L2L2L2L2L2L2L2L2L2L2K1x131212
+121213262d2e2e2e2e2e2e2e2e2e2e2g2N2R2U1N1T1T1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1X1u1t1_080K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K      0K0K0K0K0K0K0K0K0K0K0K0I1212120I0K0K                                                                  0K0K0I1212120I0K0K0K0K0K0K0K0K0K0K0K      0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K081_1t1u1X1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1T1T1N2U2R2N2g2e2e2e2e2e2e2e2e2e2e2d26131212
+12120z0Q0907070707070707070707012e2R2N2U2U2Z1T1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1W1q030B0A0K0K0K      0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K            0K0K0K                                                                                                                                                                                  0K0K0K            0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K      0K0K0K0A0B031q1W1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1T2Z2U2U2N2R2e0107070707070707070707090Q0z1212
+12120z0Y0K0K0K0K0K0K0K0K0K0K0K062e2R2R2R2R2U1T1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1W1p090K0K0K0K0K      0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K            0K0K0K                                                                                                                                                                                  0K0K0K            0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K      0K0K0K0K0K091p1W1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1T2U2R2R2R2R2e060K0K0K0K0K0K0K0K0K0K0K0Y0z1212
+12120z0X0F0F0F0F0F0I0I0K0K0K0K042p2e2e2e2e2i1k1t1t1t1t1u1e1T1T1X1X1c1d1k1k1e1c1c1i1q1p1_080K0K0K0K0K      0K0K0K0K0K0I0I0F0F0G0I0K0K0K0I0I0F0F0F0K0K0K            0K0K0K                                                                                                                                                                                  0K0K0K            0K0K0K0F0F0F0I0I0K0K0K0I0G0F0F0I0I0K0K0K0K0K      0K0K0K0K0K081_1p1q1i1c1c1e1k1k1d1c1X1X1T1T1e1u1t1t1t1t1k2i2e2e2e2e2p040K0K0K0K0I0I0F0F0F0F0F0X0z1212
+      1616161616150a0K0K0K0K0K0K0606060606060B0B0B0B0B021E2P2T281c1W1J0x0x1H1W1W0r0E0B0A0K0K0K                  0K0K0K0X15150p0K0K0K0K0K0U151616                                                                                                                                                                                                                                  1616150U0K0K0K0K0K0p15150X0K0K0K                  0K0K0K0A0B0E0r1W1W1H0x0x1J1W1c282T2P1E020B0B0B0B0B0606060606060K0K0K0K0K0K0a151616161616      
+      12121212120z0Z0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K061F2L2N271c1X1L13121I1W1W0w0L0K0K0K0K0K                  0K0K0K0V0z0z0l0K0K0K0K0K0U0z1212                                                                                                                                                                                                                                  12120z0U0K0K0K0K0K0l0z0z0V0K0K0K                  0K0K0K0K0K0L0w1W1W1I12131L1X1c272N2L1F060K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0Z0z1212121212      
+      12121212120z0a0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K051K2b2e2G1t1p1O18181M1p1p110L0K0K0K0K0K                  0F0F0F0U0z0z0l0K0I0I0F0F0R0z1212                                                                                                                                                                                                                                  12120z0R0F0F0I0I0K0l0z0z0U0F0F0F                  0K0K0K0K0K0L111p1p1M18181O1p1t2G2e2b1K050K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0a0z1212121212      
+                  0G0I0K0K0K0K0K0K0K0K            0K0K0K0D0606090A0B0C0F0F0D0B0A0A                              16161616            161616                                                                                                                                                                                                                                              161616            16161616                              0A0A0B0D0F0F0C0B0A0906060D0K0K0K            0K0K0K0K0K0K0K0K0I0G                  
+                  0K0K0K0K0K0K0K0K0K0K            0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K                              12121212            121212                                                                                                                                                                                                                                              121212            12121212                              0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K0K            0K0K0K0K0K0K0K0K0K0K                  
+                  0K0K0I0G0F0F0F0K0K0K            0K0K0K0I0F0F0G0I0K0K0K0K0K0K0K0K                              12121212            121212                                                                                                                                                                                                                                              121212            12121212                              0K0K0K0K0K0K0K0K0I0G0F0F0I0K0K0K            0K0K0K0F0F0F0G0I0K0K                  
+                        1A161616                          16150f0K0K0K0K0K0K                                                                                                                                                                                                                                                                                                                                                                          0K0K0K0K0K0K0f1516                          1616161A                        
+                        12121212                          120z0d0K0K0K0K0K0K                                                                                                                                                                                                                                                                                                                                                                          0K0K0K0K0K0K0d0z12                          12121212                        
+                        12121212                        12120z0d0K0K0K0K0K0K                                                                                                                                                                                                                                                                                                                                                                          0K0K0K0K0K0K0d0z1212                        12121212                        
