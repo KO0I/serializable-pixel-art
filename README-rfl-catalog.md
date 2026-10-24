@@ -1,6 +1,6 @@
-# RFL character and item sources
+# RFL item sources
 
-`rfl-source/catalog-source.json` indexes 12 characters, all 35 fits and 130 static items. Each source file has a SHA-256 hash. Character XPM files retain their individual soft-body settings and modular body/head/arm views. The index records archived/procedural exclusions explicitly.
+`rfl-source/catalog-source.json` indexes 130 static items. Each source file has a SHA-256 hash. The 12 modular characters and their 35 fits have been removed from this repository; character development now belongs in the separate Character Workbench. Archived/procedural exclusions remain recorded in the index.
 
 This directory contains asset data. The mesh exporter and shared pose/spring code live in the private `KO0I/rasd-fastwalker-league-js` repository, under `tools/xpm-export`.
 
