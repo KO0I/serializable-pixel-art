@@ -27,7 +27,3 @@ jobs:
           for(const e of entries){const file=path.resolve(root,e.source);if(!file.startsWith(root+path.sep))throw Error('Source path escapes catalog');const hash=createHash('sha256').update(fs.readFileSync(file)).digest('hex');if(hash!==e.sha256)throw Error('Source hash mismatch: '+e.source);}
           console.log('Validated',entries.length,'character/item source files');
           JS
-      - uses: actions/upload-artifact@v4
-        with:
-          name: rfl-xpm-sources
-          path: rfl-source/
